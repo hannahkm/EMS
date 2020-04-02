@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EMS2.Protocols"
+             Title="Protocols">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="plainButton" TargetType="Button">
+                <Setter Property="TextColor" Value="#4374E0" />
+                <Setter Property="BorderRadius" Value="1"/>
+                <Setter Property="FontSize" Value="25" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+   <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Future Button"></Label>
+                <!--
+                aemt: advanced emergency medical technician
+                als: advanced life support
+                bls: basic life support
+                cct: critical care transport
+                -->
+                <Button Text="Protocol Name"
+                    Clicked="Button" Style="{StaticResource plainButton}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
