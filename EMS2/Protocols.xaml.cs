@@ -11,9 +11,29 @@ namespace EMS2
         {
             InitializeComponent();
         }
-        async void Button(object sender, System.EventArgs e)
+        void Button(object sender, System.EventArgs e)
         {
-            await DisplayAlert((sender as Button).Text, "Here are the protocols", "Close");
+            if (popupLayout.IsVisible==false)
+            {
+                popupLayout.IsVisible = true;
+            }
+            else
+            {
+                popupLayout.IsVisible = false;
+            }
+            //popupLayout.ForceLayout();
+        }
+        void Button2(object sender, System.EventArgs e)
+        {
+            if (popupLayout2.IsVisible == false)
+            {
+                popupLayout2.IsVisible = true;
+            }
+            else
+            {
+                popupLayout2.IsVisible = false;
+            }
+            //popupLayout.ForceLayout();
         }
     }
 }

@@ -5,24 +5,44 @@
              Title="Protocols">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Style x:Key="plainButton" TargetType="Button">
-                <Setter Property="TextColor" Value="#4374E0" />
-                <Setter Property="BorderRadius" Value="1"/>
-                <Setter Property="FontSize" Value="25" />
+            <Style x:Key="dropdown" TargetType="Button">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="Padding" Value="20, 5, 0, 0"/>
+            </Style>
+            <Style x:Key="stack" TargetType="StackLayout">
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="IsVisible" Value="False"/>
+                <Setter Property="Spacing" Value="0"/>
+                <Setter Property="Padding" Value="20, 5, 0, 0"/>
+            </Style>
+            <Style x:Key="info" TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="FontSize" Value="20"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
    <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="Future Button"></Label>
-                <!--
-                aemt: advanced emergency medical technician
-                als: advanced life support
-                bls: basic life support
-                cct: critical care transport
-                -->
-                <Button Text="Protocol Name"
-                    Clicked="Button" Style="{StaticResource plainButton}"></Button>
+        <StackLayout HorizontalOptions="StartAndExpand"
+                     VerticalOptions="StartAndExpand"
+                     Spacing="0">
+                <Button VerticalOptions="Start" HorizontalOptions="FillAndExpand"
+                        Text="Protocol Name" Clicked="Button"
+                        Style="{StaticResource dropdown}"
+                        Padding="20,20,0,0"></Button>
+                <StackLayout x:Name="popupLayout" Style="{StaticResource stack}">
+                    <Label Text="popup information" Style="{StaticResource info}"></Label>
+                </StackLayout>
+
+                <Button VerticalOptions="Start" HorizontalOptions="FillAndExpand"
+                        Text="Protocol Name" Clicked="Button2"
+                        Style="{StaticResource dropdown}"></Button>
+                <StackLayout x:Name="popupLayout2" Style="{StaticResource stack}">
+                    <Label Text="popup information" Style="{StaticResource info}"></Label>
+                </StackLayout>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>
