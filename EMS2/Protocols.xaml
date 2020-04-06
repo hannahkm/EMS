@@ -8,7 +8,7 @@
             <Style x:Key="separator" TargetType="StackLayout">
                 <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
                 <Setter Property="WidthRequest" Value="500"/>
-                <Setter Property="HeightRequest" Value="40"/>
+                <Setter Property="HeightRequest" Value="35"/>
                 <Setter Property="VerticalOptions" Value="Start"/>
                 <Setter Property="Spacing" Value="0"/>
                 <Setter Property="BackgroundColor" Value="LightGray"/>
@@ -16,9 +16,9 @@
             </Style>
             <Style x:Key="dropdown" TargetType="Button">
                 <Setter Property="TextColor" Value="Black" />
-                <Setter Property="FontSize" Value="23"/>
+                <Setter Property="FontSize" Value="20"/>
                 <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
-                <Setter Property="Margin" Value="20, 0, 0, 0"/>
+                <Setter Property="Margin" Value="20, 0, 20, 0"/>
             </Style>
             <Style x:Key="stack" TargetType="StackLayout">
                 <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
@@ -29,19 +29,20 @@
             <Style x:Key="info" TargetType="Label">
                 <Setter Property="HorizontalTextAlignment" Value="Start"/>
                 <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
-                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="FontSize" Value="16"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout HorizontalOptions="StartAndExpand"
                      VerticalOptions="StartAndExpand"
                      Spacing="0">
 
-            <StackLayout x:Name="separator" Spacing="5"
+            <StackLayout x:Name="separator" Spacing="0"
                              Style="{StaticResource separator}">
                 <Label Text="Abuse/Neglect"
-                           FontSize="25" Padding="10,5,0,0"></Label>
+                           FontSize="20" Padding="10,5,0,0"></Label>
             </StackLayout>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
@@ -63,14 +64,14 @@ The patient may present with patterned burns or injuries suggesting intentional 
          (4) The time the police/welfare agency was notified and the name of the person notified &#x0a;
          (5) The name of the receiving health care provider (RN, PA, MD) and any statements made &#x0a;
     d) Treat injuries according to presentation. &#x0a; &#x0a;
-4. Continue General Patient Care." Style="{StaticResource info}"></Label>
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <StackLayout Spacing="5"
                              Style="{StaticResource separator}">
                 <Label Text="Altered Mental Status"
-                           FontSize="25" Padding="10,5,0,0"></Label>
+                           FontSize="20" Padding="10,5,0,0"></Label>
             </StackLayout>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
@@ -124,174 +125,1050 @@ FOR A CHILD ACTIVELY SEIZING, ADMINISTER MIDAZOLAM IN/IM AND RESERVE IO FOR LIFE
         (6) Establish IV/IO access with LR. &#x0a;
         (7) If patient is pregnant, actively seizing, consider magnesium sulfate 4 grams IV/IO over 10 minutes (mixed in 50–100 mL of approved diluent).&#x0a;
         (8) Administer fluid bolus, if appropriate, 20 mL/kg of LR IV/IO.&#x0a;
-4. Continue General Patient Care." Style="{StaticResource info}"></Label>
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button3"
+                        Text="Unresponsive Person" Clicked="Button3"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout3" IsVisible="False">
                 <StackLayout x:Name="popupLayout3" Style="{StaticResource stack}">
-                    <Label Text="hi" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    Patients may exhibit confusion, focal motor sensory deficit, unusual behavior, unresponsiveness to verbal or painful stimulus.&#x0a;&#x0a;
+[ALERT] ALCOHOL CAN CAUSE ALTERED MENTAL STATUS BUT IS NOT COMMONLY A CAUSE OF TOTAL UNRESPONSIVENESS TO PAIN.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Obtain pulse oximetry, if available.&#x0a;
+    b) Administer glucose paste (10–15 grams) between the gum and cheek. Consider single additional dose of glucose paste if not improved after 10 minutes.&#x0a;
+    c) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose: Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare.&#x0a;
+    d) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose: Administer naloxone 0.4–2 mg IVP/IO (titrated)/IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. Repeat as necessary to maintain respiratory activity.&#x0a;
+    e) Establish IV access with LR. Administer fluid bolus, if appropriate. 20 mL/kg of LR IV&#x0a;
+    f) Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    g) Consider obtaining blood sample using closed system.&#x0a;
+    h) Use glucometer and treat accordingly.&#x0a;
+    i) Consider an additional dose of naloxone.&#x0a;
+    j) Consider additional fluid administration Maximum 2,000 mL without medical consultation.&#x0a;
+    k) Obtain pulse oximetry if available.&#x0a;
+    l) Administer glucose paste (10–15 grams) between the gum and cheek. Consider single additional dose of glucose paste if not improved after 10 minutes.&#x0a;
+    m) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose: Aged 28 days to adult: Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare.&#x0a;
+    n) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose: Aged 28 days to adult: Administer 0.1 mg/kg IVP/IO (titrated)IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. May be repeated as necessary to maintain respiratory activity. ET dose: 0.2– 0.25 mg/kg.&#x0a;
+    o) Consider repeating naloxone.&#x0a;
+    p) Establish IV/IO access with LR.&#x0a;
+        (1) If age-related vital signs and patient's condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO. If patient's condition does not improve, administer the second bolus of fluid at 20 mL/kg LR IV/IO. OR For volume-sensitive children administer initial fluid bolus of 10 mL/kg LR IV/IO. If patient's condition does not improve, administer the second bolus of fluid at 10 mL/kg LR IV/IO. Volume-sensitive children include: neonates (birth to 28 days), children with congenital heart disease, chronic lung disease, or chronic renal failure.&#x0a;
+        (2) Consider obtaining blood sample using closed system.&#x0a;
+    q) Use glucometer and treat accordingly.&#x0a;
+    r) Third and subsequent fluid boluses at 20 mL/kg IV/IO except in volumesensitive children, then bolus at 10 mL/kg.&#x0a;
+4. Continue General Patient Care&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
-            <!--<Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button4"
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Apparent Life-Threatening Event (ALTE)"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Apparent Life-Threatening Event (ALTE)" Clicked="Button4"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout4" IsVisible="False">
                 <StackLayout x:Name="popupLayout4" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+An episode in an infant or child less than 2 years old that is frightening to the observer and is characterized by some combination of the following:&#x0a;
+    a) Apnea (central or obstructive)&#x0a;
+    b) Skin color change: cyanosis, erythema (redness), pallor, plethora (fluid overload)&#x0a;
+    c) Marked change in muscle tone&#x0a;
+    d) Choking or gagging not associated with feeding or a witnessed foreign body aspiration&#x0a;&#x0a;
+[ALERT] MOST PATIENTS WILL APPEAR STABLE AND EXHIBIT A NORMAL PHYSICAL EXAM UPON ASSESSMENT BY RESPONDING FIELD PERSONNEL. HOWEVER, THIS EPISODE MAY BE THE SIGN OF UNDERLYING SERIOUS ILLNESS OR INJURY. FURTHER EVALUATION BY MEDICAL STAFF IS REQUIRED AND IT IS ESSENTIAL TO TRANSPORT ALL PATIENTS WHO EXPERIENCED ALTE.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Perform an initial assessment utilizing the Pediatric Assessment Triangle. &#x0a;
+    b) Obtain a description of the event including nature, duration, and severity.&#x0a;
+    c) Obtain a medical history with emphasis on the following conditions:&#x0a;
+        (1) Known chronic diseases&#x0a;
+        (2) Evidence of seizure activity&#x0a;
+        (3) Current or recent infections&#x0a;
+        (4) Gastroesophageal reflux&#x0a;
+        (5) Recent trauma&#x0a;
+        (6) Medications (current or recent)&#x0a;
+    d) Apply oxygen.&#x0a;
+    e) Be prepared to assist with ventilation if this type of episode occurs again during transport.&#x0a;
+    f) Assess environment for possible causes.&#x0a;
+    g) Place patient on cardiac monitor.&#x0a;
+    h) Consider establishing IV/IO access with LR.&#x0a;&#x0a;
+IF THE PARENT OR GUARDIAN REFUSES MEDICAL CARE OR TRANSPORT, PROVIDER SHALL CONTACT A PEDIATRIC BASE STATION PHYSICIAN.&#x0a;&#x0a;
+4. Continue General Patient Care&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Behavioral Emergencies"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button5"
+                        Text="Behavioral Emergencies" Clicked="Button5"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout5" IsVisible="False">
                 <StackLayout x:Name="popupLayout5" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Behavior or actions that indicate the patient’s mental function is disturbed and may pose a threat to oneself or to others (suicide, threat of violence, or psychosis).&#x0a;&#x0a;
+[ALERT] THE PROVIDER SHOULD RECOGNIZE CRITICAL INCIDENT STRESS AS A STATE OF EMOTIONAL DISTRESS THAT DOES NOT NECESSARILY POSE A THREAT TO ONESELF OR OTHERS (E.G., DEATH IN THE FAMILY, BYSTANDERS AT A CRASH SCENE, OR REACTION TO VIOLENCE). THE PREHOSPITAL CARE PROVIDER SHOULD NOT BE PLACED IN ANY PHYSICAL JEOPARDY OR ASSUME ANY LAW ENFORCEMENT FUNCTIONS, ESPECIALLY WHEN WEAPONS AND/OR ACTS OF VIOLENCE ARE INVOLVED! LAW ENFORCEMENT SHOULD BE REQUESTED ON ALL CALLS INVOLVING POTENTIALLY VIOLENT PATIENTS.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) When considering the prehospital use of restraints, a law enforcement officer should apply the device and accompany the provider and the patient in the ambulance.&#x0a;
+    b) For interfacility transport, a physician order must be obtained for physical restraint.&#x0a;
+    c) Implement SAFER model.&#x0a;
+        (1) Stabilize the situation by containing and lowering the stimuli.&#x0a;
+        (2) Assess and acknowledge the crisis.&#x0a;
+        (3) Facilitate the identification and activation of resources (chaplain, family, friends, or police).&#x0a;
+        (4) Encourage patient to use resources and take actions in their best interest.&#x0a;
+        (5) Recovery or referral—leave patient in care of responsible person or professional or transport to appropriate facility.&#x0a;
+    d) Establish IV access with LR, if appropriate.&#x0a;
+    e) Consider Chemical Restraint.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Cardiac Emergencies"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button6"
+                        Text="Adult Emergency Cardiac Care for BLS" Clicked="Button6"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout6" IsVisible="False">
                 <StackLayout x:Name="popupLayout6" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button7"
+                        Text="Adult Emergency Cardiac Care for ALS" Clicked="Button7"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout7" IsVisible="False">
                 <StackLayout x:Name="popupLayout7" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button8"
+                        Text="Pediatric Emergency Cardiac Care for BLS" Clicked="Button8"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout8" IsVisible="False">
                 <StackLayout x:Name="popupLayout8" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button9"
+                        Text="Pediatric Emergency Cardiac Care for ALS" Clicked="Button9"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout9" IsVisible="False">
                 <StackLayout x:Name="popupLayout9" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button10"
+                        Text="Bradycardia" Clicked="Button10"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout10" IsVisible="False">
                 <StackLayout x:Name="popupLayout10" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may present with a slow heart rate and chest pain, shortness of breath, decreased level of consciousness, hypotension, hypoperfusion, pulmonary congestion, congestive heart failure, and/or acute myocardial infarction.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Place patient in position of comfort.&#x0a;
+    b) Assess and treat for shock, if indicated.&#x0a;
+    c) Continuously monitor airway and reassess vital signs every 5 minutes.&#x0a;
+    d) Establish IV access with LR.&#x0a;
+    e) If patient is hemodynamically unstable: initiate transcutaneous pacing (TCP).&#x0a;
+    f) If TCP is unsuccessful or not available, administer atropine: 0.5–1 mg IVP Atropine should be given in repeat doses in 3–5 minute intervals up to a total of 0.04 mg/kg.&#x0a;
+    g) Consider dopamine 2–20 mcg/kg/min &#x0a;
+    h) If patient is hemodynamically stable and in Type II, second-degree AV Block or third-degree AV Block:&#x0a;
+        (1) Consider/prepare for TCP.&#x0a;
+        (2) If patient develops discomfort with TCP Administer opioid per Pain Management Protocol. OR Consider midazolam 0.1 mg/kg in 2 mg increments SLOW IVP over 1–2 minutes per increment with maximum single dose 5 mg. (Reduce by 50% for patients 69 years or older.)&#x0a;
+            i) Refer to appropriate algorithm.
+4. Continue Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button11"
+                        Text="Adult Bradycardia Algorithm" Clicked="Button11"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout11" IsVisible="False">
                 <StackLayout x:Name="popupLayout11" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button12"
+                        Text="Pediatric Bradycardia Algorithm" Clicked="Button12"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout12" IsVisible="False">
                 <StackLayout x:Name="popupLayout12" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button13"
+                        Text="Tachycardia" Clicked="Button13"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout13" IsVisible="False">
                 <StackLayout x:Name="popupLayout13" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may present with chest pain, shortness of breath, decreased level of consciousness, low blood pressure, hypoperfusion, pulmonary congestion, congestive heart failure, and/or acute myocardial infarction.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Place patient in position of comfort.&#x0a;
+    b) Assess and treat for shock, if indicated.&#x0a;
+    c) Continuously monitor airway and reassess vital signs every 5 minutes.&#x0a;
+    d) Establish IV access with LR.&#x0a;
+    e) Verify presence of pulse.&#x0a;
+    f) If no pulse present, treat as pulseless VF/VT.&#x0a;
+    g) If patient is hemodynamically unstable with a ventricular rate greater than 150, prepare for immediate cardioversion.&#x0a;
+    h) If patient is hemodynamically stable, identify rhythm and proceed to appropriate algorithm.&#x0a;
+    i) Place patient in position of comfort.&#x0a;
+    j) Assess and treat for shock, if indicated.&#x0a;
+    k) Continuously monitor airway and reassess vital signs every 5 minutes.&#x0a;
+    l) Establish IV access with LR.&#x0a;
+    m) Verify presence of pulse.&#x0a;
+    n) If no pulse present, treat as pulseless VF/VT.&#x0a;
+    o) If patient is hemodynamically unstable with a ventricular rate greater than 220 for an infant or 180 for a child, prepare for immediate cardioversion.&#x0a;
+    p) If patient is hemodynamically stable, identify rhythm and proceed to appropriate algorithm.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button14"
+                        Text="Adult Tachycardia Algorithm" Clicked="Button14"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout14" IsVisible="False">
                 <StackLayout x:Name="popupLayout14" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button15"
+                        Text="Pediatric Tachycardia Algorithm" Clicked="Button15"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout15" IsVisible="False">
                 <StackLayout x:Name="popupLayout15" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button16"
+                        Text="Cardiac Arrest" Clicked="Button16"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout16" IsVisible="False">
                 <StackLayout x:Name="popupLayout16" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    Patient must be unconscious, apneic, and pulseless.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Perform high quality uninterrupted chest compressions as soon as possible and until defibrillator available.&#x0a;
+    b) Apply AED as soon as available.&#x0a;
+    c) Follow machine prompts regarding rhythm analyses and shocks.&#x0a;
+    d) Limit breaks in compressions to rhythm analysis periods and during shocks; perform compressions while defibrillator is charging.&#x0a;&#x0a;
+[ALERT] ALS PROVIDERS WITH A COMBINATION AED/MANUAL DEFIBRILLATOR SHOULD USE IT IN THE MANUAL MODE TO MINIMIZE BREAKS IN COMPRESSIONS CAUSED BY AED ANALYSIS.&#x0a;&#x0a;
+    e) On-scene resuscitation: patients who are found in arrest or who arrest prior to transport and are attended to by BLS providers must only be resuscitated in place (with minimal movement, no attempts at patient loading, and no attempts at transport) until the following have been accomplished:&#x0a;
+        (1) Medical Etiologies&#x0a;
+            (a) The patient has received a minimum of five two-minute cycles of rhythm interpretation and chest compressions.&#x0a;
+        (2) Trauma Etiologies
+            (a) Penetrating trauma patients should receive the indicated reversible causes treatments listed in section BBB–Trauma Protocol: Trauma Arrest, lines a) through h) of Treatment, while loading and preparing for immediate transport. &#x0a;
+            (b) Blunt trauma patients should receive all indicated reversible causes treatments listed in section BBB–Trauma Protocol: Trauma Arrest, lines a) through h) of Treatment, while on scene before termination of resuscitation or transport if ROSC is achieved.&#x0a;
+        (3) Exemptions from on-scene resuscitation:&#x0a;
+            (a) Where physical barriers prevent resuscitation&#x0a;
+            (b) Where providers are in danger&#x0a;
+            (c) Pregnant patients&#x0a;
+            (d) Patients in cardiac arrest thought to be secondary to hypothermia or submersion&#x0a;
+    f) Following the initial on-scene resuscitation above, providers may choose to continue the on-scene resuscitation until termination of resuscitation or to transport the patient at any time. Providers should ensure the following prior to transport:&#x0a;
+        (1) Mechanical CPR (mCPR) in place (if available)&#x0a;&#x0a;
+[ALERT] HIGH-QUALITY CONTINUOUS CHEST COMPRESSIONS WITH FREQUENT PROVIDER ROTATION IS AN ESSENTIAL COMPONENT IN THE SUCCESSFUL RESUSCITATION OF THE CARDIAC ARREST PATIENT. THIS MAY BE ACCOMPLISHED ENTIRELY WITH MANUAL COMPRESSIONS, OR INITIALLY WITH MANUAL AND THEN MECHANICAL COMPRESSIONS, IN ACCORDANCE WITH THE OPTIONAL MECHANICAL CPR (MCPR) PROTOCOL. THE USE OF MCPR IS CONTRAINDICATED IN PATIENTS WHO HAVE NOT YET REACHED THEIR 13TH BIRTHDAY.&#x0a;&#x0a;
+    g) Assess for shockable rhythm at next appropriate interval and treat appropriately.&#x0a;
+    h) Minimize peri-shock pauses of compressions to less than 10 seconds.&#x0a;
+    i) Any interruption of chest compressions, at any time for any reason, should last no more than 10 seconds&#x0a;
+    j) 10-second interruptions should coincide with two-minute cycles of chest compressions&#x0a;
+    k) On-scene resuscitation: patients who are found in arrest or who arrest prior to transport and are attended to by ALS providers must remain in place (with minimal movement, no attempts at patient loading, and no attempts at transport) until the following have been accomplished:&#x0a;
+        (1) Medical Etiologies&#x0a;
+            (a) The patient has received three doses of epinephrine, regardless of algorithm being followed&#x0a;
+        (2) Trauma Etiologies&#x0a;
+            (a) Penetrating trauma patients should receive the indicated reversible causes treatments listed in section BBB–Trauma Protocol: Trauma Arrest, lines a) through h) of Treatment, while loading and preparing for immediate transport&#x0a;
+            (b) Blunt trauma patients should receive all indicated reversible causes treatments listed in section BBB–Trauma Protocol: Trauma Arrest, lines a) through h) of Treatment, while on scene before termination of resuscitation or transport if ROSC is achieved.&#x0a;
+        (3) Exemptions from on-scene resuscitation:&#x0a;
+            (a) Where physical barriers prevent resuscitation&#x0a;
+            (b) Where providers are in danger&#x0a;
+            (c) Pregnant patients&#x0a;
+            (d) Patients in cardiac arrest thought to be secondary to hypothermia or submersion&#x0a;
+    l) Following the initial on-scene resuscitation above, providers may choose to continue the on-scene resuscitation until termination of resuscitation or to transport the patient at any time. Providers should ensure the following prior to transport:&#x0a;
+        (1) Mechanical CPR (mCPR) in place (if available)&#x0a;
+        (2) Placement of an airway that facilitates ventilation during transport by a restrained provider&#x0a;
+    m) Identify rhythm and treat according to appropriate algorithm.&#x0a;
+    n) When the patient’s condition changes, indicating the transition to a new treatment algorithm, the new treatment shall take into account prior therapy (e.g., previously administered medications).&#x0a;
+    o) If ROSC, refer to ROSC Protocol.&#x0a;
+    p) Consider Termination of Resuscitation when appropriate.&#x0a;
+– – – – – – – – – – – – – – – – – – – – – – – – – – – – –&#x0a;
+For patients who have not reached their 18th birthday:&#x0a;
+    q) Identify rhythm and treat according to appropriate algorithm.&#x0a;
+    r) Only in a pediatric or neonatal arrest situation, naloxone, atropine, and epinephrine, can be administered via the ET route. Medications administered for pediatric patients via the endotracheal tube route shall be 2–2.5 times the IV dose for naloxone and atropine, and ten times the IV dose for epinephrine (1:1,000). All ET medications shall be diluted in 5 mL of LR for pediatric patients.&#x0a;
+    s) If no ROSC, transport to the closest appropriate facility.&#x0a;
+    t) If ROSC, perform 12-lead EKG and transport the patient to Children’s National Medical Center or Johns Hopkins Children’s Center by ground or medevac. If arrival time is greater than 30 minutes to either of these destinations, transport to the closest appropriate facility&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button17"
+                        Text="Adult Asystole Algorithm" Clicked="Button17"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout17" IsVisible="False">
                 <StackLayout x:Name="popupLayout17" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button18"
+                        Text="Pediatric Cardiac Arrest Algorithm" Clicked="Button18"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout18" IsVisible="False">
                 <StackLayout x:Name="popupLayout18" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button19"
+                        Text="Pulseless Electrical Activity (PEA) Algorithm" Clicked="Button19"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout19" IsVisible="False">
                 <StackLayout x:Name="popupLayout19" Style="{StaticResource stack}">
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="VF Pulseless VT Algorithm" Clicked="Button20"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout20" IsVisible="False">
+                <StackLayout x:Name="popupLayout20" Style="{StaticResource stack}">
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Return of Spontaneous Circulation (ROSC)" Clicked="Button21"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout21" IsVisible="False">
+                <StackLayout x:Name="popupLayout21" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    Patients revived from non-traumatic cardiac arrest.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Verify presence of carotid pulse. If absent, go to Cardiac Arrest Protocol.&#x0a;&#x0a;
+[ALERT] FREQUENTLY REASSESS FOR PRESENCE OF PULSE. IF ANY DOUBT AS TO PRESENCE OF PULSE, REINITIATE CHEST COMPRESSIONS AND RETURN TO APPROPRIATE ALGORITHM FOR CARDIAC ARREST.&#x0a;&#x0a;
+    b) If apneic or inadequate respirations, continue to support ventilations. Use supplemental oxygen in accordance with General Patient Care.&#x0a;
+    c) Reassess vital signs. Treat any abnormalities in accordance with relevant algorithms.&#x0a;
+    d) If patient is 18 years of age or older and comatose (GCS less than 8), initiate Neuroprotective Induced Hypothermia Protocol (Medical etiology arrest only).&#x0a;
+    e) Rendezvous with ALS or transport to nearest ED.&#x0a;
+    f) If available and not already in place, apply mechanical CPR (mCPR) device in standby mode.&#x0a;
+    g) Identify rhythm and treat according to appropriate algorithm.&#x0a;
+    h) Obtain 12-lead EKG; if STEMI, treat according to STEMI protocol.&#x0a;
+    i) Establish IV/IO access, if not yet obtained.&#x0a;
+    j) Treat hypotension&#x0a;
+        (1) If lungs are clear, consider fluid bolus. 20 mL/kg LR IV. Titrate to SBP of 100 mmHg.&#x0a;
+        (2) Consider dopamine infusion (medical etiology arrest only).&#x0a;
+            (a) Adjust infusion rate in accordance with blood pressure and clinical response.&#x0a;
+            (b) Adult: Administer 2–20 mcg/kg/min IV/IO drip titrated to BP of 100 systolic or medical consultation selected BP; initial infusion rate 2–5 mcg/kg/min.&#x0a;
+            (c) Pediatric: Administer 2–20 mcg/kg/min IV/IO drip titrated to age specific BP or medical consultation selected BP; initial infusion rate is 2 mcg/kg/ min.&#x0a;
+    k) Reassess need for intubation if not yet performed.&#x0a;
+    l) Identify and treat contributing causes.&#x0a;
+    m) If VF or VT was present during arrest and amiodarone not yet given, consider amiodarone 150 mg IV/IO over ten minutes. (Presence of a perfusing sinus rhythm is necessary for the administration of amiodarone for the ROSC patient post VF/VT conversion.)&#x0a;
+    n) Initiate transport to appropriate facility.&#x0a;
+    o) Arrests due to medical etiology:&#x0a;
+        (1) Most patients should go to a Cardiac Interventional Center. Consider helicopter transport.&#x0a;
+        (2) Transport to nearest ED.&#x0a;
+            (a) If obvious non-cardiac cause for arrest (e.g., drowning, asphyxiation, opiate overdose). (If cause for arrest is in any way uncertain, patient must be transported to Cardiac Interventional Center, except as under b and c below.) OR&#x0a;
+            (b) If transport time to Cardiac Interventional Center is more than 45 minutes greater than transport time to nearest ED OR &#x0a;
+            (c) With medical consultation, if patient’s clinical instability will not allow for safe transport to Cardiac Interventional Center due to transport time.&#x0a;
+    p) Arrests due to trauma etiology:&#x0a;
+        (1) Transport to closest appropriate trauma center.&#x0a;
+    q) Arrests due to medical etiology:&#x0a;
+        (1) Except as under (2) below, most pediatric patients should be transported to Children’s National Medical Center or Johns Hopkins Children’s Center. Consider helicopter transport.&#x0a;
+        (2) Transport to nearest ED.&#x0a;
+            (a) If transport time to Children’s National Medical Center or Johns Hopkins Children’s Center is more than 30 minutes greater than transport time to nearest ED, OR&#x0a;
+            (b) With medical consultation, if patient’s clinical instability will not allow for safe transport to one of the above centers due to transport time.&#x0a;
+    r) Arrests due to trauma etiology:&#x0a;
+        (1) Transport to closest appropriate pediatric trauma center.&#x0a;&#x0a;
+[ALERT] ALL POST-CARDIAC ARREST PATIENTS ARE PRIORITY 1, AND REQUIRE MEDICAL CONSULTATION. PEDIATRIC PATIENTS REQUIRE CONSULTATION WITH A PEDIATRIC BASE STATION, WHICH MAY ASSIST IN DESTINATION DETERMINATION.&#x0a;&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Termination of Resuscitation" Clicked="Button22"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout22" IsVisible="False">
+                <StackLayout x:Name="popupLayout22" Style="{StaticResource stack}">
+                    <Label Text="1. PURPOSE&#x0a;
+This evidence-based protocol is designed to properly identify those patients who may benefit from prolonged resuscitation and transport to a hospital-based emergency department, as opposed to those patients whose resuscitations can be reliably and appropriately terminated in the prehospital environment.&#x0a;
+2. CONTRAINDICATIONS TO PREHOSPITAL TERMINATION OF RESUSCITATION&#x0a;
+    a) If arrest is believed to be secondary to hypothermia or submersion, treat according to appropriate protocol and transport to the nearest appropriate facility.&#x0a;
+    b) If patient is pregnant, treat according to appropriate protocol and transport to the nearest appropriate facility.&#x0a;
+    c) If patient has not reached their 18th birthday, treat according to appropriate protocol and transport to the nearest appropriate facility.&#x0a;&#x0a;
+[ALERT] IF PATIENT HAS NOT REACHED THEIR 18TH BIRTHDAY, TERMINATION OF RESUSCITATION MAY BE CONSIDERED IN RARE CIRCUMSTANCES. CONTACT A PEDIATRIC BASE STATION (AT JOHNS HOPKINS CHILDREN’S CENTER OR CHILDREN’S NATIONAL MEDICAL CENTER) FOR ONLINE MEDICAL DIRECTION PRIOR TO TERMINATION. IF ONLINE CONSULTATION WITH A PEDIATRIC BASE STATION IS NOT POSSIBLE, TREAT ACCORDING TO APPROPRIATE PROTOCOL.&#x0a;&#x0a;
+3. PROCEDURE&#x0a;
+    a) Resuscitations started by bystanders prior to EMS arrival (traumatic or nontraumatic etiology):&#x0a;
+        (1) EMS providers should terminate resuscitation if the patient meets the criteria listed in the Pronouncement of Death in the Field Protocol (section 2. Indications (a. – f.))&#x0a;
+    b) BLS providers may terminate resuscitation if:&#x0a;
+        (1) ALS resources are genuinely unavailable, and&#x0a;
+        (2) The patient has received a minimum of 15 two-minute cycles of high quality CPR, and&#x0a;
+        (3) During the five AED analyses immediately prior to TOR there was “no shock advised”&#x0a;
+    c) Cardiac arrest (non-traumatic etiology)&#x0a;
+        (1) EMS providers may terminate resuscitation&#x0a;
+            (a) After the patient has received 15 two-minute cycles of CPR, the patients is:&#x0a;
+                (i) in asystole, OR&#x0a;
+                (ii) in VF, pulseless VT, or PEA with an EtCO2 of less than 15 mmHg&#x0a;
+            (b) If patient does not meet TOR criteria, continue resuscitation and reevaluate at the next rhythm check&#x0a;
+    d) Cardiac arrest (traumatic etiology)&#x0a;
+        (2) EMS providers may terminate resuscitation regardless of total resuscitation time if:&#x0a;
+            (a) The patient presents in asystole OR&#x0a;
+            (b) The patient’s cardiac rhythm changes to asystole during the resuscitation&#x0a;
+        (3) EMS providers may terminate resuscitation following five two-minute cycles of CPR according to the Trauma Protocol: Trauma Arrest Protocol for a patient who remains in PEA or VF&#x0a;&#x0a;
+[ALERT] ASYSTOLE AND RESUSCITATIONS LASTING LONGER THAN 10 MINUTES ARE INDEPENDENT PREDICTORS OF MORTALITY IN THE TRAUMA PATIENT. TREATMENT OF THE TRAUMA ARREST PATIENT SHOULD FOCUS ON IDENTIFYING AND TREATING REVERSIBLE CAUSES DURING THAT NARROW RESUSCITATIVE WINDOW. TOR AND TRANSPORT DECISIONS SHOULD ONLY BE MADE AFTER ADMINISTERING TIME-SENSITIVE AND APPROPRIATE THERAPIES.&#x0a;&#x0a;
+e) Pronouncement of Death in the Field Protocol.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Termination of Resuscitation Algorithm" Clicked="Button23"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout23" IsVisible="False">
+                <StackLayout x:Name="popupLayout23" Style="{StaticResource stack}">
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Pronouncement of Death in the Field" Clicked="Button24"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout24" IsVisible="False">
+                <StackLayout x:Name="popupLayout24" Style="{StaticResource stack}">
+                    <Label Text="1. PURPOSE&#x0a;&#x0a;
+This protocol is designed to guide the EMS provider in pronouncing death in the field.&#x0a;
+Health General Article §5-202 provides that:&#x0a;
+    a) An individual is dead if, based on ordinary standards of medical practice, the individual has sustained either:&#x0a;
+        (1) Irreversible cessation of circulatory and respiratory functions; or&#x0a;
+        (2) Irreversible cessation of all functions of the entire brain, including the brain stem.&#x0a;&#x0a;
+2. INDICATIONS&#x0a;&#x0a;
+EMS providers may pronounce the death of a patient when one or more of the following criteria has been met.&#x0a;
+    a) Decapitation&#x0a;
+    b) Rigor mortis&#x0a;
+    c) Decomposition&#x0a;
+    d) Dependent lividity&#x0a;
+    e) Pulseless, apneic patient in a multi-casualty incident where system resources are required for the stabilization of living patients&#x0a;
+    f) Pulseless, apneic patient with an injury not compatible with life (with the exception of an obviously pregnant female where resuscitation attempts should be initiated and the patient transported to the nearest appropriate facility)&#x0a;
+    g) The EMS provider has terminated resuscitation per the Termination of Resuscitation Protocol.&#x0a;&#x0a;
+3. PROCEDURE&#x0a;&#x0a;
+    a) Confirm that the patient is unresponsive, pulseless, and apneic.&#x0a;
+    b) The patient who meets criteria in 2.e may be “black” tagged during triage (by a BLS or ALS provider), but asystole must be confirmed by ALS provider before a formal pronouncement of death.&#x0a;
+    c) The patient who meets criteria in 2.f must be confirmed to be in asystole by ALS provider before a formal pronouncement of death. If the condition of the remains precludes obtaining a cardiac rhythm to confirm asystole (e.g., incineration, severe disruption of the torso, etc.), this must be documented on the patient care report.&#x0a;
+    d) Document the exact time and location of the pronouncement of death.&#x0a;
+    e) Notify law enforcement and follow local jurisdictional policies. If deceased patient is a tissue/organ donor and law enforcement has released the body to the family, please assist the family in calling either 800-923-1133 or (for Charles, Montgomery and Prince George’s counties) 703-641-0100. If death is pronounced during transport, deliver patient to the hospital and follow hospital policies.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="EMS DNR/MOLST" Clicked="Button25"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout25" IsVisible="False">
+                <StackLayout x:Name="popupLayout25" Style="{StaticResource stack}">
+                    <Label Text="AS OF JANUARY 1, 2002, A COPY OF THE MARYLAND EMS DNR ORDER FORM CAN BE ACCEPTED IN LIEU OF THE ORIGINAL.&#x0a;&#x0a;
+AS OF OCTOBER 1, 2011, THE MARYLAND MOLST FORM CAN BE ACCEPTED IN LIEU OF THE MARYLAND EMS/DNR FORM.&#x0a;&#x0a;
+1. PREFACE EMS/DNR Order or MOLST forms, bracelets, and necklaces will recognize three patient options for care prior to arrest:
+    a) Option A (ALS) (MOLST A1)—Maximal (Restorative) Care (with intubation) Before Arrest, then DNR&#x0a;
+    b) Option A (DNI) (MOLST A2)—Comprehensive Efforts to Prevent Arrest But Do Not Intubate, then DNR&#x0a;
+    c) Option B (BLS) (MOLST B)—Limited (Palliative) Care Only Before Arrest, then DNR&#x0a;
+2. VALID EMS/DNR or MOLST BRACELET WITH INSERT or AUTHORIZED METAL EMBLEM HAS THE SAME EFFECT AS THE FORM.&#x0a;
+    a) Typically only one EMS/DNR device is needed to initiate the EMS/DNR Protocol.&#x0a;
+    b) EMS providers should only request a second instrument (e.g., a bracelet when a form has already been presented) if there is reason to question the validity of the first produced notification device.&#x0a;
+3. RECIPROCITY&#x0a;
+    a) A standardized EMS/DNR Order from another state may be honored.&#x0a;
+    b) Out-of-state EMS/DNR Orders shall be followed to the full extent that is permissible by the Maryland Medical Protocols for Emergency Medical Services Providers. If there is misunderstanding with family members or others present at the scene or if there are other concerns about following the out of state EMS/DNR Order, contact online medical direction for assistance.&#x0a;
+4. ORAL EMS/DNR ORDERS&#x0a;
+    a) EMS providers may follow an oral EMS/DNR Order directly from a Marylandlicensed physician (MD or DO), physician assistant, or nurse practitioner who is physically present “on-site.” EMS shall not accept orders from private physician attendings, physician assistant, or nurse practitioner by telephone.&#x0a;
+    b) EMS providers may follow an oral EMS/DNR Order from a Marylandlicensed physician “on-line” via the EMS Communications System (e.g., radio or telephone consult that is routed through a public service access point (PSAP) for audio recording).&#x0a;
+5. ACCEPTABLE AND UNACCEPTABLE EMS/DNR ORDERS&#x0a;
+    a) The following are acceptable for implementing the EMS/DNR Protocol:&#x0a;
+        (1) Original Maryland EMS/DNR Order Form&#x0a;
+        (2) Copy of the Maryland EMS/DNR Order Form (including an electronic copy on a computer or device for patient care decisions. The sending facility is required to provide a copy of the EMS/DNR Order or MOLST to the transport crew (listed in the instructions of the MOLST form and COMAR 10.01.21.03)).&#x0a;
+        (3) Other State EMS/DNR Order Form&#x0a;
+        (4) Maryland EMS/DNR Bracelet Insert&#x0a;
+        (5) Medic Alert DNR Bracelet or Necklace&#x0a;
+        (6) Oral DNR Order from EMS System Medical Consultation&#x0a;
+        (7) Oral DNR Order from other on-site physician, physician assistant, or nurse practitioner&#x0a;
+        (8) Maryland MOLST Form&#x0a;
+        (9) Maryland MOLST Bracelet&#x0a;
+    b) The following are not acceptable for implementing the EMS/DNR Protocol:&#x0a;
+        (1) Advance directives without an EMS/DNR Order&#x0a;
+        (2) Facility-specific DNR orders&#x0a;
+        (3) Notes in medical records&#x0a;
+        (4) Prescription pad orders&#x0a;
+        (5) DNR stickers&#x0a;
+        (6) An oral request from someone other than a physician, physician assistant, or nurse practitioner&#x0a;
+        (7) An oral order from an attending physician, physician assistant, or nurse practitioner who is not on site&#x0a;
+        (8) Any other device or instrument not listed above as acceptable&#x0a;
+6. VALIDITY OF EARLIER VERSIONS OF EMS/DNR ORDERS
+    a) Older versions of EMS/DNR Orders — i.e., initial version (1995 and first revision, 4/1/96) — continue to be valid and need not be updated unless the patient or authorized decision maker wishes to take advantage of new features available in the newer forms.&#x0a;
+    b) EMS providers should treat older versions of EMS/DNR order (pre 7/1/98) as “Option B (BLS) - Limited (Palliative) Care Only Before Arrest, Then DNR.”&#x0a;
+7. REVOCATION OF AN EMS/DNR ORDER&#x0a;
+    a) An EMS/DNR Order may be revoked at any time by:&#x0a;
+        (1) Physical cancellation or destruction of all EMS/DNR Order devices; or&#x0a;
+        (2) An oral statement by the patient made directly to emergency medical services personnel requesting only palliative care or resuscitation. If the patient revokes an EMS/DNR order orally, the EMS/DNR Order notification devices do not need to be destroyed. EMS providers should thoroughly document the circumstances of the revocation. An oral revocation by a patient is only good for the single response or transport for which it was issued.&#x0a;
+    b) An authorized decision-maker, other than the patient, cannot revoke an EMS/ DNR Order orally. Because of the difficulty in identifying authorized decisionmakers in emergent situations, it is incumbent upon an authorized decisionmaker who has authority to revoke an EMS/DNR Order to either void or withhold all EMS/DNR Order devices if they wish resuscitation for the patient. If there is any confusion, the EMS provider should contact a Base Station for medical consult.&#x0a;
+    c) Section 5-610 of the Health Care Decision Act (Health General Article, Annotated Code of Maryland) makes willful concealment, cancellation, defacement, obliteration, or damage of an advance directive (including EMS/DNR Orders), without the patient’s or authorized decision maker’s consent, a misdemeanor subject to a fine not exceeding $10,000, imprisonment not exceeding one year, or both.&#x0a;
+8. ANTICIPATED LOCATIONS FOR EMS/DNR ORDER FORMS:&#x0a;
+EMS personnel shall be directed to look for an EMS/DNR Order in the following places:&#x0a;
+    a) About a patient’s wrist, hung from a necklace, or safety-pinned to a patient’s clothing.&#x0a;
+    b) At medical facilities, in the patient’s chart.&#x0a;
+    c) In residences and domicile facilities, by the bedside, behind the patient’s bedroom door, or on the refrigerator door.&#x0a;
+    d) In schools and educational institutions, in the nurse’s office, health room, or with the student’s attendant caregiver/aide.&#x0a;
+    e) Family or caregivers will be expected to retrieve the original EMS/DNR Order prior to the ambulance’s arrival.&#x0a;
+9. IDENTIFICATION OF PATIENT&#x0a;
+    a) If the patient is able, the patient can self-identify during the initial assessment.&#x0a;
+    b) If the patient is unable to communicate, then family, caregivers, or bystanders can identify the patient for EMS providers.&#x0a;
+    c) If an EMS/DNR vinyl bracelet with insert or metal emblem (bracelet or necklace) is attached to a patient (on wrist, pendant from neck, pinned to clothing, etc.) the patient’s identity can be reasonably assumed by EMS providers.&#x0a;
+    d) If an EMS/DNR vinyl bracelet insert or metal emblem (bracelet or necklace) is found detached from the patient, EMS personnel must treat it as an EMS/DNR Order form and identify the subject of the EMS/DNR Order as the patient. A valid bracelet insert alone, without the vinyl bracelet, is a valid EMS/ DNR Order so long as EMS providers confirm the patient’s identity.&#x0a;
+    e) If EMS personnel are unable to ascertain with reasonable certainty, when required to do so, that the subject of the EMS/DNR Order is the patient, they may resuscitate the patient.&#x0a;
+10. HEALTH PROVIDER/EMS PERSONNEL IMMUNITY&#x0a;
+    a) General immunity provisions, such as Good Samaritan immunity for volunteers and sovereign immunity for government employees, may apply under specific circumstances.&#x0a;
+    b) In addition to other immunity that may be provided for in law, the Health Care Decisions Act provides the following specific immunity in cases involving the provision, withdrawal, or withholding of care that may be life-sustaining in nature:&#x0a;
+(1) EMS providers are not subject to criminal prosecution or civil liability or deemed to have engaged in unprofessional conduct as determined by the appropriate licensing, registering, or certifying authority as a result of withholding or withdrawing any health care under authorization obtained in accordance with the Health Care Decisions Act. See HG (5-609(a)(1)).&#x0a;
+(2) EMS providers providing, withholding, or withdrawing treatment under authorization obtained under the Health Care Decisions Act do not incur liability arising out of any claim to the extent the claim is based on lack of consent or authorization for the action. See HG (5-609(a)(2)).&#x0a;
+(3) EMS providers providing treatment because they reasonably believe that an EMS/DNR order, other than a bracelet, is not valid, do not incur liability arising out of any claim to the extent the claim is based on lack of consent or authorization for the action. See HG (5-608(d)).&#x0a;
+11. EMS/DNR MEDICAL PROTOCOLS&#x0a;
+    a) DISPATCH&#x0a;
+        (1) Option B EMS/DNR patients (7/98 version) or patients with older version EMS/DNR orders only require a BLS response. Once the on-scene BLS provider has determined the need for additional pain control, an ALS Rendezvous may be requested. Medevac requests are not appropriate for these patients.&#x0a;
+        (2) Option A or A (DNI) EMS/DNR patients (7/98 version) who are not in arrest may require a range of responses from BLS through the highest echelon of response available. This will depend on the information available to dispatch and the service requested. The response complement in these cases will be dictated by local standard operating procedures (SOP).&#x0a;
+        (3) If a dispatch center is unclear whether the DNR order is an EMS/DNR order or is unclear about the pre-arrest patient care option selected (A, A (DNI), or B), the dispatch center shall dispatch the appropriate resources based on the information available.&#x0a;
+        (4) In the absence of knowledge to the contrary, information from medical professionals at a health care facility about the EMS/DNR status of a patient may be presumed to be reliable.&#x0a;
+    b) PERFORM LIMITED PATIENT ASSESSMENT&#x0a;
+        Vital signs:&#x0a;
+        (1) Check for absence of a palpable pulse.&#x0a;
+        (2) Check for absence of spontaneous respirations in an unresponsive patient.&#x0a;
+        (3) Check for a valid EMS/DNR Order or MOLST form; vinyl bracelet insert worn either on the wrist, as a necklace, or pinned to clothing; or for a metal emblem (bracelet or necklace).&#x0a;
+    c) RESUSCITATE/DO NOT RESUSCITATE CRITERIA&#x0a;
+        (1) If an EMS/DNR Order is not present, revoked, or otherwise void, the EMSprovider shall treat and, if necessary, transport the patient.&#x0a;
+        (2) If an EMS/DNR Order is not present, but the EMS provider believes that resuscitation or further resuscitation is futile, they may initiate the Termination of Resuscitation Protocol.&#x0a;
+        (3) If a valid EMS/DNR order is found and the patient is in cardiac or respiratory arrest, no resuscitative measures shall be initiated.&#x0a;
+        (4) If the patient is conscious and able to communicate that they revoke the EMS/DNR orally directly to EMS providers, EMS providers shall treat and, if necessary, transport the patient.&#x0a;
+        (5) If the EMS/DNR patient (Option A, A (DNI), or B) arrests, withhold or withdraw further resuscitation and provide support to the family and caregivers. Consider notifying appropriate personnel.&#x0a;
+    d) OPTION A (MOLST A1) – MAXIMAL (RESTORATIVE) CARE PROTOCOL&#x0a;
+        (1) When Option A - “Maximal (Restorative) Care (with intubation) Before Arrest, then DNR” is selected on an EMS/DNR Order or MOLST form, the patient shall receive the full scope of restorative interventions permissible under the Maryland EMS Medical Protocols (including Continuous Positive Airway Pressure (CPAP), cardiac monitoring, synchronized cardioversion for pulsepresent ventricular or supraventricular tachycardia, cardiac pacing for pulsepresent symptomatic bradycardia, insertion of IVs, and drug therapy), in an attempt to forestall cardiac or respiratory arrest.&#x0a;
+        (2) This option was requested primarily by long-term care facilities for their patients who are on DNR orders for potentially prolonged periods of time. Many of these patients are less concerned about palliation of pain and more concerned about the quality of life after a stroke or heart attack. The primary medical conditions seen in the field necessitating this option have been the desire to administer dextrose for diabetic emergencies and epinephrine for anaphylactic reactions in patients who, upon arrest, are not to be resuscitated.&#x0a;
+        (3) If, despite these efforts, the patient becomes pulseless or stops breathing spontaneously, EMS providers shall then withhold or withdraw cardiopulmonary resuscitation (including, but not limited to, CPR, cardiac pacing, defibrillation), withdrawal of active ventilatory assistance upon cardiac arrest, and withholding or withdrawal of drug therapy (e.g., chemical resuscitation).&#x0a;
+    e) OPTION A (DNI) (MOLST A2) – COMPREHENSIVE EFFORTS TO PREVENT ARREST BUT DO NOT INTUBATE, THEN DNR&#x0a;
+        (1) Option A (DNI) is exactly the same as Option A, which may include limited ventilatory support by CPAP or BiPAP, but Do Not Intubate.&#x0a;
+        (2) Therefore, inappropriate care for “Option A (DNI) – Comprehensive Efforts to Prevent Arrest but Do Not Intubate, then DNR” would be nasal or oral intubation. &#x0a;&#x0a;
+[ALERT] IF MAXIMAL CARE IS SELECTED AND THE PATIENT’S CONDITION REQUIRES ALS, AN ALS UNIT SHOULD BE REQUESTED IF FEASIBLE GIVEN THE LOCATION OF THE INCIDENT RELATIVE TO THE NEAREST APPROPRIATE FACILITY, THE AVAILABILITY OF AN ALS UNIT, AND ITS ABILITY TO ARRIVE OR RENDEZVOUS IN A MEDICALLY APPROPRIATE PERIOD OF TIME.&#x0a;&#x0a;
+    f) OPTION B (MOLST B)– PALLIATIVE CARE PROTOCOL &#x0a;
+        (1) Supportive Care for Control of Signs and Symptoms&#x0a;
+            (a) Respiratory distress&#x0a;
+                (i) Open the airway using noninvasive means (e.g., chin lift, jaw thrust, finger sweep, nasopharyngeal airway, oropharyngeal airway, Heimlich maneuver, or laryngoscopy with Magill forceps for suspected airway obstruction, but no cricothyroidotomy and no tracheostomy).&#x0a;
+                (ii) Administer O2 as follows:&#x0a;
+                    a. If the patient is not on a ventilator and would benefit from oxygen therapy, provide passive oxygen via nasal cannula or nonrebreather mask (but no positive pressure oxygen via ambu bag, demand valve, or ventilator). If available, pulse oximetry and waveform capnography may be used.&#x0a;
+                    b. If the patient is found on an outpatient ventilator and is not in cardiac arrest, maintain ventilatory support during transport to the hospital.&#x0a;
+                    c. If the patient is found on an outpatient ventilator and is in cardiac arrest, contact on-line medical direction to consult about disconnecting the ventilator.&#x0a;
+                (iii) Maintain an open airway by noninvasive means (e.g., chin lift, jaw thrust, finger sweep, nasopharyngeal airway, oropharyngeal airway, and Heimlich maneuver or laryngoscopy with Magill forceps for suspected airway obstruction, but no cricothyroidotomy and no tracheostomy).&#x0a;
+                (iv) Suction as necessary.&#x0a;
+                (v) Position for comfort.&#x0a;
+            (b) External bleeding&#x0a;
+                (i) Standard treatment (direct pressure with dressing, tourniquet)&#x0a;
+                (ii) No IVs&#x0a;
+            (c) Immobilize fractures using skills and devices that minimize pain.&#x0a;
+            (d) Uncontrolled pain or other symptoms (e.g., severe nausea)&#x0a;
+                (i) Allow patient, family, or health care providers (other than the prehospital provider) to administer patient’s prescribed medications. Such health care providers administering medication will not have to accompany the patient to the hospital. Any medications administered by the patient, family or healthcare providers must be documented in the patient care report (PCR).&#x0a;
+                (ii) Patient controlled analgesia (PCA) systems for pain medication delivery and other patient-controlled medication (PCM) systems shall be left in place in DNR patients and monitored to the extent possible according to the provider’s level of certification or licensure.&#x0a;
+                (iii) For the patient with significant pain and/or pain with a prolonged transport, the pain management protocol may be initiated.&#x0a;
+            (e) Existing IV lines may be in place and shall be monitored to the extent possible according to the provider’s level of certification and licensure.&#x0a;
+        (2) Inappropriate Care for a Palliative Care Patient&#x0a;
+            (a) Cardiac monitoring, including 12-lead EKG, pacing, cardioversion, and defibrillation&#x0a;
+            (b) Initiation of IV therapy (except for medications listed in the pain management protocol administration for pain control as in 1 (d) (iii))
+            (c) EMS-initiated medications (except oxygen, and medications listed in the pain management protocol as in 1 (d) (iii))&#x0a;
+            (d) CPR&#x0a;
+            (e) Intubation (alternative airway device, endotracheal, nasotracheal, or gastric tube)&#x0a;
+            (f) Active ventilatory assistance, unless on an outpatient ventilator&#x0a;
+    (g) TRANSPORT&#x0a;
+        (1) Upon request of the patient, family, or caregivers and in lieu of transport to a hospital-based emergency department, EMS providers may transport Option B EMS/DNR patients who require transportation for pain control or symptom management or respite care to a specified inpatient hospice facility.&#x0a;
+        (2) A current list of those facilities is available from the MIEMSS Program Development Office 410-706-4367 (4DNR). The receiving status of a particular facility can be ascertained from EMRC (24 hours a day) by EMS radio, EMSTEL, or red phone, or by calling 800-492-3805.&#x0a;
+        (3) The State EMS Board may authorize additional facilities under 6.2.2 or 6.2.4 (pp. 35 -36), if recognized in the future by DHMH in accordance with 42 CFR 418.98 and 42 CFR 418.100. EMS jurisdictions and commercial ambulance services will be notified by MIEMSS of any facilities that become eligible and elect to receive patients by ambulance, become ineligible, or elect to discontinue their participation.&#x0a;
+        (4) Take a copy of EMS/DNR Order or MOLST form, vinyl bracelet with insert, or metal emblem (bracelet or necklace) to the hospital with the patient. If returning the patient from a previous transport, be sure to request a copy of the EMS/DNR Order form, vinyl bracelet with insert, or metal emblem (bracelet or necklace) from the staff. The sending facility is required to provide a copy of the EMS/DNR Order or MOLST to the transport crew (listed in the instructions of the MOLST form and COMAR 10.01.21.03).&#x0a;
+    h) COMMUNICATIONS&#x0a;
+        (1) Consultation requirements for Option A EMS/DNR patients shall be dictated by the Maryland EMS Medical Protocols in accordance with the patient’s medical needs. EMS providers shall notify the hospital of the patient’s EMS/ DNR status (i.e., Option A) and the identity of patient’s physician or nurse practitioner.&#x0a;
+        (2) No consultation is required for the Option B EMS/DNR patients. The receiving hospital or inpatient hospice facility should be notified to expect the patient and prepare accordingly. Also make the hospital or inpatient facility aware of the patient’s EMS/DNR status (i.e., Option B) and the identity of the patient’s physician or nurse practitioner.&#x0a;
+        (3) If there is misunderstanding with family members or others present at the scene or if there are other concerns about following the EMS/DNR Order and the patient’s condition permits, contact the physician or nurse practitioner signing the order, or the patient’s hospice program, or on-line medical direction for assistance.&#x0a;
+    i) DOCUMENTATION&#x0a;
+        (1) If possible, make or retain a copy of the EMS/DNR Order or MOLST form and attach it to the official copy of the patient care report that is kept by the EMS service. Having a copy of the EMS/DNR Order or MOLST form can significantly reduce documentation requirements. Encourage sending facilities to provide you with an additional copy of the EMS/DNR order or MOLST form with the patient’s transfer documents.&#x0a;
+        (2) If the EMS/DNR Protocol is initiated: &#x0a;
+            (a) Document, in the narrative section:&#x0a;
+                (i) Who gave you the EMS/DNR Order or MOLST form (as an applicable person physically providing the written order, name of on-site physician or nurse practitioner, or name of on-line medical direction physician) or&#x0a;
+                (ii) Where the EMS/DNR Order or MOLST form was found;&#x0a;
+            (b) Document the EMS/DNR order number, the effective date of the order, the name of the patient, the patient’s date of birth, and the name of the physician, nurse practitioner, or physician assistant who signed the order;&#x0a;
+            (c) Document the time the EMS/DNR Protocol was initiated;&#x0a;
+            (d) Document any care rendered;&#x0a;
+            (e) If the patient arrests while under your care, document the time the patient lost spontaneous respirations or palpable pulse, if able to determine, and&#x0a;
+            (f) If the patient arrests while under your care, document the chain of custody until the body is out of custody of EMS.&#x0a;
+        (3) If resuscitation protocols are initiated, document:&#x0a;
+            (a) Care rendered as per normal practice;&#x0a;
+            (b) The reason the EMS/DNR Protocol was not initiated, if relevant (e.g., unable to find EMS/DNR Order, EMS/DNR is not or does not appear to be valid, patient request);&#x0a;
+            (c) If resuscitation was started because there was reasonable doubt as to the validity of an EMS/DNR Order;&#x0a;
+                (i) The EMS/DNR Order number, the effective date of the order, the name of the patient, the patient’s date of birth, and the name of the physician, nurse practitioner, or physician assistant signing the order; and&#x0a;
+                (ii) Who gave you the EMS/DNR Order or where the EMS/DNR Order or MOLST form was found.&#x0a;
+        (4) Transfer any EMS/DNR Order or MOLST form to the appropriate authorities (e.g., to hospital or in-patient hospice personnel of the facility where the patient was transferred or, if the patient is deceased, to the physician/police/medical examiner). If possible at the receiving facility, and if not already done, make a copy of the EMS/DNR Order or MOLST form. DO NOT RETAIN an original EMS/DNR Order or MOLST form. &#x0a;
+        (5) If a copy of the EMS/DNR Order or MOLST form is available to EMS providers, it should be attached to the official copy of the patient care report that is retained by the EMS service.&#x0a;
+        (6) A vinyl bracelet with insert or metal emblem (bracelet or necklace) shall be left where found on the patient. Bracelets or metal emblems shall not be removed without the permission of the patient or the patient’s authorized decision maker and, when possible, shall be returned with the patient to the sending facility.&#x0a;
+    j) PATIENT DISPOSITION IF NOT TRANSPORTED&#x0a;
+    If the EMS/DNR Protocol is implemented and the patient is not transported because the patient arrested at the response site, EMS personnel shall:&#x0a;
+        (1) Follow local operational procedures for handling deceased patients.&#x0a;
+        (2) Do not remove an EMS/DNR vinyl bracelet or metal emblem (bracelet or necklace) from the deceased patient.&#x0a;
+        (3) Law enforcement personnel or a representative of the medical examiner’s office needs to be notified only in the case of sudden or unanticipated death that occurs:&#x0a;
+            (a) By violence&#x0a;
+            (b) By suicide&#x0a;
+            (c) As a result of an accident&#x0a;
+            (d) Suddenly, if the deceased was in apparent good health, or&#x0a;
+            (e) In any suspicious or unusual manner&#x0a;
+" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="EMS DNR Flowchart" Clicked="Button26"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout26" IsVisible="False">
+                <StackLayout x:Name="popupLayout26" Style="{StaticResource stack}">
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Chest Pain/Acute Coronary Syndrome" Clicked="Button27"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout27" IsVisible="False">
+                <StackLayout x:Name="popupLayout27" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Chest discomfort that may radiate to the arm, shoulders, jaw, or back. Generally described as a crushing pain or toothache. May be accompanied by shortness of breath, sweating, nausea, or vomiting.&#x0a;&#x0a;
+[ALERT] ACUTE CORONARY SYNDROME (ACS) IS DEFINED AS PATIENTS PRESENTING WITH ANGINA OR ANGINAL EQUIVALENTS SUCH AS SHORTNESS OF BREATH; CHEST, EPIGASTRIC, ARM, OR JAW PAIN OR DISCOMFORT; DIAPHORESIS; AND/OR NAUSEA.&#x0a;&#x0a;
+3. Treatment&#x0a;
+    a) Place patient in position of comfort.&#x0a;
+    b) Assist patient with administration of patient’s own prescribed nitroglycerin. May be repeated in 3–5 minutes if chest pain persists, blood pressure is greater than 90 mmHg, and pulse is greater than 60 bpm. Maximum three doses total (patient and EMT assisted).&#x0a;
+    c) Assess and treat for shock if indicated.&#x0a;
+    d) Continuously monitor airway and reassess vital signs every 5 minutes.&#x0a;
+    e) Consider aspirin 324 mg or 325 mg chewed, if acute myocardial infarction is suspected.&#x0a;&#x0a;
+[ALERT] NITROGLYCERIN IS CONTRAINDICATED FOR ANY PATIENT HAVING TAKEN MEDICATION FOR PULMONARY ARTERY HYPERTENSION (E.G., ADCIRCA™ OR REVATIO™) OR ERECTILE DYSFUNCTION (E.G., VIAGRA™, LEVITRA™, OR CIALIS™) WITHIN THE PAST 48 HOURS. MEDICAL CONSULTATION IS REQUIRED TO OVERRIDE THIS CONTRAINDICATION. IF THE PATIENT’S BLOOD PRESSURE DROPS MORE THAN 20 mmHg AFTER ADMINISTRATION OF NITROGLYCERIN, OBTAIN MEDICAL CONSULTATION BEFORE FURTHER ADMINISTRATION.&#x0a;&#x0a;
+    f) Additional doses of nitroglycerin require medical consultation.&#x0a;
+    g) Establish IV access with LR.&#x0a;
+    h) Shall perform a 12-lead EKG for patients with ACS. (If trained, providers may perform a 15-lead EKG.)&#x0a;
+    i) If patient has a prescription or previous history of nitroglycerin use, administer nitroglycerin: 0.4 mg SL. May be repeated if symptoms persist, and BP is greater than 90 mmHg and pulse is greater than 60 bpm, to a maximum dose of 1.2 mg.&#x0a;
+    j) If patient does not have a prescription or previous history of nitroglycerin use, an IV must be established prior to administration; then administer nitroglycerin as above.&#x0a;
+    k) If IV cannot be established, nitroglycerin may be administered with medical consultation.&#x0a;
+    l) Identify rhythm and treat according to appropriate algorithm.&#x0a;
+    m) Administer additional doses of nitroglycerin.&#x0a;
+    n) Administer opioid per Pain Management Protocol.&#x0a;&#x0a;
+[ALERT] CONSULT A PEDIATRIC BASE STATION FOR CHILDREN (WHO HAVE NOT REACHED THEIR 18TH BIRTHDAY) WITH CHEST PAIN WITH ASSOCIATED DYSRHYTHMIAS, CARDIAC DISEASE, OR BLUNT CHEST TRAUMA.&#x0a;&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Hyperkalemia: Renal Dialysis/Failure or Crush Syndrome" Clicked="Button28"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout28" IsVisible="False">
+                <StackLayout x:Name="popupLayout28" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Certain conditions may produce an elevated serum potassium level that can cause hemodynamic complications.&#x0a;
+3. Treatment&#x0a;
+    a) Patients must meet the following criteria:&#x0a;
+        (1) Suspected hyperkalemia patient&#x0a;
+            (a) Renal dialysis/failure with poor or non-functioning kidneys or&#x0a;
+            (b) Crush syndrome or patients with functional kidneys by history AND&#x0a;
+        (2) Hemodynamically unstable renal dialysis patients or patients suspected of having an elevated potassium with bradycardia and wide QRS complexes.&#x0a;
+    b) Place patient in position of comfort.&#x0a;
+    c) Assess and treat for shock, if indicated.&#x0a;
+    d) Continuously monitor airway and reassess vital signs every 5 minutes.&#x0a;
+    e) Establish IV access with LR.&#x0a;
+    f) Initiate Bradycardia Protocol.&#x0a;
+    g) Consider calcium chloride 0.5–1 gram SLOW IVP over 3–5 minutes. Maximum dose 1 gram or 10 mL.&#x0a;
+    h) Consider sodium bicarbonate 50 mEq IV over 5 minutes.&#x0a;
+    i) Consider albuterol 20 mg (high dose) via nebulizer (if available). FLUSH IV WITH 5 ML OF LR BETWEEN CALCIUM AND SODIUM BICARBONATE ADMINISTRATION.&#x0a;
+    j) Crush syndrome or patients with functional kidneys by history Consider sodium bicarbonate 50 mEq SLOW IV over 5 minutes and then initiate drip of sodium bicarbonate 100 mEq in 1,000 mL to run over 30–60 minutes (reserve for patient suspected of crush syndrome or patients with functional kidneys by history).&#x0a;
+    k) Place patient in position of comfort.&#x0a;
+    l) Assess and treat for shock, if indicated.&#x0a;
+    m) Continuously monitor airway and reassess vital signs every 5 minutes.&#x0a;
+    n) Establish IV access with LR.&#x0a;
+    o) Initiate Bradycardia Protocol.&#x0a;
+    p) Administer calcium chloride 20 mg/kg (0.2 mL/kg) slow IVP/IO (50 mg/min). Maximum dose 1 gram or 10 mL.&#x0a;
+    q) Consider albuterol via nebulizer&#x0a;
+        (1) For patients 2 years of age or greater, administer albuterol 2.5 mg.&#x0a;
+        (2) For patients less than 2 years of age, administer albuterol 1.25 mg.&#x0a;
+            FLUSH IV WITH 5 ML OF LR BETWEEN CALCIUM AND SODIUM BICARBONATE ADMINISTRATION.&#x0a;
+    r) Crush syndrome or patients with functional kidneys by history&#x0a;
+        Consider sodium bicarbonate 1 mEq/kg IV over 5 minutes. Maximum dose 50 mEq. (Reserve for patient suspected of crush syndrome or patients with functional kidneys by history.) For patients less than 1 year of age, must be diluted (1:1) with LR.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Implantable Cardioverter Defibrillator (ICD) Malfunction" Clicked="Button29"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout29" IsVisible="False">
+                <StackLayout x:Name="popupLayout29" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+An implantable cardioverter defibrillator (ICD) is a device that delivers an internal defibrillation (shock) whenever the patient’s heart rhythm/rate exceeds defined limits. EMS providers may encounter ICD devices that are appropriately or inappropriately delivering shock therapy. Internal shocks cause patient discomfort but DO NOT pose a danger to EMS personnel even when in direct contact with patient receiving an internal shock.&#x0a;
+3. Treatment&#x0a;
+    a) Place patient in position of comfort.&#x0a;
+    b) Assess and treat for shock if indicated.&#x0a;
+    c) Continuously monitor airway and reassess vitals every 5 minutes.&#x0a;&#x0a;
+[ALERT] IF PATIENT IS IN CARDIAC ARREST, PERFORM CPR AND USE AED AS APPROPRIATE DESPITE THE PATIENT’S ICD, WHICH MAY OR MAY NOT BE DELIVERING SHOCKS.&#x0a;&#x0a;
+    d) Establish IV access with LR.&#x0a;
+    e) Monitor cardiac rhythm and treat according to appropriate algorithm(s).&#x0a;
+    f) ICD deactivation: Patient must meet the following criteria:&#x0a;
+        (1) Three or more distinct shocks and&#x0a;
+        (2) Obvious device malfunction with an EMS provider-witnessed inappropriate shock (e.g., alert patient in atrial fibrillation with rapid ventricular rate or SVT)&#x0a;
+    g) Place an EMS donut magnet directly over device. Magnet placed directly over will deactivate device and shocks will not be delivered. After defibrillator is deactivated, tape magnet firmly in place and treat according to the appropriate algorithm(s).&#x0a;&#x0a;
+[ALERT] IF THE PATIENT HAS A COMBINATION ICD AND PACEMAKER, DEACTIVATING THE ICD MAY OR MAY NOT DEACTIVATE THE PACEMAKER.&#x0a;
+    h) Regardless of the decision to deactivate the ICD device, be prepared to manage the underlying rhythm (e.g., treat wide complex tachycardia with cardioversion or amiodarone per protocol as appropriate).&#x0a;&#x0a;
+[ALERT] IF PATIENT BECOMES UNSTABLE OR IN THE EVENT OF A RHYTHM CHANGE WHERE A SHOCK IS DESIRED, REMOVE THE MAGNET TO REACTIVATE THE ICD. IF REACTIVATION DOES NOT OCCUR, USE MANUAL DEFIBRILLATOR IN ACCORDANCE WITH TACHYCARDIA PROTOCOL. CONTINUE CHEST COMPRESSIONS FOR PEDIATRIC PATIENTS WHO REMAIN POORLY PERFUSED DESPITE PACEMAKER CAPTURE.&#x0a;&#x0a;
+    i) If ICD deactivation indications are questionable or deactivation is unsuccessful (or a donut magnet is not available) and undesired shocks continue, medications may be administered for patient comfort.&#x0a;
+        (1) Administer opioid per Pain Management Protocol. OR&#x0a;
+        (2) Midazolam 0.1 mg/kg SLOW IVP/IN/IM/IO. Maximum single dose is 5 mg. (Paramedic may perform without consult.)&#x0a;
+            IN administration max 1 mL per nare&#x0a;
+            IM administration requires all providers to obtain consultation&#x0a;
+    j) Transport to the closest appropriate facility.&#x0a;
+Consult a Pediatric Base Station for children (who have not reached their 18th birthday) with an ICD device delivering shock therapy or malfunctioning.&#x0a;
+    k) If ICD deactivation indications are questionable or deactivation is unsuccessful (or a donut magnet is not available) and undesired shocks continue, medications may be administered for patient comfort.&#x0a;
+        (1) Administer opioid per Pain Management Protocol. OR&#x0a;
+        (2) Midazolam 0.1 mg/kg SLOW IV/IO over 1–2 minutes. Maximum single IV/ IN/IO dose 2 mg. Maximum total dose 5 mg. IN administration max 1 mL per nare. If IV cannot be established, administer 0.2 mg/kg IM. Max single IM dose is 5 mg. (IM requires all providers to obtain medical consultation.) Maximum total dose 5 mg.&#x0a;
+    l) Transport to the closest appropriate facility.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="ST Elevation Myocardial Infarction (STEMI)" Clicked="Button30"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout30" IsVisible="False">
+                <StackLayout x:Name="popupLayout30" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+[ALERT] ACUTE CORONARY SYNDROME (ACS) IS DEFINED AS PATIENTS PRESENTING WITH ANGINA OR ANGINAL EQUIVALENTS SUCH AS SHORTNESS OF BREATH; CHEST, EPIGASTRIC, ARM, OR JAW PAIN OR DISCOMFORT; DIAPHORESIS; AND/OR NAUSEA.&#x0a;&#x0a;
+Inclusion Criteria:&#x0a;
+Patient presents with Acute Coronary Syndrome (ACS) symptoms and has one of the following in a diagnostic quality EKG:&#x0a;
+    a) Greater than 1 mm of ST elevation in two or more contiguous limb leads&#x0a;
+    b) Greater than 1.5 mm of ST elevation in two or more precordial leads (in women)&#x0a;
+    c) Greater than 2 mm of ST elevation in two or more precordial leads (in men)&#x0a;
+    d) Anterior, Inferior, or Lateral MI: ST elevation greater than 1 mm in two or more contiguous leads and QRS complex is narrower than 0.12 seconds; (if wider than 0.12, you are unable to diagnose as STEMI) OR&#x0a;
+    e) Posterior MI: ST depression greater than 1 mm in V1 and V2 with an R/S ratio of greater than or equal to one and QRS complex is narrower than 0.12 seconds; (if wider than 0.12, you are unable to diagnose as STEMI)&#x0a;&#x0a;
+[ALERT]IF PATIENT MEETS ABOVE STEMI CRITERIA, THIS PATIENT IS A PRIORITY 1 PATIENT AND REQUIRES NOTIFICATION OF THE NEAREST DESIGNATED CARDIAC INTERVENTIONAL CENTER AS SOON AS POSSIBLE TO ALLOW FOR HOSPITAL PREPARATION. DURING THE CONSULTATION WITH THE RECEIVING FACILITY, THE PROVIDER SHALL USE THE VERBIAGE, “STEMI ALERT” AS THE UNIVERSAL METHOD OF NOTIFYING THE FACILITY THAT THE PATIENT MEETS THE STEMI INCLUSION CRITERIA.&#x0a;&#x0a;
+DETECTION OF RIGHT VENTRICULAR AND POSTERIOR WALL INFARCTION IS IMPORTANT, AS APPROXIMATELY 40% OF PATIENTS WITH INFERIOR WALL INFARCTIONS HAVE RIGHT VENTRICULAR AND/OR POSTERIOR WALL INVOLVEMENT, WHICH PREDISPOSES THEM TO MORE COMPLICATIONS AND INCREASED MORTALITY.&#x0a;&#x0a;
+Consider the following presentations as indicative of increased cardiovascular risk and request guidance from the closest appropriate EMS Base Station or Cardiac lnterventional Center.&#x0a;
+    a) Left bundle branch block (LBBB): LBBB is rare in the setting of acute myocardial infarction and often indicates underlying cardiovascular disease. LBBB is more likely to signal a myocardial infarction if one of the following conditions are met:&#x0a;
+        1) Patient presents in cardiogenic shock&#x0a;
+        2) EKG shows excessive ST segment elevation greater than 5 mm&#x0a;
+        3) EKG shows ST segment deviation (elevation or depression) in the same direction as the QRS complex. This concept is known as inappropriate concordance.&#x0a;
+    b) Wellens’ Wave: Biphasic T waves or deeply inverted T waves in precordial leads (V2-V3, +/-V4).&#x0a;
+    c) ST segment elevation in Lead aVR: Multilead ST segment depression with coexisting ST segment elevation in lead aVR.&#x0a;
+    d) Hyperacute T waves: Peaked, broad-based T waves&#x0a;
+3. Treatment&#x0a;
+    a) Follow Chest Pain Protocol for nitrate, aspirin, and pain management.&#x0a;
+    b) If patient meets above STEMI criteria, this patient is a Priority 1 patient and requires a medical consult.&#x0a;
+    c) If a patient meets one of the above condition sets for STEMI inclusion criteria, the patient shall be transported to the closest Cardiac Interventional Center by air or ground as long as the delivery time is not more than 45 minutes greater than transport to the nearest ED.&#x0a;
+        (1) When indicated and based on the EMS provider’s report, the Base Station physician at the receiving Cardiac Interventional Center will activate its Cardiac Interventional Team.&#x0a;
+        (2) The receiving ED physician will determine if the patient can bypass the ED and go directly to the cardiac catheterization lab to meet the cardiac interventional team.&#x0a;
+        (3) If the patient cannot be delivered to a Cardiac Interventional Center within the allotted time, complete the Fibrinolytic Therapy Checklist for STEMI.&#x0a;
+            (a) If the patient meets all of the criteria for fibrinolytic therapy, transport to the nearest ED.&#x0a;
+            (b) If the patient does not meet all of the criteria for fibrinolytic therapy, consult with the nearest Cardiac Interventional Center and the nearest ED to determine the most appropriate receiving facility.&#x0a;
+    d) If patient does not have EKG ST elevations greater than 1 mm in two contiguous leads, the patient shall be transported to the closest appropriate facility.&#x0a;
+    e) If a patient presents with IWMI, obtain a tracing of V4R to rule out right ventricular involvement. If ST elevation noted in V4R, withhold nitrates. The triad of RVMI often includes clear lung sounds, hypotension, and JVD. 40% of IWMI have right ventricular involvement. If hypotensive with clear lung sounds, administer 250–500 mL of LR.&#x0a;
+For additional bolus, perform medical consultation.&#x0a;&#x0a;
+CONSULT A PEDIATRIC BASE STATION FOR CHILDREN WITH ST ELEVATIONS WHO HAVE NOT REACHED THEIR 18TH BIRTHDAY.&#x0a;&#x0a;
+Fibrinolytic Therapy Checklist for STEMI&#x0a;
+Use this checklist if a STEMI patient cannot be delivered to a Cardiac Interventional Center within 45 minutes greater than transport to the nearest ED. All of the “YES” boxes and all of the “NO” boxes must be checked before a patient should be transported to the nearest emergency department.&#x0a;&#x0a;
+INCLUSION CRITERIA (All of these must be checked):&#x0a;&#x0a;
+&#x2610;18 years of age or older&#x0a;
+&#x2610;Signs and symptoms of STEMI&#x0a;
+&#x2610;Patient cannot be delivered to a Cardiac Interventional Center within 45 minutes greater than transport to the nearest ED&#x0a;&#x0a;
+EXCLUSION CRITERIA (If any of these boxes are unchecked, provider must consult with a Cardiac Interventional Center and nearest ED to determine most appropriate receiving facility.)&#x0a;&#x0a;
+&#x2610;Active internal bleeding (e.g., GI or urinary bleeding within the last 21 days)&#x0a;
+&#x2610;Known bleeding disorder&#x0a;
+&#x2610;Within 3 months of intracranial surgery, serious head trauma, or stroke&#x0a;
+&#x2610;Within 14 days of major surgery or serious trauma&#x0a;
+&#x2610;History of intracranial hemorrhage&#x0a;
+&#x2610;Witnessed seizure at onset&#x0a;
+&#x2610;History of cancer of the brain&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Sudden Infant Death Syndrome (SIDS)" Clicked="Button31"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout31" IsVisible="False">
+                <StackLayout x:Name="popupLayout31" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+The unexpected arrest of an apparently healthy infant in which resuscitation is unsuccessful and there is no attributable cause of death.&#x0a;
+The infant is often discovered by a caretaker in the early morning hours after having been uneventfully laid down to sleep the night before.&#x0a;&#x0a;
+3. Treatment&#x0a;
+    a) Perform an initial patient assessment, assign a treatment priority, and perform CPR, if indicated.&#x0a;
+[ALERT] RIGOR MORTIS MAY BE PRESENT (SEE PRONOUNCEMENT OF DEATH IN THE FIELD PROTOCOL).&#x0a;
+    b) Move patient to the transport unit.&#x0a;
+    c) Establish communications and obtain medical direction.&#x0a;
+    d) If physician consultation is genuinely unavailable, monitor cardiac rhythm and treat according to the appropriate algorithm(s).&#x0a;
+    e) Transport quickly to the closest appropriate facility.&#x0a;&#x0a;
+[ALERT] SIDS IS ONE OF THE LEADING CAUSES OF DEATH IN THE 1–12 MONTH AGE GROUP AND SEEMS TO PEAK AT 2 TO 4 MONTHS OF AGE.&#x0a;&#x0a;
+HOW YOU INTERACT WITH THE FAMILY MAY HAVE A SIGNIFICANT IMPACT ON HOW THEY DEAL WITH THE LOSS OF THE INFANT. BE CAUTIOUS OF STATEMENTS OR ACTIONS THAT MAY BE JUDGMENTAL.&#x0a;&#x0a;
+SPECIAL ATTENTION SHOULD BE PAID TO THE CONDITION OF THE INFANT, INCLUDING THE PRESENCE OF ANY MARKS OR BRUISES, AND TO PRESERVATION OF THE ENVIRONMENT, INCLUDING ANY BED CLOTHING AND THE CONDITION OF THE ROOM. RIGOR MORTIS MAY BE PRESENT (SEE PRONOUNCEMENT OF DEATH IN THE FIELD PROTOCOL).&#x0a;&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Environmental Emergencies"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Cold Emergencies (Frostbite)" Clicked="Button32"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout32" IsVisible="False">
+                <StackLayout x:Name="popupLayout32" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Exposure to cold environment (not necessarily outdoors). Frostbite usually affects the feet first followed by the hands, face, and/or ears. The skin initially appears reddened, then turns mottled, bluish, white and/or gray with continued freezing of the flesh. Pain persists during initial stages followed by numbness.&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Remove patient from cold environment.&#x0a;
+    b) Handle potential frostbitten areas gently.&#x0a;
+    c) Cover lightly with gauze.&#x0a;
+    d) Protect from further heat loss.&#x0a;&#x0a;
+[ALERT] DO NOT RUB THE AFFECTED AREAS, AS THIS WILL CAUSE MORE DAMAGE TO THE FROZEN TISSUE.&#x0a;&#x0a;
+    e) Establish IV access with LR.&#x0a;
+    f) Administer opioid per Pain Management Protocol.&#x0a;
+    g) Remove patient from cold environment.&#x0a;
+    h) Handle potential frostbitten areas gently.&#x0a;
+    i) Cover lightly with gauze.&#x0a;
+    j) Protect from further heat loss&#x0a;
+    k) Establish IV/IO access with LR, if appropriate.&#x0a;
+    l) Administer opioid per Pain Management Protocol.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Cold Emergencies (Hypothermia)" Clicked="Button33"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout33" IsVisible="False">
+                <StackLayout x:Name="popupLayout33" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) Mild to moderate hypothermia (90°–95° F)&#x0a;
+        Core body temperature (if available) less than 95° F but greater than 90° F. Patient may present with a history of exposure to cold, altered level of consciousness, shivering, stiffness of muscles, stumbling or staggering gait, cool or cold skin, mottled or pale skin, absent or difficult to detect respiratory effort and/or peripheral pulses, respiratory and/or cardiac arrest.&#x0a; 
+    b) Severe hypothermia (less than 90° F)&#x0a;
+    c) Core body temperature (if available) less than 90° F. Patient may present with any of the symptoms listed above except shivering.&#x0a;&#x0a;
+[ALERT] HANDLE ALL HYPOTHERMIC PATIENTS CAREFULLY. ROUGH HANDLING MAY PRECIPITATE CARDIAC ARREST.&#x0a;
+IF HYPOTHERMIA IS SUSPECTED AND THE PATIENT DOES NOT HAVE INJURIES INCOMPATIBLE WITH LIFE, THE PATIENT SHOULD BE RESUSCITATED.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Remove the patient from the cold environment.&#x0a;
+    b) Avoid further heat loss by removing wet clothing, replacing with dry blankets and insulating material. Use a thermal type blanket and special attention to covering the patient’s head.&#x0a;
+    c) PASSIVELY rewarm patient within a warm environment.&#x0a;
+    d) If available, administer warmed oxygen.&#x0a;&#x0a;
+[ALERT] ADMINISTER SHOCK(S) WITH THE AED IF INDICATED.&#x0a;&#x0a;
+    e) For further AED shocks, obtain medical consultation.&#x0a;
+    f) Monitor EKG closely.&#x0a;
+    g) Establish IV access with LR, if appropriate.&#x0a;
+    h) Identify rhythm and treat according to appropriate algorithm.&#x0a;&#x0a;
+[ALERT] CONSIDER, WITH MEDICAL CONSULTATION, CONTINUED CARDIOPULMONARY ARREST PROTOCOLS WITH LONGER MEDICATION INTERVALS.&#x0a;&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Depressurization" Clicked="Button34"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout34" IsVisible="False">
+                <StackLayout x:Name="popupLayout34" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    History of SCUBA, breathing in a pressurized environment, or altitude chamber usage with sudden depressurization. Patients may present with any of the following symptoms: fatigue and itching, pain, vertigo, focal weakness, visual disturbances, speech difficulty, marbled rash, numbness, tingling, confusion, seizure, and/or cardiac arrest.&#x0a;&#x0a;
+[ALERT] CONSIDER TRANSPORT TO HYPERBARIC MEDICINE SPECIALTY CENTER. AEROMEDICAL TRANSPORT MAY BE APPROPRIATE FOR PATIENTS WITH BAROTRAUMA. FOR ADDITIONAL INFORMATION CONCERNING SCUBA INJURIES, CONTACT THE DIVING ALERT NETWORK VIA EMRC 1-800-648-3001.&#x0a;&#x0a;
+3. Treatment&#x0a;
+    a) Remove patient from water.&#x0a;
+    b) Protect patient from and/or treat for hypothermia.&#x0a;
+    c) Establish IV access with LR.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Hazardous Materials Exposure" Clicked="Button35"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout35" IsVisible="False">
+                <StackLayout x:Name="popupLayout35" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Exposure to a known or unknown hazardous material. Patient may present with a wide array of signs and symptoms due to the variables of substance exposure. Any patient who is exposed to a hazardous material is considered contaminated until the patient is decontaminated thoroughly.&#x0a;
+3. Treatment&#x0a;&#x0a;
+[ALERT] DO NOT ENTER THE SCENE UNLESS PROPERLY TRAINED AND EQUIPPED TO DO SO.&#x0a;&#x0a;
+PROPER LEVELS OF PERSONAL PROTECTIVE EQUIPMENT (PPE) ARE TO BE WORN BY ALL PERSONNEL, DEPENDING ON THE MATERIAL INVOLVED AND THE ZONE OCCUPIED.&#x0a;&#x0a;
+IT IS ESSENTIAL TO HAVE THE EMS PROVIDER IN CHARGE NOTIFY EMRC AND POTENTIAL RECEIVING HOSPITALS OF A HAZARDOUS MATERIALS EVENT IN WHICH THEY MAY BE CONSULTED. NOTIFY EMRC/RECEIVING HOSPITALS ABOUT THE FIRST PATIENT’S ETA, THE NUMBER OF VICTIMS, AND THE TYPE OF HAZARDOUS MATERIAL AS SOON AS INFORMATION BECOMES AVAILABLE.&#x0a;&#x0a;
+    a) Transport of patients even after decontamination will be by ground units only.&#x0a;&#x0a;
+[ALERT] THE USE OF AEROMEDICAL TRANSPORT IS CONTRAINDICATED FOR ANY POTENTIALLY CONTAMINATED PATIENT&#x0a;&#x0a;
+    b) Triage and decontaminate if indicated.&#x0a;
+    c) Protect the patient from the environment and ensure the patient is not/does not become hypothermic.&#x0a;
+    d) Establish IV access with LR in a clean area if medication administration is anticipated.&#x0a;
+    e) Consider antidote to specific agent if available.&#x0a;
+    f) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+    g) Medical Follow -Up&#x0a;
+        All public safety personnel who come into close contact with hazardous materials should receive an appropriate medical examination, post-incident, based on information from the designated poison control center. This should be completed within 48 hours of the incident and compared with the findings of any recent pre-incident examination. Personnel who routinely respond to hazardous materials emergencies should have periodic pre-incident examinations. Personnel should be advised of possible latent symptoms at the time of their exams.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Heat-Related Emergencies" Clicked="Button36"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout36" IsVisible="False">
+                <StackLayout x:Name="popupLayout36" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) Heat Cramps: Moist, cool skin, cramps, normal to slightly elevated temperature&#x0a;
+    b) Heat Exhaustion: Moist, cool skin, cramps, weakness, dizziness, normal to elevated temperature, nausea&#x0a;
+    c) Heat Stroke: Hot, dry skin (25% of patients will still be moist), seizures, altered mental status, dilated pupils, rapid heart rate, or arrhythmia&#x0a;
+3. Treatment&#x0a;
+    a) Remove patient from hot environment.&#x0a;
+    b) Cool patient as appropriate.&#x0a;&#x0a;
+[ALERT] DO NOT GIVE ANYTHING BY MOUTH TO A PATIENT WITH AN ALTERED MENTAL STATUS.&#x0a;&#x0a;
+    c) If patient is fully conscious and not nauseated, give electrolyte-rich fluid by mouth if available.&#x0a;
+    d) If heat stroke, aggressively cool patient and place patient in semi-fowler’s position.&#x0a;
+    e) Establish IV access with LR.&#x0a;
+    f) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systolic pressure of 100 mmHg.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Near-Drowning" Clicked="Button37"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout37" IsVisible="False">
+                <StackLayout x:Name="popupLayout37" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Confirmed or suspected near drowning, altered level of consciousness, dyspnea, cyanosis, vomiting, seizures, or cardiopulmonary arrest.&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Remove patient from water.&#x0a;
+ABDOMINAL THRUSTS ARE CONTRAINDICATED, UNLESS THE PATIENT HAS A FOREIGN BODY AIRWAY OBSTRUCTION.&#x0a;&#x0a;
+ALL NEAR-DROWNING VICTIMS SHOULD BE TRANSPORTED EVEN IF THEY APPEAR UNINJURED OR APPEAR TO HAVE RECOVERED.&#x0a;&#x0a;
+ENTER WATER ONLY IF TRAINED AND AS A LAST RESORT.&#x0a;
+(REACH, THROW, ROW, GO WITH ASSISTANCE)&#x0a;&#x0a;
+    b) Protect from and/or treat for hypothermia.&#x0a;
+    c) Establish IV access with LR.&#x0a;
+    d) Identify rhythm and treat according to appropriate algorithm.&#x0a;
+    e) Protect from and/or treat for hypothermia.&#x0a;
+    f) Establish IV/IO access with LR.&#x0a;
+    g) Identify rhythm and treat according to appropriate algorithm.&#x0a;&#x0a;
+[ALERT] IF THE PARENT OR GUARDIAN REFUSES MEDICAL CARE OR TRANSPORT, PROVIDER SHALL CONTACT A PEDIATRIC BASE STATION PHYSICIAN.&#x0a;&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button38"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout38" IsVisible="False">
+                <StackLayout x:Name="popupLayout38" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+History of SCUBA, breathing in a pressurized environment and altitude chamber or exposure to blast concussion waves. Patients may present with any of the following symptoms: fatigue and itching, pain, vertigo, visual disturbances, dyspnea, bleeding from any body orifice, hearing difficulty, speech difficulty, numbness, tingling, confusion, seizure, and/or cardiac arrest.&#x0a;&#x0a;
+[ALERT] ASSOCIATED INJURIES MAY MAKE ASSESSMENT AND COMMUNICATION DIFFICULT. SYMPTOMS MAY BE SLOW TO PRESENT.&#x0a;&#x0a;
+AEROMEDICAL TRANSPORT MAY BE APPROPRIATE FOR PATIENTS WITH BAROTRAUMA.&#x0a;&#x0a;
+FOR ADDITIONAL INFORMATION CONCERNING SCUBA INJURIES, CONTACT THE DIVING ALERT NETWORK VIA EMRC 1-800-648-3001.&#x0a;&#x0a;
+3. Treatment&#x0a;
+a) Treat associated trauma.&#x0a;
+b) Establish IV access with LR.&#x0a;
+c) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systolic pressure of 100 mmHg.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button39"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout39" IsVisible="False">
+                <StackLayout x:Name="popupLayout39" Style="{StaticResource stack}">
                     <Label Text="" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Seizures" Clicked="Button20"
+                        Text="Overpressurization" Clicked="Button40"
                         Style="{StaticResource dropdown}"></Button>
-            <ScrollView x:Name="scrollLayout20" IsVisible="False">
-                <StackLayout x:Name="popupLayout20" Style="{StaticResource stack}">
+            <ScrollView x:Name="scrollLayout40" IsVisible="False">
+                <StackLayout x:Name="popupLayout40" Style="{StaticResource stack}">
                     <Label Text="" Style="{StaticResource info}"></Label>
                 </StackLayout>
-            </ScrollView>-->
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button41"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout41" IsVisible="False">
+                <StackLayout x:Name="popupLayout41" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button42"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout42" IsVisible="False">
+                <StackLayout x:Name="popupLayout42" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button43"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout43" IsVisible="False">
+                <StackLayout x:Name="popupLayout43" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button44"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout44" IsVisible="False">
+                <StackLayout x:Name="popupLayout44" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button45"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout45" IsVisible="False">
+                <StackLayout x:Name="popupLayout45" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
 
 
         </StackLayout>
-
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
