@@ -1,0 +1,109 @@
+﻿Abuse/Neglect
+A.	 Abuse/Neglect	 41
+
+Altered Mental Status
+B.	 Altered Mental Status: Seizures 43
+C.	 Altered Mental Status: Unresponsive Person 46
+
+Apparent Life-Threatening Event (ALTE)
+D.	 Apparent Life-Threatening Event (ALTE) 48
+
+Behavioral Emergencies
+E.	 Behavioral Emergencies 49
+
+Cardiac Emergencies
+F.	 Non-Arrest Cardiac Guidelines 51
+	 	 Universal Algorithm for Adult Emergency Cardiac Care for BLS 52
+	 	 Universal Algorithm for Adult Emergency Cardiac Care for ALS 53
+	 	 Universal Algorithm for Pediatric Emergency Cardiac Care for BLS 54
+	 	 Universal Algorithm for Pediatric Emergency Cardiac Care for ALS 55
+G.	 Bradycardia 56
+	 	 Adult Bradycardia Algorithm 57
+	 	 Pediatric Bradycardia Algorithm 58
+H.	 Tachycardia 59
+	 	 Adult Tachycardia Algorithm (NEW ’19) 61
+	 	 Pediatric Tachycardia Algorithm 62
+I.	 Cardiac Arrest 63
+	 Adult Asystole Algorithm 64
+	 Pediatric Cardiac Arrest Algorithm 65
+	 Pulseless Electrical Activity (PEA) Algorithm 66
+	 VF Pulseless VT Algorithm 67
+J.	 Return of Spontaneous Circulation (ROSC) 68
+K.	 Termination of Resuscitation 70
+	 Termination of Resuscitation Algorithm 72
+L.	 Pronouncement of Death in the Field 73
+M.	 EMS DNR/MOLST (NEW ’19) 74
+N.	 EMS DNR Flowchart 84
+O.	 Chest Pain/Acute Coronary Syndrome 85
+P.	 Hyperkalemia: Renal Dialysis/Failure or Crush Syndrome 87
+Q.	 Implantable Cardioverter Defibrillator (ICD) Malfunction 89
+R.	 ST Elevation Myocardial Infarction (STEMI) 91
+S.	 Sudden Infant Death Syndrome (SIDS) 94
+
+Environmental Emergencies
+T.	 Cold Emergencies (Frostbite) 95
+U.	 Cold Emergencies (Hypothermia) 97
+V.	 Depressurization 99
+W.	 Hazardous Materials Exposure 100
+X.	 Heat-Related Emergencies 102
+Y.	 Near-Drowning 103
+Z.	 Overpressurization 104
+
+Nausea and Vomiting
+AA.	Nausea and Vomiting 107
+
+Non-Traumatic Shock
+BB. Non-Traumatic Shock: Hypoperfusion 108
+
+Obstetrical/Gynecological Emergencies
+CC. Childbirth Algorithm 110
+DD. Newly Born 112
+	 	 Universal Algorithm for Newly Born for BLS 112
+	 	 Universal Algorithm for Newly Born for ALS 113
+	 	 APGAR Chart 114
+EE. Vaginal Bleeding 115
+
+Overdose/Poisoning
+FF. Carbon Monoxide/Smoke Inhalation 115-1
+GG. Absorption 116
+HH. Ingestion 118
+II.	  Inhalation 121
+JJ.	  Injection 123
+KK.	  Stimulant Toxicity 125
+LL.	  Excited Delirium Syndrome (ExDS) 127
+
+Pain Management
+MM.	 Pain Management (NEW ’19) 130
+
+Respiratory Distress
+NN.	 Allergic Reaction 134
+OO.	 Anaphylaxis 137
+PP.	  	 Asthma/COPD 139
+QQ.	 Croup 141
+RR.	 Pulmonary Edema/Congestive Heart Failure 142
+	 	 	 Universal Algorithm for Pediatric Respiratory Distress for BLS 145
+	 	 	 Universal Algorithm for Pediatric Respiratory Distress for ALS 146
+
+Sepsis
+SS.	 Sepsis Adult 147
+TT.		 Sepsis Pediatric 149
+
+Stroke
+UU.	 Stroke: Neurological Emergencies (NEW ’19) 152
+	 	 	 EMS Stroke Algorithm (NEW ’19) 155
+
+Syncope
+UU2.	 Syncope 155-1
+
+Trauma
+VV.	  	 Burns 156
+	 	 	 Rule of Nines 158
+WW.	 Eye Trauma 159
+XX.	 Hand/Upper/Lower Extremity Trauma 161
+YY.	 Multiple/Severe Trauma 163
+	 	 	 Glasgow Coma Scale 165
+ZZ.		 Sexual Assault 166
+AAA.	 Spinal Protection 167
+            Spinal Protection Algorithm 171-1
+BBB.	 Trauma Arrest (NEW ’19) 172
+CCC .	 Trauma Decision Tree 174

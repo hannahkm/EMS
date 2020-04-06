@@ -5,43 +5,292 @@
              Title="Protocols">
     <ContentPage.Resources>
         <ResourceDictionary>
+            <Style x:Key="separator" TargetType="StackLayout">
+                <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+                <Setter Property="WidthRequest" Value="500"/>
+                <Setter Property="HeightRequest" Value="40"/>
+                <Setter Property="VerticalOptions" Value="Start"/>
+                <Setter Property="Spacing" Value="0"/>
+                <Setter Property="BackgroundColor" Value="LightGray"/>
+                <Setter Property="Margin" Value="0"/>
+            </Style>
             <Style x:Key="dropdown" TargetType="Button">
                 <Setter Property="TextColor" Value="Black" />
-                <Setter Property="FontSize" Value="25"/>
-                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
-                <Setter Property="Padding" Value="20, 5, 0, 0"/>
+                <Setter Property="FontSize" Value="23"/>
+                <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+                <Setter Property="Margin" Value="20, 0, 0, 0"/>
             </Style>
             <Style x:Key="stack" TargetType="StackLayout">
-                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
                 <Setter Property="IsVisible" Value="False"/>
                 <Setter Property="Spacing" Value="0"/>
-                <Setter Property="Padding" Value="20, 5, 0, 0"/>
+                <Setter Property="Margin" Value="20, 0, 20, 0"/>
             </Style>
             <Style x:Key="info" TargetType="Label">
                 <Setter Property="HorizontalTextAlignment" Value="Start"/>
-                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+                <Setter Property="FontSize" Value="15"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-   <ContentPage.Content>
+    <ContentPage.Content>
         <StackLayout HorizontalOptions="StartAndExpand"
                      VerticalOptions="StartAndExpand"
                      Spacing="0">
-                <Button VerticalOptions="Start" HorizontalOptions="FillAndExpand"
-                        Text="Protocol Name" Clicked="Button"
-                        Style="{StaticResource dropdown}"
-                        Padding="20,20,0,0"></Button>
-                <StackLayout x:Name="popupLayout" Style="{StaticResource stack}">
-                    <Label Text="popup information" Style="{StaticResource info}"></Label>
-                </StackLayout>
 
-                <Button VerticalOptions="Start" HorizontalOptions="FillAndExpand"
-                        Text="Protocol Name" Clicked="Button2"
+            <StackLayout x:Name="separator" Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Abuse/Neglect"
+                           FontSize="25" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Abuse/Neglect" Clicked="Button"
                         Style="{StaticResource dropdown}"></Button>
-                <StackLayout x:Name="popupLayout2" Style="{StaticResource stack}">
-                    <Label Text="popup information" Style="{StaticResource info}"></Label>
+            <ScrollView x:Name="scrollLayout" IsVisible="False">
+                <StackLayout x:Name="popupLayout" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care. &#x0a; &#x0a;
+ALL HEALTH CARE PROVIDERS ARE OBLIGATED BY LAW TO REPORT CASES OF SUSPECTED CHILD OR VULNERABLE ADULT ABUSE OR NEGLECT TO EITHER THE LOCAL POLICE OR SOCIAL SERVICE AGENCIES. DO NOT INITIATE REPORT IN FRONT OF THE PATIENT, PARENT, OR CAREGIVER. DO NOT CONFRONT OR BECOME HOSTILE TO THE PARENT OR CAREGIVER.&#x0a; &#x0a;
+2. Presentation &#x0a; &#x0a;
+The patient may present with patterned burns or injuries suggesting intentional infliction, such as injuries in varying stages of healing, injuries scattered over multiple areas of the body, fractures, or injuries inconsistent with stated cause of injury. The patient, parent, or caregiver may respond inappropriately to the situation. Malnutrition or extreme lack of cleanliness of the patient or environment may indicate neglect. Signs of increased intracranial pressure (bulging fontanels and altered mental status in an infant) may also be seen. &#x0a; &#x0a;
+3. Treatment &#x0a; &#x0a;
+    a) Stabilize injuries according to protocol.&#x0a;
+    b) Discourage patient from washing if sexual abuse is suspected. &#x0a;
+    c) Document the following information on the PCR: &#x0a;
+         (1) All verbatim statements made by the patient, the parent, or caregiver shall be placed in quotation marks, including statements made about the manner of the injuries. &#x0a;
+         (2) Any abnormal behavior of the patient, parent, and/or caregiver &#x0a;
+         (3) The condition of the environment and other residents present &#x0a;
+         (4) The time the police/welfare agency was notified and the name of the person notified &#x0a;
+         (5) The name of the receiving health care provider (RN, PA, MD) and any statements made &#x0a;
+    d) Treat injuries according to presentation. &#x0a; &#x0a;
+4. Continue General Patient Care." Style="{StaticResource info}"></Label>
                 </StackLayout>
+            </ScrollView>
+
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Altered Mental Status"
+                           FontSize="25" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button2"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout2" IsVisible="False">
+                <StackLayout x:Name="popupLayout2" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation &#x0a;&#x0a;
+Seizures are a neuromuscular response to an underlying cause such as: epilepsy, hypoxia, hypoglycemia, hypoperfusion, head injury, CVA, alcohol or drug abuse. Consider recent history of possible illness, infection, fever, or stiff neck. &#x0a; &#x0a;
+[ALERT] DO NOT ATTEMPT TO FORCE ANY DEVICE INTO THE PATIENT'S MOUTH IF THE PATIENT IS STILL SEIZING.&#x0a; &#x0a;
+3. Treatment &#x0a;&#x0a;
+    a) If the patient is still seizing: &#x0a;
+        (1) DO NOT RESTRAIN. &#x0a;
+        (2) Protect from further injury. &#x0a;
+        (3) Consider underlying cause of seizure. &#x0a;
+    b) When seizure activity has stopped: &#x0a;
+        (1) Identify and treat injuries.&#x0a;
+        (2) If patient is a known diabetic, glucose paste (10–15 grams) should be administered between the gum and cheek. Consider single additional dose of glucose paste if not improved after 10 minutes.&#x0a;
+    c) Use glucometer and treat accordingly.&#x0a;
+    d) Consider midazolam. &#x0a;
+        (1) If patient has no IV or IO in place or IV/IO is not available: Administer midazolam 5 mg IN or IM.&#x0a;
+        (2) If IV/IO is already in place: 0.1 mg/kg in 2 mg increments SLOW IVP/IO over 1–2 minutes per increment with maximum single dose 5 mg. &#x0a;
+            [ALERT] REDUCE BY 50% FOR PATIENTS 69 YEARS OR OLDER. &#x0a;
+        (3) Additional doses up to a maximum total dose of 10 mg require medical consultation for all providers. &#x0a;
+        (4) If patient seizures are refractory to treatment, consider IO administration of midazolam. &#x0a;
+        (5) If midazolam is not available, consider diazepam in 2.5 mg increments SLOW IVP/IM. Maximum total dose 10 mg. If patient is in status, consider IO administration of diazepam.&#x0a;
+            (a) IM administration requires all providers to obtain medical consultation. If suspected severe nerve agent exposure, providers may administer midazolam 5 mg IM or diazepam (CANA) without medical consultation.&#x0a;
+        (6) Establish IV/IO access with LR. &#x0a;
+        (7) If patient is pregnant, actively seizing, consider magnesium sulfate 4 grams IV/IO over 10 minutes (mixed in 50–100 mL of approved diluent).&#x0a;
+            (a) If seizures persist, consult for second dose of magnesium sulfate. &#x0a;
+[ALERT] IF PATIENT IS PREGNANT, USE MIDAZOLAM FOLLOWED BY MAGNESIUM SULFATE. MEDICAL CONSULTATION REQUIRED FOR PREGNANT PATIENTS WHO MAY REQUIRE LARGER DOSES OF MIDAZOLAM TO CONTROL SEIZURES. IF, FOLLOWING ADMINISTRATION OF MAGNESIUM SULFATE, PATIENT EXHIBITS SIGNS OF TOXICITY, CONSIDER ADMINISTRATION OF CALCIUM CHLORIDE. CONSIDER CALCIUM CHLORIDE 500 MG IVP FOR RESPIRATORY DEPRESSION, DECREASED REFLEXES, FLACCID PARALYSIS, AND APNEA FOLLOWING MAGNESIUM SULFATE ADMINISTRATION. MEDICAL CONSULTATION REQUIRED. &#x0a;
+    e) If the patient is still seizing:&#x0a;
+        (1) DO NOT RESTRAIN.&#x0a;
+        (2) Protect from further injury.&#x0a;
+        (3) Consider underlying cause of seizure.&#x0a;
+    f) When seizure activity has stopped:&#x0a;
+        (1) Identify and treat any injuries.&#x0a;
+        (2) If patient is a known diabetic, glucose paste (10–15 grams) should be administered between the gum and cheek. Consider single additional dose of glucose paste if not improved after 10 minutes.&#x0a;
+    g) Use glucometer and treat accordingly.&#x0a;
+    h) ALS providers may assist patients with the administration of their prescribed benzodiazepine.&#x0a;
+    i) Consider midazolam for seizures lasting greater than 10 minutes.&#x0a;
+        (1) If patient has no IV or IO in place or IV/IO is not available: Administer midazolam 0.2 mg/kg IN or IM. Maximum total dose 5 mg.&#x0a;
+        (2) If IV or IO is already in place: Administer midazolam 0.1 mg/kg in 2 mg increments SLOW IVP over 1–2 minutes. Maximum total dose 5 mg.&#x0a;
+FOR A CHILD ACTIVELY SEIZING, ADMINISTER MIDAZOLAM IN/IM AND RESERVE IO FOR LIFETHREATENING ILLNESS&#x0a;
+        (3) Additional doses of midazolam up to a maximum total dose of 5 mg require medical consultation for all providers.&#x0a;
+        (4) If patient's seizures are refractory to treatment, consider IO administration of midazolam. &#x0a;
+        (5) If midazolam is not available, consider diazepam for seizures lasting greater than 10 minutes (paramedic may perform without consult for patients with active seizures). &#x0a;
+            (a) Up to 0.2 mg/kg diazepam rectal; maximum total dose 10 mg. OR   0.1 mg/kg in 2.5 mg increments SLOW IVP/IO/IM; maximum total dose 5 mg. &#x0a;
+            (b) IM requires all providers to obtain medical consultation. If suspected severe nerve agent exposure, providers may administer midazolam as above or diazepam (CANA) without medical consultation. &#x0a;
+        (6) Establish IV/IO access with LR. &#x0a;
+        (7) If patient is pregnant, actively seizing, consider magnesium sulfate 4 grams IV/IO over 10 minutes (mixed in 50–100 mL of approved diluent).&#x0a;
+        (8) Administer fluid bolus, if appropriate, 20 mL/kg of LR IV/IO.&#x0a;
+4. Continue General Patient Care." Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button3"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout3" IsVisible="False">
+                <StackLayout x:Name="popupLayout3" Style="{StaticResource stack}">
+                    <Label Text="hi" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <!--<Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button4"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout4" IsVisible="False">
+                <StackLayout x:Name="popupLayout4" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button5"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout5" IsVisible="False">
+                <StackLayout x:Name="popupLayout5" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button6"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout6" IsVisible="False">
+                <StackLayout x:Name="popupLayout6" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button7"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout7" IsVisible="False">
+                <StackLayout x:Name="popupLayout7" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button8"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout8" IsVisible="False">
+                <StackLayout x:Name="popupLayout8" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button9"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout9" IsVisible="False">
+                <StackLayout x:Name="popupLayout9" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button10"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout10" IsVisible="False">
+                <StackLayout x:Name="popupLayout10" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button11"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout11" IsVisible="False">
+                <StackLayout x:Name="popupLayout11" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button12"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout12" IsVisible="False">
+                <StackLayout x:Name="popupLayout12" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button13"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout13" IsVisible="False">
+                <StackLayout x:Name="popupLayout13" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button14"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout14" IsVisible="False">
+                <StackLayout x:Name="popupLayout14" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button15"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout15" IsVisible="False">
+                <StackLayout x:Name="popupLayout15" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button16"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout16" IsVisible="False">
+                <StackLayout x:Name="popupLayout16" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button17"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout17" IsVisible="False">
+                <StackLayout x:Name="popupLayout17" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button18"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout18" IsVisible="False">
+                <StackLayout x:Name="popupLayout18" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button19"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout19" IsVisible="False">
+                <StackLayout x:Name="popupLayout19" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Seizures" Clicked="Button20"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout20" IsVisible="False">
+                <StackLayout x:Name="popupLayout20" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>-->
+
+
         </StackLayout>
 
     </ContentPage.Content>
