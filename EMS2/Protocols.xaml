@@ -1104,44 +1104,99 @@ c) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systol
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Nausea and Vomiting"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button39"
+                        Text="Nausea and Vomiting" Clicked="Button39"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout39" IsVisible="False">
                 <StackLayout x:Name="popupLayout39" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patients presenting with nausea and/or vomiting due to underlying injury, medical condition, active motion sickness, or medication side effect/complication. Under certain injury or medical conditions, vomiting or intense nausea can complicate the existing injury or medical condition. Preventative administration of an antinausea/anti-emetic should be considered (e.g., penetrating eye injury, high risk for aspiration, side effects of opioid administration).&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Place patient either in position of comfort or in left lateral position if not prevented by spinal protection or packaging.&#x0a;
+    b) Perform acupressure on P6 point either digitally or with commercial wrist band.&#x0a;
+    c) Establish IV access with LR, if appropriate.&#x0a;
+    d) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    e) Adult: Administer ondansetron 8 mg SLOW IV over 2–5 minutes OR 4–8 mg IM OR 8 mg orally disintegrating tablet (ODT)&#x0a;
+    May repeat once without medical consultation. For third repeat dose to a patient with maximum total dose of 24 mg.&#x0a;
+    f) Establish IV access with LR, if appropriate.&#x0a;
+    g) If age-related vital signs and patient’s condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO.&#x0a;
+    h) Pediatric:&#x0a;
+    For patients 28 days – 12 years old: Administer ondansetron 0.1 mg/kg SLOW IV over 2–5 minutes&#x0a;
+    For patients 13–18 years of age: Administer ondansetron 8 mg ODT OR 8 mg SLOW IV over 2–5 minutes&#x0a;
+    OR&#x0a;
+    If no IV: Administer ondansetron 0.1 mg/kg IM (with max single dose of 8 mg); May repeat once without medical consultation.&#x0a;
+        For third repeat dose to a patient with maximum total dose of 0.3 mg/kg or 24 mg, whichever is lower.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Non-Traumatic Shock"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button40"
+                        Text="Hypoperfusion" Clicked="Button40"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout40" IsVisible="False">
                 <StackLayout x:Name="popupLayout40" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+The body responds in various ways to a state of inadequate blood flow to meet the oxygen demands of the cells. A patient may exhibit an altered mental status; cool, clammy skin; diaphoresis; dilated pupils; a rapid, weak pulse; shallow, labored respirations; general weakness; and/or a decreasing pulse pressure.&#x0a;
+3. Treatment&#x0a;
+    a) Continue General Patient Care.&#x0a;
+    b) Establish IV access with LR.&#x0a;
+        (1) If lungs are clear, administer fluid bolus. 20 mL/kg of LR IV Titrate to a systolic pressure of 100 mmHg.&#x0a;
+        (2) If rales are present, administer fluid bolus. Maximum of 250 mL of LR IV Titrate to a systolic pressure of 100 mmHg.&#x0a;
+            More fluid requires medical consultation.&#x0a;
+    c) Consider dopamine (2–20 mcg/kg/min). Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    d) Consider additional fluid administration. Maximum Dose 2,000 mL without medical consultation.&#x0a;
+    e) The pediatric patient may present hemodynamically unstable or with hypoperfusion evidenced by hypotension and signs such as altered mental status, delayed capillary refill greater than 2 seconds, pallor, and/or peripheral cyanosis. Hypotension is defined as a systolic blood pressure less than 60 in neonates (patients birth to 28 days of age), less than 70 in infants (patients less than 1 year of age), less than [70 + (2 x years) = systolic BP] for patients greater than 1 year of age.&#x0a;
+    f) Continue General Patient Care.&#x0a;
+    g) Establish IV/IO access with LR.&#x0a;
+        If age-related vital signs and patient’s condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO. If patient’s condition does not improve, administer the second bolus of fluid at 20 mL/kg LR IV/IO.&#x0a;
+        OR&#x0a;
+        For volume-sensitive children administer initial fluid bolus of 10 mL/kg LR IV/IO. If patient’s condition does not improve, administer the second bolus of fluid at 10 mL/kg LR IV/IO. Volume-sensitive children include: neonates (birth to 28 days), children with congenital heart disease, chronic lung disease, or chronic renal failure.&#x0a;
+    h) Third and subsequent fluid boluses at 20 mL/kg IV/IO.&#x0a;
+    i) Consider dopamine. 2–20 mcg/kg/min IVP/IO. Titrate to age-specific vital signs.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Obstetrical/Gynecological Emergencies"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button41"
+                        Text="Childbirth Algorithm" Clicked="Button41"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout41" IsVisible="False">
                 <StackLayout x:Name="popupLayout41" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button42"
+                        Text="Newly Born" Clicked="Button42"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout42" IsVisible="False">
                 <StackLayout x:Name="popupLayout42" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button43"
+                        Text="Universal Algorithm for Newly Born for BLS" Clicked="Button43"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout43" IsVisible="False">
                 <StackLayout x:Name="popupLayout43" Style="{StaticResource stack}">
@@ -1150,7 +1205,7 @@ c) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systol
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button44"
+                        Text="Universal Algorithm for Newly Born for ALS" Clicked="Button44"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout44" IsVisible="False">
                 <StackLayout x:Name="popupLayout44" Style="{StaticResource stack}">
@@ -1159,13 +1214,625 @@ c) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systol
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button45"
+                        Text="Vaginal Bleeding" Clicked="Button45"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout45" IsVisible="False">
                 <StackLayout x:Name="popupLayout45" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Unusually heavy vaginal bleeding as a result of possible pregnancy, miscarriage, postpartum bleeding, or sexual assault. Patient may exhibit the signs and symptoms of hypoperfusion.&#x0a;
+3. Treatment&#x0a;
+    a) Place absorbent pads underneath patient.&#x0a;
+    b) Treat for hypoperfusion.&#x0a;
+    c) If post-partum bleeding, consider uterine massage from pubis toward umbilicus only.&#x0a;
+    d) Reconsider ALS.&#x0a;
+[ALERT] PRODUCTS OF CONCEPTION SHOULD BE BROUGHT TO THE HOSPITAL! DO NOT PULL CONCEPTUAL PRODUCTS FROM VAGINAL OPENING WITHOUT MEDICAL CONSULTATION!&#x0a;
+    e) Establish IV access with LR, if appropriate.&#x0a;
+    f) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    g) Consider additional fluid administration. Maximum dose 2,000 mL without medical consultation.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Overdose/Poisoning"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Carbon Monoxide/Smoke Inhalation" Clicked="Button46"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout46" IsVisible="False">
+                <StackLayout x:Name="popupLayout46" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Carbon monoxide (CO) is an odorless, colorless gas that is most commonly a product of incomplete combustion. Carbon monoxide poisoning occurs when a victim is exposed to high levels of carbon monoxide, frequently seen in house fires, malfunctioning furnaces, with suicide attempts, or others. Presentation may vary depending on the concentration, method, and duration of exposure to the agent. Symptoms may include but are not limited to: headache, dizziness, and nausea and vomiting, most frequently. Symptoms can also include: chest pain, altered mental status, dyspnea, and/or seizures&#x0a;&#x0a;
+[ALERT] PULSE OXIMETRY MAY NOT BE ACCURATE FOR CARBON MONOXIDE VICTIMS. PATIENTS MAY HAVE NORMAL SpO2 LEVELS WITH CARBON MONOXIDE TOXICITY. PATIENTS WITH BURNS AND TRAUMA SHOULD BE REFFERED TO THE NEAREST APPROPRIATE TRAUMA SPECIALTY CENTER.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Remove patient from toxic environment by appropriately trained personnel using proper level PPE.&#x0a;
+    b) Decontaminate as appropriate.&#x0a;
+    c) Administer high-flow oxygen.&#x0a;
+    d) Treat respiratory and/or cardiac symptoms.&#x0a;
+    e) Consider Hyperbaric Center referral.&#x0a;
+    f) Consider obtaining blood sample using closed system, particularly if transcutaneous carboxyhemoglobin measurement is not available.&#x0a;
+    g) Establish vascular access.&#x0a;
+        (1) If hypoperfusion exists, administer 20 mL/kg bolus of LR. May repeat once without consult.&#x0a;
+            (a) Consider additional fluid administration.&#x0a;
+        (2) Consider following Overdose/Poisoning: Cyanide Protocol (if participating) for smoke inhalation patients.&#x0a;
+    h) Remove patient from toxic environment by appropriately trained personnel using proper level PPE.&#x0a;
+    i) Decontaminate as appropriate.&#x0a;
+    j) Administer high-flow oxygen.&#x0a;
+    k) Treat respiratory and/or cardiac symptoms.&#x0a;
+    l) Consider Hyperbaric Center referral.&#x0a;
+    m) Consider obtaining blood sample using closed system, particularly if transcutaneous carboxyhemoglobin measurement is not available.&#x0a;
+    n) Establish vascular access.&#x0a;
+        (1) If hypoperfusion exists, administer 20 mL/kg bolus of LR. May repeat once without consult.&#x0a;
+            (a) Consider additional fluid administration.&#x0a;
+        (2) Consider following Overdose/Poisoning: Cyanide Protocol (if participating) for smoke inhalation patients.&#x0a;
+    o) Hyperbaric Medicine Specialty Center Referral: Indications for Referral&#x0a;
+        (1) Patients with exposure to products of combustion (smoke) or carbon monoxide who have a carboxyhemoglobin value of greater than 25% with or without symptoms OR&#x0a;
+        (2) Patients with PROVEN exposure to products of combustion (smoke) or carbon monoxide who have:&#x0a;
+            (a) any of the following diagnostic indicators:&#x0a;
+                (i) Patient (transcutaneous or blood) carboxyhemoglobin value of greater than 15%&#x0a;
+                (ii) Alarm of EMS or fire agency maintained passive carbon monoxide monitor&#x0a;
+                (iii) Targeted atmospheric carbon monoxide value 100 ppm or greater in the patient environment&#x0a;
+            (b) and one or more of the following:&#x0a;
+                (i) History of loss of consciousness during exposure (may have since resolved)&#x0a;
+                (ii) GCS persistently less than or equal to 13&#x0a;
+                (iii) Rapid decline of neurological symptoms including actively seizing patients with appropriate airway stabilization&#x0a;
+                (iv) Pregnancy&#x0a;
+                (v) Chest pain&#x0a;
+                (vi) Extremes of age&#x0a;
+                (vii) Per provider discretion&#x0a;
+[ALERT] FETAL HEMOGLOBIN HAS A VERY HIGH AFFINITY FOR CARBON MONOXIDE AND PREGNANT MOTHER MAY BE ASYMPTOMATIC, YET FETAL LEVELS MAY BE DANGEROUSLY HIGH. ENCOURAGE THE PATIENT TO BE EVALUATED AT HOSPITAL. PATIENTS WHO DO NOT MEET CRITERIA IN O)(1) OR (2) ABOVE SHOULD BE TRANSPORTED TO THE CLOSEST HOSPITAL-BASED EMERGENCY DEPARTMENT.&#x0a;
+    p) Contraindications for Referral to the Hyperbaric Medicine Specialty Center&#x0a;
+        (1) Transport time to the Hyperbaric Medicine Specialty Center greater than one hour&#x0a;
+        (2) Patients in cardiac arrest&#x0a;
+        (3) Patients who have return of spontaneous circulation post-arrest&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Absorption" Clicked="Button47"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout47" IsVisible="False">
+                <StackLayout x:Name="popupLayout47" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may exhibit any of the following: nausea, vomiting, diarrhea, altered mental status, abdominal pain, rapid heart rate, dyspnea, seizures, arrhythmias, sweating, tearing, defecation, constricted/dilated pupils, rash, or burns to the skin.&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Remove patient from the toxic environment by appropriately trained personnel using proper level PPE.&#x0a;
+    b) Identify agent and mechanism of exposure.&#x0a;
+    c) Decontaminate as appropriate.&#x0a;
+    d) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose: Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare. Consider additional doses of naloxone.&#x0a;
+    e) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose: Administer naloxone 0.4–2 mg IVP/IO (titrated)/IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. Repeat as necessary to maintain respiratory activity.&#x0a;
+    f) Consider repeating naloxone.&#x0a;
+    g) Establish IV access with LR in a clean area, if appropriate.&#x0a;
+    h) If organophosphate poisoning, consider atropine 2–4 mg IV or IM every 5–10 minutes.&#x0a;
+    i) Consider antidote to specific agent if available.&#x0a;
+    j) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+    k) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose: Aged 28 days to adult: Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare. Consider additional doses of naloxone.&#x0a;
+    l) Remove patient from the toxic environment by appropriately trained personnel using proper level PPE.&#x0a;
+    m) Identify agent and mechanism of exposure.&#x0a;
+    n) Decontaminate as appropriate.&#x0a;
+    o) Establish IV access with LR in a clean area, if appropriate.&#x0a;
+    p) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Aged 28 days to adult: Administer 0.1 mg/kg IVP/IO (titrated)IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. May be repeated as necessary to maintain respiratory activity. ET dose: 0.2–0.25 mg/kg.&#x0a;
+    q) If organophosphate poisoning, consider atropine 0.02 mg/kg IV/IO or IM every 5–10 minutes.&#x0a;
+    r) Consider antidote to specific agent if available.&#x0a;
+    s) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Ingestion" Clicked="Button48"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout48" IsVisible="False">
+                <StackLayout x:Name="popupLayout48" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may exhibit any of the following: nausea, vomiting, diarrhea, altered mental status, abdominal pain, rapid or slow heart rate, dyspnea, seizures, arrhythmias, chemical burns around or inside the mouth, or abnormal breath odors.&#x0a;
+3. Treatment&#x0a;&#x0a;
+[ALERT] DO NOT GIVE ANYTHING BY MOUTH WITHOUT MEDICAL CONSULTATION!&#x0a;
+POISON INFORMATION CENTER RECOMMENDATIONS SHOULD BE SOLICITED IN CONJUNCTION WITH MEDICAL CONSULTATION, BUT MEDICATION ORDERS CAN ONLY BE ACCEPTED FROM AN APPROVED BASE STATION.&#x0a;&#x0a;
+    a) Identify substance and amount ingested.&#x0a;
+    b) Consider activated charcoal without Sorbitol 1 gram/kg PO.&#x0a;
+    c) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare. Consider additional doses of naloxone.&#x0a;
+    d) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Administer naloxone 0.4–2 mg IVP/IO (titrated)/IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. Repeat as necessary to maintain respiratory activity.&#x0a;
+    e) Establish IV access with LR in a clean area, if appropriate.&#x0a;
+    f) If dystonic, extrapyramidal, or mild allergic reaction, consider diphenhydramine. 25 mg IV or IM&#x0a;
+    g) If beta-blocker overdose, consider glucagon. 1 mg every 5 minutes IVP&#x0a;
+    h) If calcium channel blocker overdose, consider calcium chloride. 0.5–1 gram SLOW IVP over 10 minutes Max dose of 1 gram&#x0a;
+[ALERT] CALCIUM CHLORIDE IS CONTRAINDICATED IN A CALCIUM CHANNEL BLOCKER OVERDOSE PATIENT TAKING DIGOXIN.&#x0a;
+    i) If organophosphate poisoning, consider atropine. 2–4 mg IVP or IM every over 10 minutes Max dose of 1 gram&#x0a;
+    j) If tricyclic overdose, consider sodium bicarbonate. 1 mEq/kg IVP bolus initially with 0.5 mEq/kg at 10 minute intervals&#x0a;
+    k) Consider antidote to specific agent if available.&#x0a;
+    l) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+    m) Identify substance and amount ingested.&#x0a;
+    n) Consider activated charcoal without Sorbitol 1 gram/kg PO.&#x0a;
+    o) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Aged 28 days to adult: Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare.&#x0a;
+    p) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+    Aged 28 days to adult: Administer 0.1 mg/kg IVP/IO (titrated)IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. May be repeated as necessary to maintain respiratory activity. ET dose: 0.2–0.25 mg/kg.&#x0a;
+    q) Establish IV/IO access with LR in a clean area, if appropriate.&#x0a;
+    r) If dystonic, extrapyramidal, or mild allergic reaction, consider diphenhydramine 1 mg/kg IVP/IO or IM. Maximum single dose 25 mg&#x0a;
+    s) If beta-blocker overdose, consider glucagon. 1 mg IVP (5 years of age up to patient's 18th birthday) 0.5 mg IVP (28 days - 4 years of age) Every 5 minutes as necessary&#x0a;
+    t) If calcium channel blocker overdose, consider calcium chloride. 20 mg/kg (0.2 mL/kg) SLOW IVP/IO (50 mg/min) Maximum dose 1 gram&#x0a;&#x0a;
+[ALERT] CALCIUM CHLORIDE IS CONTRAINDICATED IN A CALCIUM CHANNEL BLOCKER OVERDOSE PATIENT TAKING DIGOXIN.&#x0a;&#x0a;
+    u) If organophosphate poisoning, consider atropine. 0.02 mg/kg IVP/IO or IM Maximum single dose 2 mg May be repeated every 5–10 minutes&#x0a;
+    v) If tricyclic overdose, consider sodium bicarbonate. 1 mEq/kg SLOW IVP/IO (for less than 1 year, dilute 1:1 with LR)&#x0a;
+    w) Consider antidote to specific agent if available.&#x0a;
+    x) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Inhalation" Clicked="Button49"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout49" IsVisible="False">
+                <StackLayout x:Name="popupLayout49" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;
+2. Presentation&#x0a;
+Presentation may vary depending on the concentration and duration of exposure. Symptoms may include, but are not limited to, the following: nausea, vomiting, diarrhea, altered mental status, abnormal skin color, dyspnea, seizures, burns to the respiratory tract, stridor, sooty sputum, known exposure to toxic or irritating gas, sweating, tearing, constricted/dilated pupils, and/or dizziness.&#x0a;&#x0a;
+[ALERT] PULSE OXIMETRY MAY NOT BE ACCURATE FOR TOXIC INHALATION VICTIMS! IF PATIENT HAS EXPOSURE TO CARBON MONOXIDE/SMOKE INHALATION, REFER TO CARBON MONOXIDE/SMOKE INHALATION PROTOCOL.&#x0a;&#x0a;
+3. Treatment&#x0a;
+    a) Remove patient from the toxic environment by appropriately trained personnel using proper level PPE.&#x0a;
+    b) Identify agent and mechanism of exposure.&#x0a;
+    c) Decontaminate as appropriate.&#x0a;
+    d) Consider obtaining blood sample using closed system, if indicated.&#x0a;
+    e) Establish IV access with LR in a clean area, if appropriate.&#x0a;
+    f) If organophosphate poisoning, consider atropine 2–4 mg IVP or IM every 5–10 minutes.&#x0a;
+    g) Consider antidote to specific agent if available.&#x0a;
+    h) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+    i) Remove patient from the toxic environment by appropriately trained personnel using proper level PPE.&#x0a;
+    j) Identify agent and mechanism of exposure.&#x0a;
+    k) Decontaminate as appropriate.&#x0a;
+    l) Establish IV/IO access with LR in a clean area, if appropriate.&#x0a;
+    m) If organophosphate poisoning, consider atropine. 0.02 mg/kg IV/IO or IM every 5–10 minutes.&#x0a;
+    n) Consider antidote to specific agent if available.&#x0a;
+    o) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Injection" Clicked="Button50"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout50" IsVisible="False">
+                <StackLayout x:Name="popupLayout50" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may exhibit any of the following: local pain, puncture wounds, reddening skin, local edema, numbness, tingling, nausea, vomiting, diarrhea, altered mental status, seizures, muscle twitching, hypoperfusion, metallic or rubbery taste.&#x0a;
+3. Treatment&#x0a;
+    a) Identify markings (insects, bites, needlestick, etc.).&#x0a;
+    b) Do not apply distal and/or proximal constricting bands for a poisonous snakebite to an extremity. Do remove any jewelry on the affected extremity.&#x0a;
+    c) Assist patient experiencing moderate to severe allergic reaction symptoms or mild symptoms with a history of life-threatening allergic reaction with the patient’s prescribed or EMS service’s epinephrine (1:1,000) 0.5 mg in 0.5 mL IM or patient’s prescribed fast-acting bronchodilator.&#x0a;&#x0a;
+[ALERT] IF THE SNAKE IS DEAD, AND IF IT IS PRACTICAL, DELIVER IT WITH ITS HEAD INTACT. DEAD SNAKES STILL BITE!&#x0a;&#x0a;
+    d) Immobilize extremity.&#x0a;
+    e) Apply cool packs for relief of pain only.&#x0a;
+    f) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare. Consider additional doses of naloxone.&#x0a;
+    g) Establish IV access with LR; administer 20 mL/kg bolus in uninjured extremity. Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    h) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Administer naloxone 0.4–2 mg IVP/IO (titrated)/IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. Repeat as necessary to maintain respiratory activity. Titrate to adequate respiratory effort.&#x0a;
+        i) If organophosphate poisoning, consider atropine. 2–4 mg IVP or IM every 5–10 minutes.&#x0a;
+    j) Consider antidote to specific agent if available.&#x0a;
+    k) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+- - - - - - - - - - - - - - - - - - - - 
+    l) Identify markings (insects, bites, needlestick, etc.).&#x0a;
+    m) Do not apply distal and/or proximal constricting bands for a poisonous snakebite to an extremity. Do remove any jewelry on the affected extremity.&#x0a;
+    n) Assist patient experiencing moderate to severe allergic reaction symptoms or mild symptoms with a history of life-threatening allergic reaction with the patient’s prescribed or EMS service’s epinephrine (1:1,000) 0.15 mg in 0.15 mL IM or patient’s prescribed fast-acting bronchodilator.&#x0a;
+    o) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Aged 28 days to adult: Administer naloxone 2 mg IN, dividing administration of the dose equally between the nares to a maximum of 1 mL per nare, OR administer 4 mg/0.1 mL IN in one nare. Consider additional doses of naloxone.&#x0a;
+    p) Establish IV access with LR; administer 20 mL/kg bolus in uninjured extremity. Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    q) If patient has respiratory depression with decreased LOC, constricted pupils, and provider suspects an opioid/narcotic overdose:&#x0a;
+        Aged 28 days to adult: Administer 0.1 mg/kg IVP/IO (titrated)IM/IN (if delivery device is available, divide administration of the dose equally between the nares to a maximum of 1 mL per nare); OR administer 4 mg/0.1 mL IN in one nare. May be repeated as necessary to maintain respiratory activity. ET dose: 0.2–0.25 mg/kg.&#x0a;
+    r) If organophosphate poisoning, consider atropine. 0.02 mg/kg IV/IO or IM every 5–10 minutes&#x0a;
+    s) Consider antidote to specific agent if available.&#x0a;
+    t) Consider antibiotic specific to agent in mass casualty incident, if available.&#x0a;
+4. Continue General Patient Care&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Stimulant Toxicity" Clicked="Button51"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout51" IsVisible="False">
+                <StackLayout x:Name="popupLayout51" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) Moderate toxicity:&#x0a;
+        - Patient exhibits chest pain, hypertension, supraventricular tachycardia, moderate anxiety, respiratory distress, and/or hallucinations&#x0a;
+    b) Moderate to severe toxicity:&#x0a;
+        - Includes the symptomatology described above along with severe agitation, seizures, and hyperthermia&#x0a;
+3. Treatment&#x0a;
+    a) Ensure scene is secure and safe from paraphernalia.&#x0a;
+    b) Initiate patient care.&#x0a;
+    c) Identify amount, route, and time the stimulant was introduced into the body if possible.&#x0a;
+    d) Establish IV access with LR. Consider blood draw if possible.&#x0a;
+    e) Consider midazolam.&#x0a;
+        0.1 mg/kg in 5 mg increments SLOW IVP over 1–2 minutes per increment with maximum single dose 5 mg&#x0a;
+        (Reduce by 50% for patients 69 years or older)&#x0a;
+        If IV unavailable, 5 mg IN/IM may be administered.&#x0a;
+        IN administration max 1 mL per nare&#x0a;
+        Larger doses may be needed to treat stimulant toxicity. Additional doses require medical consultation.&#x0a;
+    f) Initiate Chest Pain Protocol and treat accordingly with unstable angina or suspected MI.&#x0a;&#x0a;
+[ALERT] SUPRAVENTRICULAR TACHYCARDIA (SVT) MAY RESOLVE WITH THE ADMINISTRATION OF MIDAZOLAM. TREATING SVT DUE TO STIMULANT TOXICITY WITH ADENOSINE WILL NOT WORK SINCE THE SUBSTANCE CAUSING THE SVT WILL STILL BE IN THE SYSTEM AND CAUSE REFRACTORY SVT AFTER THE ADENOSINE HAS WORN OFF.&#x0a;&#x0a;
+    g) Ensure scene is secure and safe from paraphernalia.&#x0a;
+    h) Initiate patient care.&#x0a;
+    i) Identify amount, route, and time the stimulant was introduced into the body if possible.&#x0a;
+    j) Establish IV access with LR.&#x0a;
+    k) Consider midazolam 0.1 mg/kg in 2 mg increments SLOW IVP over 1–2 minutes with maximum single dose of 5 mg.&#x0a;
+        If IV unavailable, administer 0.2 mg/kg IN to a maximum single dose of 2 mg or 0.2 mg/kg IM to maximum single dose of 5 mg.&#x0a;
+        IN administration max 1 mL per nare&#x0a;
+        Additional doses (up to a maximum total dose of 5 mg) require medical consultation.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Excited Delirium Syndrome (ExDS)" Clicked="Button52"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout52" IsVisible="False">
+                <StackLayout x:Name="popupLayout52" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care&#x0a;&#x0a;
+2. Presentation:&#x0a;&#x0a;
+a) Excited delirium syndrome (ExDS) is a potentially life-threatening condition in which a person is in a psychotic and extremely agitated state. Mentally, the subject is unable to process rational thoughts or to focus their attention. Physically, the body’s systems are functioning at such a high rate that they begin to shut down and fail. When these two factors occur at the same time, a person can act erratically enough that they become a danger to self and to the public.&#x0a;
+b) History of present illness often includes:&#x0a;
+    (1) Ingestion of a stimulant or hallucinogenic drug&#x0a;
+    (2) Drug/alcohol withdrawal&#x0a;
+    (3) Psychiatric patient who is off of medication&#x0a;
+c) Signs and symptoms: ExDS is characterized as having a minimum of bizarre and aggressive behavior and one of the above history. The more signs and symptoms the patient exhibits, the more likely the patient is to have ExDS and the higher the risk for complications.&#x0a;
+    (1) Tachycardia&#x0a;
+    (2) Hypertension&#x0a;
+    (3) High body temperature&#x0a;
+    (4) Dilated pupil&#x0a;
+    (5) Incoherent or nonsensical speech&#x0a;
+    (6) Rapid or inconsistent breathing patterns&#x0a;
+    (7) Paranoia&#x0a;
+    (8) Skin changes:&#x0a;
+        (a) Hot/dry skin (in the anticholinergic patient)&#x0a;
+        (b) Profuse sweating (in the cocaine/MDMA/methamphetamine patient)&#x0a;
+    (9) Shivering&#x0a;
+    (10) Inappropriate removal of clothing&#x0a;
+    (11) Patients who present after receiving multiple TASER or other less lethal energy by law enforcement&#x0a;&#x0a;
+[ALERT] MANY LIFE-THREATENING MEDICAL EMERGENCIES PRESENT WITH SIMILAR SIGNS OF EXDS. EXAMPLES INCLUDE HYPOGLYCEMIA, HYPOXIA, SEIZURES, HEAD INJURIES, AND SEPSIS. EMS PROVIDERS MUST ALWAYS ASSESS FOR THE POSSIBILITY OF OTHER EMERGENCY MEDICAL CAUSES FOR THE PATIENT’S PRESENTATION.&#x0a;&#x0a;
+ANOTHER KEY SYMPTOM THAT OCCURS JUST PRIOR TO THE ONSET OF SUDDEN DEATH IN A PATIENT EXPERIENCING EXDS IS “INSTANT TRANQUILITY.” THIS SYMPTOM IS NOTED WHEN A PATIENT WHO HAS BEEN VERY VIOLENT AND AGITATED SUDDENLY BECOMES QUIET AND LETHARGIC. THIS IS A SIGN OF IMMINENT CARDIOPULMONARY ARREST. PATIENTS WHO HAVE UNDERGONE PERIODS OF PROLONGED PHYSICAL STRUGGLE WITHOUT SEDATION WITH MEDICATION ARE AT HIGH RISK FOR CARDIAC ARREST. ALL EFFORTS MUST BE MADE BY ALS PROVIDERS TO EXPEDITIOUSLY ADMINISTER MEDICATION TO THE AGITATED AND STRUGGLING EXDS PATIENT.&#x0a;&#x0a;
+3. Treatment (BLS)&#x0a;
+    a) Ensure scene is secure and safe.&#x0a;
+    b) Initiate patient care.&#x0a;
+        (1) Obtain a measured temperature, as these patients often have severe hyperthermia.&#x0a;
+        (2) If possible, attempt to identify the amount, route, and time of any substance ingested.&#x0a;
+        (3) Suspected ExDS patients with evidence of head injury or traumatic mechanism of injury should receive Spinal Protection Protocol.&#x0a;
+    c) Patients displaying signs of ExDS do not have medical capacity to refuse care.&#x0a;
+        (1) If a suspected ExDS patient resists the delivery of care, ALS resources, EMS supervisors (where available), and law enforcement shall be requested to facilitate the treatment and transport of the patient in a safe and effective manner.&#x0a;
+        (2) Patients who exhibit violent behavior shall require a police officer to accompany the patient during transport. Appropriate physical restraint procedures should be utilized per Restraint Protocol.&#x0a;&#x0a;
+[ALERT] PATIENTS DISPLAYING SIGNS AND SYMPTOMS OF EXDS SHALL BE TREATED AND TRANSPORTED AT THE ADVANCED LIFE SUPPORT LEVEL. ALS CARE AND TREATMENT WILL BE GUIDED BY THE SIGNS AND SYMPTOMS THAT THE PATIENT IS EXHIBITING, AS WELL AS POSSIBLE OCCULT INJURIES THAT MAY HAVE OCCURRED WHILE THE INDIVIDUAL WAS BEING SUBDUED. THE APPROPRIATE LIFESAVING TREATMENT FOR EXDS IS THE ADMINISTRATION OF MEDICATION, FLUID RESUSCITATION, AND DECREASING HYPERTHERMIC CORE BODY TEMPERATURE.&#x0a;
+PATIENTS WHO HAVE RECEIVED MULTIPLE ROUNDS OF ENERGY FROM CONDUCTED ELECTRICAL WEAPONS (INCLUDING T.A.S.E.R.) AND ARE DISPLAYING SIGNS OF EXDS ARE AT HEIGHTENED RISK FOR SUDDEN CARDIAC DEATH. THESE PATIENTS SHOULD BE TREATED WITH MEDICATION AND CLOSELY MONITORED FOR ANY EVIDENCE OF HEMODYNAMIC COLLAPSE.&#x0a;&#x0a;
+    d) Establish IV/IO access. Consider blood draw if possible.&#x0a;
+    e) Administer 20 mL/kg IV fluid bolus LR if tachycardiac and/or hyperthermic.&#x0a;
+    f) Check glucometer and treat accordingly.&#x0a;
+    g) Administer ketamine.&#x0a;
+        (1) Administer 1 mg/kg IV/IO. Maximum single IV/IO dose 100 mg.&#x0a;
+            (a) If severe agitation persists, administer 1 mg/kg IV/IO. Maximum single IV/ IO dose 100 mg. Maximum total IV/IO dose 200 mg.&#x0a;
+            (b) If agitation persists after second dose of ketamine, consider midazolam 2.5 mg IV/IO.&#x0a;
+        (2) If IV/IO unavailable:
+            (a) Administer 4 mg/kg IM. Maximum total IM dose 400 mg.&#x0a;
+            (b) If severe agitation persists after IM ketamine dose, administer midazolam 5 mg IM.&#x0a;
+            (c) Additional dose of 4 mg/kg IM ketamine for persistent agitation requires medical consultation.&#x0a;
+    h) Consider the administration of cold packs to the groin, neck, and axilla for patients displaying evidence of hyperthermia.&#x0a;&#x0a;
+[ALERT] PATIENTS DISPLAYING SIGNS AND SYMPTOMS OF ExDS SHOULD NOT RECEIVE HALDOL AND/OR BENADRYL FOR CHEMICAL RESTRAINT. THESE MEDICATIONS MAY WORSEN AN ANTICHOLINERGIC CRISIS. HALDOL MAY INCREASE THE POSSIBILITY OF CARDIAC DYSRHYTHMIA BY PROLONGING THE QT INTERVAL, AND MAY ALSO INCREASE THE CHANCES OF A SEIZURE BY LOWERING THE BODY’S SEIZURE THRESHOLD.&#x0a;&#x0a;
+ - - - - - - - - - - - - - - - - - - - - - - - -
+    i) Establish IV/IO access. Consider blood draw if possible.&#x0a;
+    j) Administer 20 mL/kg IV fluid bolus LR if tachycardiac and/or hyperthermic.&#x0a;
+    k) Check glucometer and treat accordingly.&#x0a;
+    l) Administer ketamine.&#x0a;
+        (1) Patients who have not yet reached their 13th birthday require medical consultation: Administer 1 mg/kg IV/IO. Maximum single IV/IO dose 100 mg. Maximum total IV/IO dose 200 mg.&#x0a;
+        (2) Patients aged 13 years to not yet reached their 18th birthday: Administer 1 mg/kg IV/IO. Maximum single IV/IO dose 100 mg. Maximum total dose 200 mg.&#x0a;
+        (3) If severe agitation persists, administer repeat dose 1 mg/kg IV/IO to a maximum single dose of 100 mg.&#x0a;
+        (4) If agitation persists after second dose of IV/IO ketamine, consider midazolam 0.1 mg/kg SLOW IVP/IO over 1–2 minutes. Maximum single dose 2.5 mg.&#x0a;
+        (5) If IV/IO is unavailable:&#x0a;
+        (a) Patients who have not yet reached their 13th birthday require medical consultation: Administer 4 mg/kg IM. Maximum IM dose 400 mg.&#x0a;
+        (b) Patients aged 13 years to not yet reached their 18th birthday: Administer 4 mg/kg IM. Maximum IM dose 400 mg.&#x0a;
+        (c) If severe agitation persists, administer midazolam 2.5 mg IM.&#x0a;
+        (d) Additional dose of 4 mg/kg IM ketamine for persistent agitation requires medical consultation.&#x0a;
+    m) Consider the administration of cold packs to the groin, neck, and axilla for patients displaying evidence of hyperthermia.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button53"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout53" IsVisible="False">
+                <StackLayout x:Name="popupLayout53" Style="{StaticResource stack}">
                     <Label Text="" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
+
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Pain Management"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Pain Management" Clicked="Button54"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout54" IsVisible="False">
+                <StackLayout x:Name="popupLayout54" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Pain may be present in many different conditions. Management of pain in the field can help to reduce suffering, make transport easier, and allow the emergency department personnel to initiate specific treatment sooner.&#x0a;
+3. Treatment Indications&#x0a;&#x0a;
+    a) Measure level of pain. Ask adults to rate their pain on a scale from 0 (no pain) to 10 (worst pain imaginable). Young children can be asked to rate their pain using the FACES scale, which provides 5 levels of pain perception.&#x0a;&#x0a;
+Pain Rating Scale&#x0a;
+10 - Worst Pain Possible Unbearable (Unable to do any activities because of pain)&#x0a;
+9&#x0a;
+8 - Intense/Dreadful/Horrible (Unable to do most activities because of pain)&#x0a;
+7 - Severe Pain&#x0a;
+6 - Miserable/Distressing (Unable to do some activities because of pain)&#x0a;
+5 - Moderate Pain&#x0a;
+4 - Nagging/Uncomfortable (Can do most activities with rest periods)&#x0a;
+3&#x0a;
+2 - Mild Pain Annoying (Pain is present but does not limit activity)&#x0a;
+1&#x0a;
+0 - No Pain&#x0a;&#x0a;
+    b) Allow patient to remain in position of comfort unless contraindicated.&#x0a;
+    c) Monitor airway and vitals signs every 5 minutes for unstable patients.&#x0a;
+    d) Mild pain&#x0a;
+        (1) Indications for pain management&#x0a;
+            (a) Isolated musculoskeletal injuries such as sprains and strains&#x0a;
+            (b) Pain related to childhood illnesses such as headache, ear infection, and pharyngitis&#x0a;
+        (2) Contraindications for pain management with acetaminophen&#x0a;
+            (a) Head injury&#x0a;
+            (b) Hypotension&#x0a;
+            (c) Administration of acetaminophen or medications containing acetaminophen within the previous four hours&#x0a;
+            (d) Inability to swallow or take medications by mouth&#x0a;
+            (e) Respiratory distress&#x0a;
+            (f) Persistent vomiting&#x0a;
+            (g) Known or suspected liver disease&#x0a;
+            (h) Allergy to acetaminophen&#x0a;
+        (3) Administer acetaminophen to patients ages 2 years and above judged to be in mild to moderate discomfort. (2–5 on FACES scale) by child or parent.&#x0a;
+            (a) Standard unit dosing of liquid preparation:&#x0a;
+                (i) Less than 2 years of age: Not indicated&#x0a;
+                (ii) 2–4 years: Unit dose 160 mg/5 mL&#x0a;
+                (iii) 5–12 years: TWO unit doses of 160 mg/5 mL each for a total of 320 mg/10 mL&#x0a;
+                (iv) 13 years and older: FOUR unit doses of 160 mg/5 mL each for a total of 640 mg/20 mL OR in a form of 325 mg pill or tablet X 2 for a total of 650 mg with sips of water as tolerated by the patient.&#x0a;&#x0a;
+[ALERT] ADMINISTRATION OF ACETAMINOPHEN FOR MILD TO MODERATE PAIN DOES NOT ELIMINATE THE NEED FOR TRANSPORT OF THE PATIENT TO THE HOSPITAL TO RECEIVE A COMPREHENSIVE EVALUATION OF THE CAUSE OF THEIR PAIN AND APPROPRIATE DEFINITIVE TREATMENT.&#x0a;&#x0a;
+    e) Moderate to severe pain&#x0a;
+        (1) Indications for pain management&#x0a;
+            (a) The patient reports moderate to severe pain.&#x0a;
+            (b) In the provider’s judgment, the patient will benefit from treatment with an analgesic, including patients who are MOLST and/or EMS/DNR patients or being pre-medicated for a procedure.&#x0a;
+        (2) Contraindications for pain management&#x0a;
+            (a) Hypersensitivity or known allergy to the medication (morphine or fentanyl)&#x0a;
+            (b) Uncorrected respiratory distress or hypoxemia refractory to supplemental oxygen&#x0a;
+            (c) Uncorrected hypotension, defined as a persistent systolic pressure less than 90 mmHg&#x0a;
+        (3) Administer agent
+            (a) Fentanyl IN preferred IV/IO/IM&#x0a;
+                (i) Administer 1 mcg/kg to a maximum initial dose of 200 mcg (For IN route, dosing may be limited due to volume limitations - administration of max 1mL per nare).&#x0a;
+                (ii) Reassess in 5–10 minutes. If pain remains moderate to severe, then administer a second dose of fentanyl 1 mcg/kg to a maximum dose of 200 mcg.&#x0a;
+                (iii) Obtain on-line medical direction for additional doses, if required. OR&#x0a;
+            (b) Morphine IV/IM&#x0a;
+                (i) Administer 0.1 mg/kg maximum single dose of 20 mg.
+                (ii) Reassess in 5–10 minutes. If pain remains moderate to severe, then administer a second dose of morphine 0.05 mg/kg to a maximum additional dose of 10 mg.&#x0a;
+                (iii) Obtain on-line medical direction for additional doses, if required. OR&#x0a;
+            (c) Ketamine IV/IO/IN/IM&#x0a;&#x0a;
+[ALERT] INDICATED FOR MUSCULOSKELETAL EXTREMITY/BACK PAIN. NOT FOR CHEST PAIN, ABDOMINAL/ FLANK PAIN, OR HEADACHE.&#x0a;&#x0a;
+                (i) Administer 0.2 mg/kg IV/IO over 1–2 minutes. Maximum single dose 20 mg.&#x0a;
+                    a. Reassess in 5–10 minutes. If pain remains moderate to severe, then administer a second dose of ketamine 0.2 mg/kg IV/IO over 1–2 minutes. Maximum single dose 20 mg.&#x0a;
+                    b. If IV unavailable, administer 0.5 mg/kg IN/IM (If delivery device is available; divide administration of the dose equally between the nares to a maximum of 1 mL per nare).&#x0a;
+                    c. Reassess in 15 minutes. If pain remains moderate to severe, then administer a second dose of ketamine 0.5 mg/kg IN/IM.&#x0a;
+- - - - - - - - - - - - - - - - - - - -&#x0a;
+            (d) Fentanyl IN. If IN route not accessible, IV/IO/IM&#x0a;
+                (i) Administer 1 mcg/kg to a maximum initial dose of 200 mcg (For IN route, dosing may be limited due to volume limitations - administration of max 1mL per nare).&#x0a;
+                (ii) Reassess in 5–10 minutes. If pain remains moderate to severe, then administer a second dose of fentanyl 1 mcg/kg to a maximum dose of 200 mcg.&#x0a;
+                (iii) Obtain on-line medical direction for additional doses, if required. OR&#x0a;
+            (e) Morphine IV/IM&#x0a;
+                (i) Administer 0.1 mg/kg maximum single dose of 20 mg.&#x0a;
+                (ii) Reassess in 5–10 minutes. If pain remains moderate to severe, then administer a second dose of morphine 0.05 mg/kg to a maximum additional dose of 10 mg.&#x0a;
+                (iii) Obtain on-line medical direction for additional doses, if required. OR&#x0a;
+            (f) Ketamine IV/IO/IN/IM&#x0a;&#x0a;
+[ALERT] INDICATED FOR MUSCULOSKELETAL EXTREMITY/BACK PAIN. NOT FOR CHEST PAIN, ABDOMINAL/FLANK PAIN, OR HEADACHE.&#x0a;&#x0a;
+                (i) Administer 0.2 mg/kg IV/IO over 1–2 minutes. Maximum single dose 20 mg.&#x0a;
+                    a. Reassess in 5–10 minutes. If pain remains moderate to severe, then administer a second dose of ketamine 0.2 mg/kg IV/IO over 1–2 minutes. Maximum single dose 20 mg.&#x0a;
+                    b. If IV unavailable, administer 0.5 mg/kg IN/IM (If delivery device is available; divide administration of the dose equally between the nares to a maximum of 1 mL per nare).&#x0a;
+                    c. Reassess in 15 minutes. If pain remains moderate to severe, then administer a second dose of ketamine 0.5 mg/kg IN/IM&#x0a;&#x0a;
+[ALERT] CHEST PAIN THAT IS THOUGHT TO BE DUE TO ACUTE CORONARY SYNDROME SHOULD INITIALLY BE MANAGED WITH NITROGLYCERIN. IF PAIN REMAINS REFRACTORY TO NITROGLYCERIN, CONSIDER THE USE OF OPIOID ANALGESIA. AVOID OPIOIDS FOR PATIENTS WITH SUSPECTED EXACERBATION OF CONGESTIVE HEART FAILURE.&#x0a;
+USE OPIOID ANALGESIA WITH CAUTION IN THE MANAGEMENT OF THE MULTIPLE TRAUMA PATIENT. OBSERVE FOR EVIDENCE OF HYPOTENSION AND CORRECT AS NEEDED WITH FLUID BOLUSES. REASSESS VITAL SIGNS AFTER ADMINISTRATION OF THE MEDICATION.&#x0a;
+USE ANALGESIA WITH CAUTION IN THE MANAGEMENT OF PATIENTS WITH ALTERED MENTAL STATUS. OBSERVE FOR RESPIRATORY DEPRESSION AND TAKE STEPS AS NEEDED TO ENSURE A STABLE AIRWAY.&#x0a;&#x0a;
+        (4) Repeat. Measure level of pain and monitor the patient’s level of pain during subsequent treatment and transport.&#x0a;&#x0a;
+[ALERT] PATIENTS RECEIVING A NEW OPIOID (EITHER WITHIN 1 HOUR OR GREATER THAN 1 DOSE WITHIN ANY TIME FRAME) FROM ALS OR BY THE SENDING FACILITY MUST BE TRANSPORTED BY ALS.&#x0a;&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button55"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout55" IsVisible="False">
+                <StackLayout x:Name="popupLayout55" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button56"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout56" IsVisible="False">
+                <StackLayout x:Name="popupLayout56" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button57"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout57" IsVisible="False">
+                <StackLayout x:Name="popupLayout57" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button58"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout58" IsVisible="False">
+                <StackLayout x:Name="popupLayout58" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button59"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout59" IsVisible="False">
+                <StackLayout x:Name="popupLayout59" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button60"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout60" IsVisible="False">
+                <StackLayout x:Name="popupLayout60" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button61"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout61" IsVisible="False">
+                <StackLayout x:Name="popupLayout61" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button62"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout62" IsVisible="False">
+                <StackLayout x:Name="popupLayout62" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button63"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout63" IsVisible="False">
+                <StackLayout x:Name="popupLayout63" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button64"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout64" IsVisible="False">
+                <StackLayout x:Name="popupLayout64" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button65"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout65" IsVisible="False">
+                <StackLayout x:Name="popupLayout65" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button66"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout66" IsVisible="False">
+                <StackLayout x:Name="popupLayout66" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button67"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout67" IsVisible="False">
+                <StackLayout x:Name="popupLayout67" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button68"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout68" IsVisible="False">
+                <StackLayout x:Name="popupLayout68" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button69"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout69" IsVisible="False">
+                <StackLayout x:Name="popupLayout69" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button70"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout70" IsVisible="False">
+                <StackLayout x:Name="popupLayout70" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button71"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout71" IsVisible="False">
+                <StackLayout x:Name="popupLayout71" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button72"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout72" IsVisible="False">
+                <StackLayout x:Name="popupLayout72" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button73"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout73" IsVisible="False">
+                <StackLayout x:Name="popupLayout73" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Overpressurization" Clicked="Button74"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout74" IsVisible="False">
+                <StackLayout x:Name="popupLayout74" Style="{StaticResource stack}">
+                    <Label Text="" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
 
 
         </StackLayout>

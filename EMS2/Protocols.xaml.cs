@@ -621,5 +621,411 @@ namespace EMS2
             }
         }
 
+        void Button46(object sender, System.EventArgs e)
+        {
+            if (popupLayout46.IsVisible == false)
+            {
+                popupLayout46.IsVisible = true;
+                scrollLayout46.IsVisible = true;
+            }
+            else
+            {
+                popupLayout46.IsVisible = false;
+                scrollLayout46.IsVisible = false;
+            }
+        }
+
+        void Button47(object sender, System.EventArgs e)
+        {
+            if (popupLayout47.IsVisible == false)
+            {
+                popupLayout47.IsVisible = true;
+                scrollLayout47.IsVisible = true;
+            }
+            else
+            {
+                popupLayout47.IsVisible = false;
+                scrollLayout47.IsVisible = false;
+            }
+        }
+
+        void Button48(object sender, System.EventArgs e)
+        {
+            if (popupLayout48.IsVisible == false)
+            {
+                popupLayout48.IsVisible = true;
+                scrollLayout48.IsVisible = true;
+            }
+            else
+            {
+                popupLayout48.IsVisible = false;
+                scrollLayout48.IsVisible = false;
+            }
+        }
+
+        void Button49(object sender, System.EventArgs e)
+        {
+            if (popupLayout49.IsVisible == false)
+            {
+                popupLayout49.IsVisible = true;
+                scrollLayout49.IsVisible = true;
+            }
+            else
+            {
+                popupLayout49.IsVisible = false;
+                scrollLayout49.IsVisible = false;
+            }
+        }
+
+        void Button50(object sender, System.EventArgs e)
+        {
+            if (popupLayout50.IsVisible == false)
+            {
+                popupLayout50.IsVisible = true;
+                scrollLayout50.IsVisible = true;
+            }
+            else
+            {
+                popupLayout50.IsVisible = false;
+                scrollLayout50.IsVisible = false;
+            }
+        }
+
+        void Button51(object sender, System.EventArgs e)
+        {
+            if (popupLayout51.IsVisible == false)
+            {
+                popupLayout51.IsVisible = true;
+                scrollLayout51.IsVisible = true;
+            }
+            else
+            {
+                popupLayout51.IsVisible = false;
+                scrollLayout51.IsVisible = false;
+            }
+        }
+
+        void Button52(object sender, System.EventArgs e)
+        {
+            if (popupLayout52.IsVisible == false)
+            {
+                popupLayout52.IsVisible = true;
+                scrollLayout52.IsVisible = true;
+            }
+            else
+            {
+                popupLayout52.IsVisible = false;
+                scrollLayout52.IsVisible = false;
+            }
+        }
+
+        void Button53(object sender, System.EventArgs e)
+        {
+            if (popupLayout53.IsVisible == false)
+            {
+                popupLayout53.IsVisible = true;
+                scrollLayout53.IsVisible = true;
+            }
+            else
+            {
+                popupLayout53.IsVisible = false;
+                scrollLayout53.IsVisible = false;
+            }
+        }
+
+        void Button54(object sender, System.EventArgs e)
+        {
+            if (popupLayout54.IsVisible == false)
+            {
+                popupLayout54.IsVisible = true;
+                scrollLayout54.IsVisible = true;
+            }
+            else
+            {
+                popupLayout54.IsVisible = false;
+                scrollLayout54.IsVisible = false;
+            }
+        }
+
+        void Button55(object sender, System.EventArgs e)
+        {
+            if (popupLayout55.IsVisible == false)
+            {
+                popupLayout55.IsVisible = true;
+                scrollLayout55.IsVisible = true;
+            }
+            else
+            {
+                popupLayout55.IsVisible = false;
+                scrollLayout55.IsVisible = false;
+            }
+        }
+
+        void Button56(object sender, System.EventArgs e)
+        {
+            if (popupLayout56.IsVisible == false)
+            {
+                popupLayout56.IsVisible = true;
+                scrollLayout56.IsVisible = true;
+            }
+            else
+            {
+                popupLayout56.IsVisible = false;
+                scrollLayout56.IsVisible = false;
+            }
+        }
+
+        void Button57(object sender, System.EventArgs e)
+        {
+            if (popupLayout57.IsVisible == false)
+            {
+                popupLayout57.IsVisible = true;
+                scrollLayout57.IsVisible = true;
+            }
+            else
+            {
+                popupLayout57.IsVisible = false;
+                scrollLayout57.IsVisible = false;
+            }
+        }
+
+        void Button58(object sender, System.EventArgs e)
+        {
+            if (popupLayout58.IsVisible == false)
+            {
+                popupLayout58.IsVisible = true;
+                scrollLayout58.IsVisible = true;
+            }
+            else
+            {
+                popupLayout58.IsVisible = false;
+                scrollLayout58.IsVisible = false;
+            }
+        }
+
+        void Button59(object sender, System.EventArgs e)
+        {
+            if (popupLayout59.IsVisible == false)
+            {
+                popupLayout59.IsVisible = true;
+                scrollLayout59.IsVisible = true;
+            }
+            else
+            {
+                popupLayout59.IsVisible = false;
+                scrollLayout59.IsVisible = false;
+            }
+        }
+
+        void Button60(object sender, System.EventArgs e)
+        {
+            if (popupLayout60.IsVisible == false)
+            {
+                popupLayout60.IsVisible = true;
+                scrollLayout60.IsVisible = true;
+            }
+            else
+            {
+                popupLayout60.IsVisible = false;
+                scrollLayout60.IsVisible = false;
+            }
+        }
+
+        void Button61(object sender, System.EventArgs e)
+        {
+            if (popupLayout61.IsVisible == false)
+            {
+                popupLayout61.IsVisible = true;
+                scrollLayout61.IsVisible = true;
+            }
+            else
+            {
+                popupLayout61.IsVisible = false;
+                scrollLayout61.IsVisible = false;
+            }
+        }
+
+        void Button62(object sender, System.EventArgs e)
+        {
+            if (popupLayout62.IsVisible == false)
+            {
+                popupLayout62.IsVisible = true;
+                scrollLayout62.IsVisible = true;
+            }
+            else
+            {
+                popupLayout62.IsVisible = false;
+                scrollLayout62.IsVisible = false;
+            }
+        }
+
+        void Button63(object sender, System.EventArgs e)
+        {
+            if (popupLayout63.IsVisible == false)
+            {
+                popupLayout63.IsVisible = true;
+                scrollLayout63.IsVisible = true;
+            }
+            else
+            {
+                popupLayout63.IsVisible = false;
+                scrollLayout63.IsVisible = false;
+            }
+        }
+
+        void Button64(object sender, System.EventArgs e)
+        {
+            if (popupLayout64.IsVisible == false)
+            {
+                popupLayout64.IsVisible = true;
+                scrollLayout64.IsVisible = true;
+            }
+            else
+            {
+                popupLayout64.IsVisible = false;
+                scrollLayout64.IsVisible = false;
+            }
+        }
+
+        void Button65(object sender, System.EventArgs e)
+        {
+            if (popupLayout65.IsVisible == false)
+            {
+                popupLayout65.IsVisible = true;
+                scrollLayout65.IsVisible = true;
+            }
+            else
+            {
+                popupLayout65.IsVisible = false;
+                scrollLayout65.IsVisible = false;
+            }
+        }
+
+        void Button66(object sender, System.EventArgs e)
+        {
+            if (popupLayout66.IsVisible == false)
+            {
+                popupLayout66.IsVisible = true;
+                scrollLayout66.IsVisible = true;
+            }
+            else
+            {
+                popupLayout66.IsVisible = false;
+                scrollLayout66.IsVisible = false;
+            }
+        }
+
+        void Button67(object sender, System.EventArgs e)
+        {
+            if (popupLayout67.IsVisible == false)
+            {
+                popupLayout67.IsVisible = true;
+                scrollLayout67.IsVisible = true;
+            }
+            else
+            {
+                popupLayout67.IsVisible = false;
+                scrollLayout67.IsVisible = false;
+            }
+        }
+
+        void Button68(object sender, System.EventArgs e)
+        {
+            if (popupLayout68.IsVisible == false)
+            {
+                popupLayout68.IsVisible = true;
+                scrollLayout68.IsVisible = true;
+            }
+            else
+            {
+                popupLayout68.IsVisible = false;
+                scrollLayout68.IsVisible = false;
+            }
+        }
+
+        void Button69(object sender, System.EventArgs e)
+        {
+            if (popupLayout69.IsVisible == false)
+            {
+                popupLayout69.IsVisible = true;
+                scrollLayout69.IsVisible = true;
+            }
+            else
+            {
+                popupLayout69.IsVisible = false;
+                scrollLayout69.IsVisible = false;
+            }
+        }
+
+        void Button70(object sender, System.EventArgs e)
+        {
+            if (popupLayout70.IsVisible == false)
+            {
+                popupLayout70.IsVisible = true;
+                scrollLayout70.IsVisible = true;
+            }
+            else
+            {
+                popupLayout70.IsVisible = false;
+                scrollLayout70.IsVisible = false;
+            }
+        }
+
+        void Button71(object sender, System.EventArgs e)
+        {
+            if (popupLayout71.IsVisible == false)
+            {
+                popupLayout71.IsVisible = true;
+                scrollLayout71.IsVisible = true;
+            }
+            else
+            {
+                popupLayout71.IsVisible = false;
+                scrollLayout71.IsVisible = false;
+            }
+        }
+
+        void Button72(object sender, System.EventArgs e)
+        {
+            if (popupLayout72.IsVisible == false)
+            {
+                popupLayout72.IsVisible = true;
+                scrollLayout72.IsVisible = true;
+            }
+            else
+            {
+                popupLayout72.IsVisible = false;
+                scrollLayout72.IsVisible = false;
+            }
+        }
+
+        void Button73(object sender, System.EventArgs e)
+        {
+            if (popupLayout73.IsVisible == false)
+            {
+                popupLayout73.IsVisible = true;
+                scrollLayout73.IsVisible = true;
+            }
+            else
+            {
+                popupLayout73.IsVisible = false;
+                scrollLayout73.IsVisible = false;
+            }
+        }
+
+        void Button74(object sender, System.EventArgs e)
+        {
+            if (popupLayout74.IsVisible == false)
+            {
+                popupLayout74.IsVisible = true;
+                scrollLayout74.IsVisible = true;
+            }
+            else
+            {
+                popupLayout74.IsVisible = false;
+                scrollLayout74.IsVisible = false;
+            }
+        }
+
     }
 }

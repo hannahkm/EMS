@@ -1,31 +1,4 @@
 ﻿&#x0a;
-Z.	 Overpressurization 104
-
-Nausea and Vomiting
-AA.	Nausea and Vomiting 107
-
-Non-Traumatic Shock
-BB. Non-Traumatic Shock: Hypoperfusion 108
-
-Obstetrical/Gynecological Emergencies
-CC. Childbirth Algorithm 110
-DD. Newly Born 112
-	 	 Universal Algorithm for Newly Born for BLS 112
-	 	 Universal Algorithm for Newly Born for ALS 113
-	 	 APGAR Chart 114
-EE. Vaginal Bleeding 115
-
-Overdose/Poisoning
-FF. Carbon Monoxide/Smoke Inhalation 115-1
-GG. Absorption 116
-HH. Ingestion 118
-II.	  Inhalation 121
-JJ.	  Injection 123
-KK.	  Stimulant Toxicity 125
-LL.	  Excited Delirium Syndrome (ExDS) 127
-
-Pain Management
-MM.	 Pain Management (NEW ’19) 130
 
 Respiratory Distress
 NN.	 Allergic Reaction 134
