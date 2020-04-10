@@ -1653,152 +1653,592 @@ USE ANALGESIA WITH CAUTION IN THE MANAGEMENT OF PATIENTS WITH ALTERED MENTAL STA
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Respiratory Distress"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button55"
+                        Text="Allergic Reaction" Clicked="Button55"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout55" IsVisible="False">
                 <StackLayout x:Name="popupLayout55" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) An allergic reaction is an exaggerated response of the body’s immune system to any substance.&#x0a;
+    b) Allergic reactions may range from mild to severe life-threatening anaphylactic reactions.&#x0a;
+        (1) MILD: Local swelling and itching at the site&#x0a;
+        (2) MODERATE: Hives and/or mild wheezing&#x0a;
+        (3) SEVERE: Diffuse wheezing, pharyngeal swelling, dyspnea, hypoperfusion, abnormal skin color, stridor, and/or loss of peripheral pulses&#x0a;
+3. Treatment&#x0a;
+    a) Assist patient experiencing moderate symptoms or mild symptoms with a history of life-threatening allergic reaction with the patient’s prescribed or EMS service’s epinephrine auto-injector or manual (1:1,000) 0.5 mg in 0.5 mL IM or patient’s prescribed fast-acting bronchodilator.&#x0a;
+    b) Albuterol inhaler (2 puffs) may be repeated once within 30 minutes.&#x0a;
+    c) Consider additional doses of epinephrine (1:1,000) 0.5 mg in 0.5 mL IM or prescribed fast-acting bronchodilator.&#x0a;
+    d) Moderate Distress Administer epinephrine 1:1,000. 0.5 mg in 0.5 mL May repeat every 5 minutes for total of 3 doses for severe reactions. Additional doses of epinephrine require medical consultation.&#x0a;
+        (1) Establish IV access with LR; administer 20 mL/kg bolus. Titrate to a systolic pressure of 100 mmHg.&#x0a;
+        (2) Administer diphenhydramine. 50 mg SLOW IVP or IM Additional doses of diphenhydramine require medical consultation.&#x0a;
+        (3) Administer a combination of albuterol/Atrovent via nebulizer. Albuterol 2.5 mg and Atrovent 500 mcg &#x0a;
+        (4) If further treatments are indicated, an additional albuterol-only nebulizer may be given.&#x0a;
+    e) Mild Allergic Reaction&#x0a;
+        (1) Consider diphenhydramine. 25 mg SLOW IVP or IM OR Consider epinephrine 1:1,000. 0.5 mg in 0.5 mL&#x0a;
+        (2) Consider additional fluid administration. Maximum dose 2,000 mL without medical consultation&#x0a;
+ - - - - - - - - - - - - - - - - - - - - - &#x0a;
+    f) Assist patient experiencing moderate or mild symptoms with a history of lifethreatening allergic reaction with the patient’s prescribed or EMS service’s epinephrine (1:1,000).&#x0a;
+        Less than 5 years of age: 0.15 mg in 0.15 mL IM&#x0a;
+        5 years of age or greater: 0.5 mg in 0.5 mL IM or patient’s prescribed fast-acting bronchodilator.&#x0a;
+    g) Albuterol inhaler (2 puffs) may be repeated once within 30 minutes.&#x0a;
+    h) Consider additional doses of epinephrine (1:1,000)&#x0a;
+        Less than 5 years of age: 0.15 mg in 0.15 mL IM&#x0a;
+        5 years of age or greater: 0.5 mg in 0.5 mL IM or fast-acting bronchodilator.&#x0a;
+    i) Moderate Distress&#x0a;
+        Less than 5 years of age: 0.15 mg in 0.15 mL IM.&#x0a;
+        5 years of age or greater: 0.5 mg in 0.5 mL IM.&#x0a;
+        May repeat every 5 minutes for total of 3 doses for severe reactions.&#x0a;
+        Additional doses of epinephrine require medical consultation.&#x0a;
+        (1) Establish IV/IO access with LR.&#x0a;
+        (2) If age-related vital signs and patient’s condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO.&#x0a;
+            If patient’s condition does not improve, administer the second bolus of fluid at 20 mL/kg LR IV/IO.&#x0a;
+            Administer diphenhydramine. 1 mg/kg SLOW IVP/IO or IM&#x0a;
+            Maximum single dose 50 mg&#x0a;
+            Additional doses of diphenhydramine require medical consultation&#x0a;
+        (3) A combination of albuterol/Atrovent via nebulizer:&#x0a;
+            For an infant less than 1 year of age, administer albuterol 1.25 mg via nebulizer; Atrovent is contraindicated.&#x0a;
+            For a child 1 year of age or greater, but less than 2 years of age, administer albuterol 1.25 mg and Atrovent 250 mcg.&#x0a;
+            For a patient 2 years of age or greater, administer albuterol 2.5 mg and Atrovent 500 mcg.&#x0a;
+        (4) If further treatments are indicated, an additional albuterol-only nebulizer may be given.&#x0a;
+    j) Mild Allergic Reaction&#x0a;
+        Consider diphenhydramine. 1 mg/kg SLOW IVP or IM&#x0a;
+        Maximum single dose 25 mg OR Consider epinephrine 1:1,000. 0.15 mg in 0.15 mL&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button56"
+                        Text="Anaphylaxis" Clicked="Button56"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout56" IsVisible="False">
                 <StackLayout x:Name="popupLayout56" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate general patient care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+a) Anaphylaxis is a condition defined by respiratory and/or cardiovascular collapse resulting from an exaggerated response of the body’s immune system to any substance.&#x0a;
+b) Anaphylaxis is likely to present with one or more of the following:&#x0a;
+    (1) Acute onset of illness after exposure to a known allergen with two or more of the following:&#x0a;
+        (a) urticaria of skin and/or mucosa or acute swelling/edema (eg, tongue, airway, stridor, lips)&#x0a;
+        (b) respiratory compromise&#x0a;
+        (c) hypotension&#x0a;
+        (d) persistent GI symptoms of vomiting, abdominal pain, or diarrhea&#x0a;
+        (2) Acute onset of illness after exposure to a known allergen with hypotension&#x0a;
+3. Treatment
+    a) Assist patient experiencing moderate to severe symptoms or mild symptoms with a history of life-threatening allergic reaction with the patient’s prescribed or EMS service’s epinephrine auto-injector or manual (1:1,000) 0.5 mg in 0.5 mL IM or patient’s prescribed fast-acting bronchodilator.&#x0a;
+    b) Consider additional doses of epinephrine (1:1,000) 0.5 mg in 0.5 mL IM.&#x0a;
+    c) Additional treatments to consider AFTER administration of the initial dose of epinephrine&#x0a;
+        (1) Albuterol inhaler (2 puffs) may be repeated once within 30 minutes.&#x0a;
+    d) Administer epinephrine&#x0a;
+        (1) Epinephrine (1:1,000) 0.5 mg in 0.5 mL IM&#x0a;
+        (2) May repeat every 5 minutes for a total of 3 doses for severe reactions.&#x0a;
+        (3) For patients who are in extremis with severe hypotension or impending respiratory failure, consider initiating an epinephrine drip after having administered 3 doses of IM epinephrine.&#x0a;
+            (a) Mix 1 mg of epinephrine (either 1:1,000 or 1:10,000) in a 1 liter bag of LR IV/IO. Initiate an infusion with a wide open macro drip titrating to a systolic pressure of greater than 90 mmHg. When drip administered, this will be reported as an exceptional call.&#x0a;
+    e) Additional treatments to consider AFTER administration of the initial dose of epinephrine&#x0a;
+        (1) Albuterol/Atrovent via nebulizer: Albuterol 2.5 mg and Atrovent 500 mcg; may repeat albuterol neb 2.5 mg one time&#x0a;
+        (2) Diphenhydramine 50 mg SLOW IVP or IM&#x0a;
+        (3) Establish IV access with LR&#x0a;
+        (4) Administer 20 mL/kg bolus for hypotension&#x0a;
+        (5) Dexamethasone 10 mg IV/IO&#x0a;
+ - - - - - - - - - - - - - - - - - -&#x0a;
+    f) Assist patient experiencing severe symptoms with the patient’s prescribed or EMS service’s epinephrine:&#x0a;
+        (1) Less than 5 years of age: 0.15 mg IM in the lateral thigh via epinephrine auto-injector or manual administration 0.15 mg in 0.15 mL IM&#x0a;
+        (2) 5 and greater: administer 0.3 mg IM in the lateral thigh via epinephrine autoinjector or manual administration 0.5 mg in 0.5 mL IM&#x0a;
+        (3) Consider additional doses of epinephrine (1:1,000) 0.5 mg in 0.5 mL IM.&#x0a;
+        (4) Additional treatments to consider AFTER administration of the initial dose of epinephrine&#x0a;
+            (a) Albuterol MDI inhaler (2 puffs) may be repeated once within 30 minutes.&#x0a;
+        (5) Less than 5 years of age: administer 0.15 mg in 0.15 mL IM&#x0a;
+        (6) 5 and greater: administer 0.5 mg in 0.5 mL IM&#x0a;
+        (7) May repeat every 5 minutes for a total of 3 doses for severe reactions.&#x0a;
+    g) Additional treatments to consider AFTER administration of the initial dose of epinephrine&#x0a;
+        (1) Albuterol/Atrovent via nebulizer&#x0a;
+            (a) For an infant less than 1 year of age, administer albuterol 1.25 mg via nebulizer; Atrovent is contraindicated.&#x0a;
+            (b) For a child 1 year of age or greater, but less than 2 years of age, administer albuterol 1.25 mg and Atrovent 250 mcg.&#x0a;
+            (c) For a child 2 years of age or greater, administer albuterol 2.5 mg and Atrovent 500 mcg.&#x0a;
+            (d) If further respiratory treatments are needed, an additional albuterol-only nebulizer may be given.&#x0a;
+        (2) Diphenhydramine 1 mg/kg SLOW IVP or IM&#x0a;
+        (3) Establish IV access with LR&#x0a;
+        (4) Administer 20 mL/kg bolus for hypotension&#x0a;
+        (5) Dexamethasone 0.5 mg/kg to a maximum of 10 mg IV/IO&#x0a;
+4. Continue General Patient Care&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button57"
+                        Text="Asthma/COPD" Clicked="Button57"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout57" IsVisible="False">
                 <StackLayout x:Name="popupLayout57" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may exhibit any of the following: wheezing and/or crackles, abnormal respiratory rate, rapid heart rate, stridor, grunting, cyanosis, mottled skin, altered mental status, nasal flaring, retractions, accessory muscle use, dyspnea, diminished or absent breath sounds, and/or tripod positioning.&#x0a;
+3. Treatment&#x0a;&#x0a;
+[ALERT] CONSIDER MEDICAL CONSULTATION FOR PATIENTS GREATER THAN 45 YEARS OF AGE OR PATIENTS WITH A CARDIAC HISTORY.&#x0a;&#x0a;
+    a) Assist patient experiencing moderate to severe symptoms or mild symptoms with a history of life-threatening allergic reaction with the patient’s prescribed fast-acting bronchodilator or prescribed epinephrine auto-injector.&#x0a;
+    b) Use of the EMS service’s manual epinephrine (1:1,000) 0.5 mg in 0.5 mL or 0.3 mg via epinephrine auto-injector IM requires medical consultation.&#x0a;
+    c) Albuterol inhaler (2 puffs) may be repeated once within 30 minutes.&#x0a;
+    d) Consider additional doses of patient’s prescribed fast-acting bronchodilator or manual epinephrine (1:1,000) 0.5 mg in 0.5 mL or 0.3 mg via epinephrine auto-injector IM.&#x0a;
+    e) Establish IV access with LR on all Priority 1 or 2 patients and all patients with a history of cardiac disease.&#x0a;
+    f) Patients with moderate to severe respiratory distress may require high flow oxygen via non-rebreather mask, continuous positive airway pressure (CPAP), or BVM while receiving medication via nebulizer.&#x0a;
+    g) Administer a combination of albuterol/Atrovent via nebulizer. Albuterol 2.5 mg and Atrovent 500 mcg&#x0a;
+    h) If further treatments are indicated, an additional albuterol-only nebulizer may be given.&#x0a;
+    i) Consider CPAP if patient continues to deteriorate in spite of above nebulized treatments. Continue inline nebulizations.&#x0a;
+    j) Consider the administration of epinephrine 1:1,000. 0.3 mg IM in the lateral thigh via epinephrine auto-injector or 0.5 mg in 0.5 mL IM May repeat every 5 minutes for a total of 3 doses for severe reactions.&#x0a;
+    k) For moderate to severe exacerbations, consider the administration of dexamethasone 10 mg IV/PO.&#x0a;
+    l) For moderate to severe exacerbations, consider the administration of magnesium sulfate 1–2 grams, mixed in 50–100 mL of approved diluent, IV/IO over 10–20 minutes.&#x0a;
+    m) Consider additional doses of epinephrine or albuterol.&#x0a;
+ - - - - - - - - - - - - - - - - - - - &#x0a;
+    n) Assist patient(s) experiencing moderate to severe symptoms or mild symptoms with a history of life-threatening allergic reaction with the patient’s prescribed or EMS service’s epinephrine (1:1,000) 0.15 mg in 0.15 mL IM or patient’s prescribed fast-acting bronchodilator.&#x0a;&#x0a;
+[ALERT] MEDICAL CONSULTATION IS REQUIRED IF THE PATIENT HAS CONGENITAL HEART OR CHRONIC LUNG DISEASE.&#x0a;&#x0a;
+    o) Fast-acting bronchodilator (2 puffs) may be repeated once within 30 minutes.&#x0a;
+    p) Consider additional doses of patient’s prescribed fast-acting bronchodilator or epinephrine (1:1,000) 0.15 mg in 0.15 mL IM.&#x0a;
+    q) Patients with moderate to severe respiratory distress may require high flow oxygen via non-rebreather mask, CPAP, or BVM while receiving medication via nebulizer.&#x0a;
+    r) Administer a combination of albuterol/Atrovent via nebulizer:&#x0a;
+        (1) For an infant less than 1 year of age, administer albuterol 1.25 mg via nebulizer; Atrovent is contraindicated.&#x0a;
+        (2) For a child 1 year of age or greater, but less than 2 years of age, administer albuterol 1.25 mg and Atrovent 250 mcg.&#x0a;
+        (3) For a patient 2 years of age or greater, administer albuterol 2.5 mg and Atrovent 500 mcg.&#x0a;
+    s) If further treatments are indicated, an additional albuterol-only nebulizer may be given. AND/OR&#x0a;&#x0a;
+[ALERT] MEDICAL CONSULTATION IS REQUIRED IF THE PATIENT HAS CONGENITAL HEART OR CHRONIC LUNG DISEASE.&#x0a;&#x0a;
+    t) Administer epinephrine 1:1,000.&#x0a;
+        Less than 5 years of age: 0.15 mg IM in the lateral thigh via epinephrine autoinjector or manual administration 0.15 mg in 0.15 mL IM&#x0a;
+        5 years and greater: administer 0.3 mg IM in the lateral thigh via epinephrine auto-injector or manual administration 0.5 mg in 0.5 mL IM&#x0a;
+        May repeat every 5 minutes for a total of 3 doses for severe reactions.&#x0a;
+    u) For moderate to severe exacerbations, consider the administration of dexamethasone 0.5 mg/kg PO/IV up to a maximum dose of 10 mg.&#x0a;
+    v) Consider magnesium sulfate 50 mg/kg IV/IO to a max of 2 grams given over 10–20 minutes (mixed in 50 - 100 mL of approved diluent).&#x0a;&#x0a;
+[ALERT] MAGNESIUM ADMINISTRATION OFTEN CAUSES HYPOTENSION IN CHILDREN. CONSIDER ADMINISTERING BOLUS 20 ML/KG OF LACTATED RINGER’S WITH THE ADMINISTRATION OF MAGNESIUM.&#x0a;&#x0a;
+    w) Consider additional doses of albuterol or epinephrine.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button58"
+                        Text="Croup" Clicked="Button58"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout58" IsVisible="False">
                 <StackLayout x:Name="popupLayout58" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Forms of Croup:&#x0a;
+    Mild - Barky cough exhibited without stridor at rest (Priority 2)&#x0a;
+    Moderate - Barky cough with stridor at rest without agitation, may exhibit mild respiratory distress (Priority 2)&#x0a;
+    Severe - Stridor at rest, signs of severe respiratory distress that is associated with agitation or decreased level of consciousness (Priority 1)&#x0a;&#x0a;
+[ALERT] IF EPIGLOTTITIS IS SUSPECTED, I.E., DROOLING WITH ABOVE SIGNS AND SYMPTOMS, DO NOT INITIATE THIS PROTOCOL WITHOUT APPROPRIATE MEDICAL DIRECTION.&#x0a;&#x0a;
+3. Treatment&#x0a;
+    a) Ensure that the patient has a patent airway and adequate respiratory effort. Assess respiratory status looking specifically for signs and/or symptoms of respiratory distress (nasal flaring, retractions, increased/decreased respirations, skin color, change in level of consciousness).&#x0a;
+    b) Place patient on cardiac monitor and record vital signs. (This may be done concurrently with medication administration if patient is unstable.)&#x0a;
+    c) MILD: For children exhibiting symptoms of a mild croup presentation, administer dexamethasone 0.5 mg/kg PO up to a maximum dose of 10 mg.&#x0a;
+    d) MODERATE: For children who exhibit symptoms of a moderate croup presentation, administer dexamethasone 0.5 mg/kg PO up to a maximum dose of 10 mg. If no change in patient’s condition, then administer 2.5 mL of epinephrine 1:1,000 via nebulizer.&#x0a;
+    e) SEVERE: If respiratory distress is so severe that respiratory arrest is imminent:&#x0a;
+        (1) First, administer 0.01 mg/kg of epinephrine 1:1,000 IM (max single dose of 0.5 mg).&#x0a;
+        (2) Then administer dexamethasone 0.5 mg/kg IV up to a maximum dose of 10 mg AND 2.5 mL of epinephrine 1:1,000 via nebulizer. If IV not established, give IM dexamethasone.&#x0a;
+    f) Establish communications with the appropriate facility and obtain medical direction if patient is less than 1 year of age, if additional nebulized epinephrine is needed due to level of distress, or if other interventions or directions are needed.&#x0a;&#x0a;
+[ALERT] ALL PATIENTS WHO RECEIVE NEBULIZED EPINEPHRINE MUST BE TRANSPORTED BY AN ADVANCED LIFE SUPPORT UNIT TO THE APPROPRIATE MEDICAL FACILITY.&#x0a;&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button59"
+                        Text="Pulmonary Edema/Congestive Heart Failure" Clicked="Button59"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout59" IsVisible="False">
                 <StackLayout x:Name="popupLayout59" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Accurate diagnosis of congestive heart failure (CHF)/acute pulmonary edema (APE) as the cause of respiratory distress can be challenging. The most accurate identification of CHF/APE is made using the medical history, risk factors, medications, and physical exam with interpretation of blood pressure.&#x0a;
+CHF/APE is difficult to distinguish, at times, from other respiratory causes. Factors most associated with a short-of-breath patient having CHF include: a history of CHF, exam features of jugular venous distension and EKG evidence of Atrial Fibrillation. CHF patients are commonly on anti-hypertensive and cardiac medicines. Orthopnea (use of additional pillows to prop the head up during sleep), Dyspnea on Exertion and Paroxysmal Nocturnal Dyspnea (PND) are symptoms associated with CHF/APE. Blood pressure is frequently elevated, usually greater than 160/100 but not uncommonly greater than 180/120.&#x0a;
+EMS providers should strongly consider CHF/APE in patients possessing the factors above, presenting with acute respiratory distress, tachypnea, hypoxia, rales, or wheezing and marked hypertension, even in the absence of peripheral edema.&#x0a;&#x0a;
+[ALERT] GERIATRIC PATIENTS DEMONSTRATING MARKED HYPERTENSION IN ASSOCIATION WITH SHORTNESS OF BREATH/RESPIRATORY DISTRESS AND WHEEZING (IN THE ABSENCE OF ASTHMA OR INFECTION) STRONGLY SUGGESTS CHF/APE.&#x0a;&#x0a;
+Acute Respiratory Distress from CHF may range from mild to severe, life-threatening cases of Acute Pulmonary Edema. This classification is for patients with Systolic BP greater than 110 mmHg.&#x0a;
+    a) Asymptomatic – dyspnea on exertion but no symptoms at rest.&#x0a;
+    b) Mild – mild dyspnea at rest, despite O2 treatment. Able to speak in full sentences.&#x0a;
+    c) Moderate – moderate dyspnea. O2 saturation less than 93% on oxygen. Systolic BP usually greater than 150. Unable to speak in full sentences. Normal mental status.&#x0a;
+    d) Severe – severe dyspnea, respiratory failure, hypoxia (O2 saturation less than 90% on oxygen), diaphoresis, Systolic BP commonly greater than 180. One word sentences, altered consciousness. The goals of treatment are to reduce the pressure of blood returning to the heart (preload) and the resistance that the left ventricle must pump against (afterload). The most effective and safe medication for these goals is nitroglycerin (NTG).&#x0a;
+3. Treatment
+    a) Position patient in high Fowler’s position.&#x0a;
+    b) Rate the patient’s difficulty breathing on a scale where 0 is “no trouble breathing” and 10 is “the worst trouble breathing.”&#x0a;
+    c) Continuous positive airway pressure (CPAP) should be considered for moderate dyspnea and must be implemented in severe dyspnea. (Use early; attempt to administer 3 doses of NTG while setting up, acclimatizing the patient, and applying CPAP.)&#x0a;&#x0a;
+[ALERT] PERFORM 12-LEAD EKG (IF AVAILABLE), AND IF INFERIOR WALL WITH POSTERIOR WALL EXTENSION MI IS PRESENT, WITHOLD NTG. CONSULT FOR FURTHER ADMINISTRATION.&#x0a;&#x0a;
+    d) Establish IV access with LR.&#x0a;
+    e) Identify rhythm and treat according to appropriate algorithm.&#x0a;
+    f) For patients with hypertension and moderate to severe symptoms, administer NTG (does not require IV before administration). If SBP drops below 90 mmHg, treat with medical fluid bolus: initial bolus 250–500 mL, may repeat once.&#x0a;
+        (1) Asymptomatic - apply oxygen per GPC to maintain O2 saturation greater than 93%.&#x0a;
+        (2) Mild - administer low dose NTG 0.4 mg SL at 3–5 minute intervals to a maximum dose of 1.2 mg.&#x0a;
+        (3) Moderate and severe - CPAP is preferred therapy. Until CPAP is applied, administer high dose NTG. Assess BP before each administration.&#x0a;&#x0a;
+[ALERT] CPAP IS THE PREFERRED THERAPY. DO NOT REMOVE CPAP TO CONTINUE ADMINISTERING NTG.&#x0a;&#x0a;
+        High Dose NTG until CPAP is applied or if CPAP is not tolerated. (Dose at 3–5 minute intervals.)&#x0a;
+        (4) Administer 1 dose of NTG 0.4 mg SL and apply 1 inch of NTG paste.&#x0a;
+        (5) Administer 1 dose of NTG 0.8 mg SL.&#x0a;
+        (6) Continue 0.8 mg SL NTG dosing to achieve a 20% reduction in SBP.&#x0a;&#x0a;
+[ALERT] IF BLOOD PRESSURE IS LOW, CONSIDER MEDICAL FLUID BOLUS(ES) FOLLOWED BY DOPAMINE.&#x0a;&#x0a;
+    g) Consider dopamine 2–20 mcg/kg/min. Titrate to SBP 100 mmHg or medical-consultation-directed BP. IV infusion pump preferred.&#x0a;
+- - - - - - - - - - - - - - - - - - &#x0a;&#x0a;
+[ALERT] MEDICAL CONSULTATION IS REQUIRED IF THE PATIENT HAS CONGENITAL HEART OR CHRONIC LUNG DISEASE.&#x0a;&#x0a;
+    h) Position patient in semi-Fowler’s position.&#x0a;
+    i) Establish IV access with LR.&#x0a;
+    j) Identify rhythm and treat according to appropriate algorithm.&#x0a;
+    k) Patients with moderate to severe respiratory distress may require high flow oxygen via non-rebreather mask, CPAP, or BVM while receiving medication via nebulizer.&#x0a;
+    l) Consider albuterol.&#x0a;
+        For children less than 2 years, albuterol 1.25 mg&#x0a;
+        For children greater than or equal to 2 years, albuterol 2.5 mg&#x0a;
+    m) Consider morphine.&#x0a; 0.1 mg/kg SLOW IVP/IO/IM (1–2 mg/min) Maximum dose 5 mg&#x0a;
+    n) Consider dopamine. 2–20 mcg/kg/min Titrate to pediatric medical consultation directed BP. IV infusion pump preferred.&#x0a;
+4. Continue General Patient Care.&#x0a;
+5. Consider transport to the pediatric specialty center that follows patient.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button60"
+                        Text="Universal Algorithm for Pediatric Respiratory Distress for BLS" Clicked="Button60"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout60" IsVisible="False">
                 <StackLayout x:Name="popupLayout60" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button61"
+                        Text="Universal Algorithm for Pediatric Respiratory Distress for ALS" Clicked="Button61"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout61" IsVisible="False">
                 <StackLayout x:Name="popupLayout61" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Sepsis"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button62"
+                        Text="Sepsis Adult" Clicked="Button62"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout62" IsVisible="False">
                 <StackLayout x:Name="popupLayout62" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) Infection can cause a systemic response resulting in fever, altered mental status, shock including or excluding hypotension, and death. Early recognition and treatment with aggressive fluids, when not contraindicated, and early hospital notification may improve survival rates and patient outcomes.&#x0a;
+    b) The following patient populations are considered especially high risk for sepsis and should have their temperature measured:&#x0a;
+        (1) Altered mental status&#x0a;
+        (2) Patients in long term care facilities (nursing home)&#x0a;
+        (3) Indwelling catheters&#x0a;
+        (4) Oncology patients&#x0a;
+        (5) Solid organ transplant&#x0a;
+        (6) Bed ridden&#x0a;
+        (7) Post-operative&#x0a;
+        (8) Currently on antibiotics&#x0a;
+        (9) Asplenic&#x0a;
+        (10) Left ventricular assist device&#x0a;
+    c) For an adult patient, 18 years of age and older, to qualify for this protocol, they must have a suspected source of infection AND also present with at least two of the following criteria:&#x0a;
+        (1) Temp greater than 100.4ºF (38ºC) or less than 95.9ºF (35.5ºC)&#x0a;
+        (2) HR greater than 100 bpm&#x0a;
+        (3) RR greater than 25 (or EtCO2 less than or equal to 32 mmHg)&#x0a;
+        (4) Hypotension (systolic BP less than 90 mmHg)&#x0a;
+        (5) Point of care lactate reading greater than or equal to 4 mmol/L (if available)&#x0a;
+    d) Patients with hypotension or altered mental status should be considered to have septic shock and treated and transported rapidly. Patients may be treated under this protocol if they do not meet the above criteria with medical consultation.&#x0a;&#x0a;
+[ALERT] IF PATIENT MEETS ABOVE SEPSIS CRITERIA, THIS PATIENT IS A PRIORITY 1 OR 2 PATIENT AND REQUIRES NOTIFICATION OF THE NEAREST APPROPRIATE FACILITY AS SOON AS POSSIBLE TO ALLOW FOR HOSPITAL PREPARATION. DURING THE CONSULTATION WITH THE RECEIVING FACILITY, THE PROVIDER SHALL USE THE VERBIAGE, “SEPSIS ALERT” AS THE UNIVERSAL METHOD OF NOTIFYING THE FACILITY THAT THE PATIENT MEETS THE SEPSIS INCLUSION CRITERIA&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Place patient in position of comfort, or supine if hypotension is present.&#x0a;
+    b) Carefully monitor airway and respiratory status, manage as required using the appropriate respiratory distress protocol (especially for patients with suspected pneumonia).&#x0a;
+    c) Initiate large bore IV. If large bore IV not available, consider a second peripheral IV with the intention of not causing delay in transport and reserve the use of IO for priority 1 patient. If transport time is greater than 20 minutes and IV access is unsuccessful, consider placement of an IO (especially for septic shock). Consider performing a blood draw if time permits. Accurately document start time of IV fluid initiation.&#x0a;
+    d) If lungs are clear, and patient does not have a history of CHF or end stage renal failure, provide 2 L of LR wide open. Reassess every 500 mL for shortness of breath, blood pressure, and SpO2 saturation changes. OR&#x0a;
+    e) If patient is fluid sensitive (i.e., has a history CHF, pulmonary edema, or end stage renal disease) infuse 250 mL and carefully monitor and reassess. Repeat 250 mL once if no worsening of respiratory status is noted to a max of 500 mL (consultation may be obtained to provide more fluid).&#x0a;
+    f) If available, perform point of care lactate testing (Jurisdictional Pilot Program only).&#x0a;&#x0a;
+[ALERT] FLUID LIMITS OR DOSES MAY BE MODIFIED WITH CONSULTATION.&#x0a;&#x0a;
+    g) Place patient on cardiac monitor and perform 12-lead (do not delay IV therapy or fluid bolus).&#x0a;
+    h) If hypotension persists after 2 L of LR are provided, consider an additional 2 L of LR (up to a maximum of 30 mL/kg total, including the first 2 L bolus) and/or dopamine 2–20 mcg/kg/min (paramedic only). Titrate to a Mean Arterial Pressure of 65 mmHg or systolic BP of 90 mmHg.&#x0a;
+4. Continue General Patient Care&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button63"
+                        Text="Sepsis Pediatric" Clicked="Button63"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout63" IsVisible="False">
                 <StackLayout x:Name="popupLayout63" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) Infection can cause a systemic response resulting in fever, altered mental status, shock including or excluding hypotension, and death. Early recognition and treatment with aggressive fluids, when not contraindicated, and early hospital notification may improve survival rates and patient outcomes.&#x0a;
+    b) The pediatric septic patient may be difficult to identify due to a poor history or providers may have difficulty identifying an obvious source of infection, as many pediatric sepsis patients are very young children or infants.&#x0a;
+    c) The following pediatric patients are at greater risk for sepsis and should have their temperature measured:&#x0a;
+        (1) Altered mental status&#x0a;
+        (2) Asplenia (spleen removed from treatment of trauma or illness)&#x0a;
+        (3) Bone marrow or solid organ transplant&#x0a;
+        (4) Cancer patients&#x0a;
+        (5) Cerebral Palsy&#x0a;
+        (6) Sickle Cell Disease&#x0a;
+        (7) Central or indwelling catheters&#x0a;
+        (8) Immunodeficiency or immunosuppression&#x0a;
+        (9) Bed ridden&#x0a;
+        (10) Severe mental delay&#x0a;
+    d) For a pediatric patient, who has not reached their 18th birthday, to qualify for this protocol, they must have a known or suspected infection AND also present with at least three of the Pediatric Sepsis Rule-In Criteria by Age.&#x0a;
+    e) A patient not meeting three or more Pediatric Sepsis Rule-In Criteria by Age may be treated under this protocol with Pediatric Base Station approval if sepsis is suspected by the prehospital provider.&#x0a;&#x0a;
+[ALERT] ALTERED MENTAL STATUS REQUIRES GLUCOSE CHECK.&#x0a;&#x0a;
+    f) Patients who meet the sepsis rule-in criteria and have at least one of the High risk Sepsis Rule-In Criteria by Age (shaded) should receive aggressive standing order fluid therapy. Other patients meeting the pediatric sepsis rule-in criteria but not having one of the high risk signs may be treated only after contacting a Pediatric Base Station for medical consultation.&#x0a;" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
+                    <Label Text="
+[ALERT] IF A PEDIATRIC PATIENT MEETS THE ABOVE PEDIATRIC SEPSIS RULE-IN CRITERIA BY AGE, THIS PATIENT IS A PRIORITY 1 OR 2 PATIENT AND REQUIRES NOTIFICATION AS “SEPSIS ALERT” TO THE NEAREST APPROPRIATE FACILITY PRIOR TO ARRIVAL. IF A PEDIATRIC PATIENT MEETS ANY OF THE SEPSIS RULE-IN PLUS ONE OR MORE OF THE SHADED AREAS IN THE CHART, CONSULTATION WITH A DESIGNATED PEDIATRIC BASE STATION IS REQUIRED AND SHOULD BE COMBINED WITH LOCAL BASE STATION CONSULTATION.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Carefully monitor airway and respiratory status. Manage as required using the appropriate respiratory distress protocol (especially for patients with suspected pneumonia).&#x0a;
+    b) Place patient on cardiac monitor.&#x0a;
+    c) If patient meets the pediatric sepsis rule-in criteria and meets one of the high risk criteria (shaded), initiate IV/IO access and provide a 20 mL/kg bolus of LR IV/IO over 5–20 min.&#x0a;
+        Maximum single dose of 2L.&#x0a;
+        Accurately document start time of IV fluid initiation.&#x0a;
+    d) Monitor closely for signs of respiratory distress, rales or delayed capillary refill (greater than 2 seconds). If respiratory status deteriorates rapidly, stop bolus and obtain medical consultation.&#x0a;
+    e) For volume-sensitive children administer initial fluid bolus of 10 mL/kg LR IV/IO (max of 250 mL). (Volume-sensitive children are children who need smaller fluid bolus volumes due to special needs including neonates (birth to 28 days), congenital heart diseases, chronic lung disease, or chronic renal failure.)&#x0a;
+    f) If patient’s vital signs do not improve after 20 mL/kg fluid, consider additional 20 mL/kg LR boluses (up to a max of 60 mL/kg total, including first bolus, in one hour).&#x0a;&#x0a;
+[ALERT] FLUID LIMITS OR DOSES MAY BE MODIFIED WITH CONSULTATION.&#x0a;&#x0a;
+    g) Dopamine 2–20 mcg/kg/min IV/IO. Titrate to age-specific vital signs.&#x0a;
+    h) Consider initiation of a second IV. Initiation of second IV shall not delay transport.&#x0a;
+    i) Patients with fever or known or suspected infection and hypotension or altered mental status should be considered to have septic shock and treated and transported rapidly.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Stroke"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button64"
+                        Text="Neurological Emergencies" Clicked="Button64"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout64" IsVisible="False">
                 <StackLayout x:Name="popupLayout64" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may present with numbness or weakness (often on one side only), difficulty speaking, sudden onset of dizziness or loss of balance, blurred vision (including intermittent loss of vision in one or both eyes, which may have resolved upon arrival of EMS), or a severe, unexplained headache. May be accompanied by seizures or altered mental status.&#x0a;&#x0a;
+The Cincinnati Prehospital Stroke Scale&#x0a;
+(Kothari R, et al. Acad Emerg Med 1997; 4:9866-990.)&#x0a;&#x0a;
+Facial Droop (have patient show teeth or smile):&#x0a;
+    • Normal – both sides of face move equally&#x0a;
+    • Abnormal – one side of face does not move as well as the other side&#x0a;&#x0a;
+Arm Drift (patient closes eyes and holds both arms straight out for 10 seconds):&#x0a;
+    • Normal – both arms move the same or both arms do not move at all (other findings, such as strength of grip, may be helpful)&#x0a;
+    • Abnormal – one arm does not move or one arm drifts down compared with the other&#x0a;&#x0a;
+Abnormal Speech (have the patient say “you can’t teach an old dog new tricks”):&#x0a;
+    • Normal – patient uses correct words with no slurring&#x0a;
+    • Abnormal – patient slurs words, uses the wrong words, or is unable to speak&#x0a;&#x0a;
+----&#x0a;
+Posterior Cerebellar Assessment&#x0a;
+Balance and eyes: patient complains of sudden onset of loss of balance or dizziness, or has sudden vision loss (including intermittent loss of or blurred vision) indicates a stroke affecting the posterior cerebellar circulation.&#x0a;&#x0a;
+If Posterior Cerebellar Assessment OR Cincinnati Prehospital Stroke Scale is positive, perform the Los Angeles Motor Scale (LAMS). Relay LAMS score to the receiving hospital during Stroke Alert notification.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Position patient with head elevated at 30 degrees.&#x0a;
+    b) If the patient has a positive Posterior Cerebellar Assessment OR Cincinnati Prehospital Stroke Scale AND can be delivered to the hospital within 20 hours of when patient was last known well, transport the patient to the closest Designated Acute Stroke Ready, Primary, or Comprehensive Stroke Center. If there is not one within 30 minutes, then go to the nearest hospital.&#x0a;&#x0a;
+[ALERT] IF PATIENT MEETS ABOVE STROKE CRITERIA, THIS PATIENT IS A PRIORITY 1 PATIENT AND REQUIRES NOTIFICATION OF THE NEAREST DESIGNATED ACUTE STROKE READY, PRIMARY, OR COMPREHENSIVE STROKE CENTER AS SOON AS POSSIBLE TO ALLOW HOSPITAL PREPARATION. DURING THE CONSULTATION WITH THE RECEIVING FACILITY, THE PROVIDER SHALL USE THE VERBIAGE, “STROKE ALERT WITH A LAST KNOWN WELL TIME OF XX:XX” AS THE UNIVERSAL METHOD OF NOTIFYING THE FACILITY THAT THE PATIENT MEETS THE STROKE INCLUSION CRITERIA.&#x0a;&#x0a;
+PROVIDERS SHOULD OBTAIN AND DOCUMENT A CONTACT TELEPHONE NUMBER FOR ONE OR MORE INDIVIDUALS WHO HAVE DETAILS ABOUT THE PATIENT’S MEDICAL HISTORY SO THAT THE PHYSICIAN MAY OBTAIN AND VALIDATE ADDITIONAL PATIENT INFORMATION WHILE STROKES DURING PREGNANCY OR SHORTLY AFTER GIVING BIRTH ARE RARE, THERE HAS BEEN A SIGNIFICANT RISE REPORTED IN THE LITERATURE. MOTHERS-TO-BE AND POSTPARTUM MOTHERS HAVE AN INCREASED RISK.&#x0a;&#x0a;
+    c) Use glucometer and treat if glucose less than 70 mg/dl.&#x0a;
+    d) Establish IV access with LR.&#x0a;
+    e) If the patient is hypotensive, obtain medical consultation.&#x0a;
+    f) Consider obtaining blood sample using closed system.&#x0a;
+    g) Do not treat hypertension in the field.&#x0a;&#x0a;
+[ALERT] THE CAUSES OF STROKES IN CHILDREN ARE DIFFERENT FROM ADULTS. WHILE STROKES ARE UNCOMMON IN CHILDREN, THEY DO OCCUR AND ARE MOST OFTEN CAUSED BY ONE OF THE FOLLOWING CONDITIONS: CONGENITAL HEART DEFECTS, INFECTIONS (INCLUDING CHICKEN POX, MENINGITIS, OR ENCEPHALITIS), BRAIN INJURY, OR BLOOD DISORDERS (SUCH AS SICKLE CELL DISEASE). STROKES IN CHILDREN ARE MOST OFTEN SEEN IN INFANTS BUT DO OCCUR IN CHILDREN OF ANY AGE.&#x0a;&#x0a;
+CHILDREN WITH STROKE SYMPTOMS WHO HAVE NOT REACHED THEIR 18TH BIRTHDAY SHALL BE TREATED UNDER THE PEDIATRIC PROTOCOL. CONSULT WITH A LOCAL BASE STATION AND A PEDIATRIC BASE STATION TO ARRANGE TRANSPORT TO A MARYLAND PEDIATRIC TRAUMA CENTER&#x0a;&#x0a;
+– – – – – – – – – – – – – – – – – –&#x0a;
+    h) Administer oxygen at 2–6 liters via nasal cannula (unless hypoxic or in respiratory distress).&#x0a;
+    i) Position patient with head elevated at 30 degrees.&#x0a;
+    j) If a child presents with a SUSPECTED stroke (e.g., sickle cell patient), consult with the nearest Pediatric Base Station and local Base Station. Providers should obtain and document a contact telephone number for one or more individuals who have details about the patient’s medical history so that the physician may obtain and validate additional patient information.&#x0a;
+    k) Use glucometer and treat accordingly. (See Section IV, Glucometer Protocol.)&#x0a;
+    l) Establish IV access with LR.&#x0a;
+    m) If the patient is hypotensive, obtain medical consultation.&#x0a;
+    n) Consider obtaining blood sample using closed system.&#x0a;
+    o) Do not treat hypertension in the field.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button65"
+                        Text="EMS Stroke Algorithm" Clicked="Button65"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout65" IsVisible="False">
                 <StackLayout x:Name="popupLayout65" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Syncope"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button66"
+                        Text="Syncope" Clicked="Button66"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout66" IsVisible="False">
                 <StackLayout x:Name="popupLayout66" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+A patient of greater than 24 months of age who has had a loss of consciousness associated with an inability to maintain postural tone. The episode may spontaneously and completely resolve without medical intervention. For children less than 24 months of age, refer to ALTE Protocol.&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Place patient in position of comfort.&#x0a;
+    b) Perform Cincinnati Stroke Scale. If any segment is positive, go to Stroke: Neurological Emergencies Protocol.&#x0a;
+    c) Place patient on cardiac monitor.&#x0a;
+    d) Obtain 12-lead EKG.&#x0a;&#x0a;
+[ALERT] HISTORY, PHYSICAL EXAMINATION, AND 12-LEAD EKG SHOULD ALL BE USED TO DETERMINE THE PATIENT’S RISK OF AN ADVERSE OUTCOME. PATIENTS WITH HISTORY OR EVIDENCE OF HEART FAILURE, STRUCTURAL CARDIAC ANOMALY, AND/OR ABNORMAL FINDING ON EKG ARE AT HIGHER RISK FOR ADVERSE OUTCOMES.&#x0a;&#x0a;
+    e) Establish IV access.&#x0a;
+    f) Use glucometer and treat accordingly.&#x0a;
+    g) Administer 20mL/kg bolus of LR to treat systolic blood pressure persistently less than 90 mmHg.&#x0a;
+– – – – – – – – – – – – – – – – – – –&#x0a;
+    h) Place patient in position of comfort.&#x0a;
+    i) Place patient on cardiac monitor.&#x0a;
+    j) Obtain 12-lead EKG for patients 13 years of age and older, or have not returned to baseline, or high risk factors as listed in the ALERT.&#x0a;&#x0a;
+[ALERT] SYNCOPE IN CHILDREN CAN SOMETIMES BE ASSOCIATED WITH SERIOUS MEDICAL CONDITIONS. PATIENTS WITH HISTORY OR EVIDENCE OF HEART FAILURE, STRUCTURAL CARDIAC ANOMALY, AND/OR ABNORMAL FINDING ON EKG ARE AT HIGHER RISK FOR ADVERSE OUTCOMES.&#x0a;&#x0a;
+    k) Establish IV access, if appropriate.&#x0a;
+    l) Use glucometer and treat appropriately.&#x0a;
+    m) Administer 20mL/kg bolus of LR to treat age-defined hypotension.&#x0a;
+4. Continue General Patient Care&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <StackLayout Spacing="5"
+                             Style="{StaticResource separator}">
+                <Label Text="Trauma"
+                           FontSize="20" Padding="10,5,0,0"></Label>
+            </StackLayout>
+
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button67"
+                        Text="Burns" Clicked="Button67"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout67" IsVisible="False">
                 <StackLayout x:Name="popupLayout67" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) The primary objectives in burn care by EMS providers are to stop the burning process, establish IV access, avoid hypothermia, and transport patients quickly and safely to a burn center. While patients with large burns (greater than 20%), facial burns, and/or significant smoke inhalation often require endotracheal intubation and mechanical ventilation during their resuscitation and care, airway compromise in the first few hours following a burn is uncommon.&#x0a;
+        (1) In adults, prehospital tracheal intubation following acute burns is generally unnecessary unless signs of respiratory failure are present (symptomatic airway obstruction, shock, altered mental status, hypoxemia while receiving supplemental oxygen, or dyspnea, etc.).&#x0a;
+        (2) Pediatric airways are smaller than adult airways and require frequent and thorough assessment for signs of respiratory distress. Intubate if necessary.&#x0a;
+    b) Burns are the body’s response to injuries to the skin, muscles, bone, nerves, and blood vessels caused by thermal, chemical, electrical, radiation, or light source. Patients may exhibit any of the following: reddening of the skin, deep and intense pain, blisters, mottled appearance, and/or charred black or brown areas with severe or no pain.&#x0a;
+    c) Indications for Referral to a Burn Center&#x0a;
+        (1) All third degree burns (full thickness)&#x0a;
+        (2) Second degree burns (partial thickness) greater than 10% total body surface area&#x0a;
+        (3) Burns of the face, hands, feet, major joints, genitalia, or perineum&#x0a;
+        (4) Electrical burns, including lightning or contact with high voltage (greater than 120 volts)&#x0a;
+        (5) Suspected inhalation injury of toxic smoke (Monitor the patients with suspected inhalation injury for delayed airway obstruction, respiratory distress, or oxygen desaturation as the patient may need emergent airway management.)&#x0a;
+        (6) Circumferential burns involving the extremities or torso&#x0a;
+        (7) Chemical burns should be transported to the closest appropriate hospital for decontamination prior to referral to a burn center&#x0a;&#x0a;
+[ALERT] PATIENTS WITH BURNS AND TRAUMA SHOULD BE REFERRED TO THE NEAREST APPROPRIATE TRAUMA CENTER FOR INITIAL CARE.&#x0a;&#x0a;
+CHILDREN WHO MEET BURN INCLUSIVE CRITERIA WHO HAVE NOT REACHED THEIR 15TH BIRTHDAY SHOULD BE TRANSPORTED TO A PEDIATRIC BURN CENTER.&#x0a;&#x0a;
+IF PATIENT HAS EXPOSURE TO CARBON MONOXIDE/SMOKE INHALATION, REFER TO CARBON MONOXIDE/SMOKE INHALATION PROTOCOL.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Extract the patient from burning vehicles or buildings if safe to do so and move patient to a place of relative safety.&#x0a;
+    b) Do what is necessary to stop the burning process. If water is used to extinguish the fire, remove wet clothing and dry the patient to prevent hypothermia.&#x0a;
+    c) Administer oxygen in as high a concentration of oxygen as possible (note: pulse oximetry is not reliable in the presence of carbon monoxide or cyanide exposure).&#x0a;
+    d) Determine percent of body surface area (BSA) burned and depth.&#x0a;
+    e) Treat associated trauma.&#x0a;
+    f) For burns greater than 10%, follow Hypothermia Protocol as well.&#x0a;
+    g) Remove all rings, bracelets, and other jewelry.&#x0a;
+    h) Cover wounds appropriately (with a clean sheet or Mylar blanket—sterile dressings no longer recommended).&#x0a;
+    i) For chemical burns, brush off dry chemical, remove clothing, flush with water.&#x0a;&#x0a;
+[ALERT] DO NOT GIVE ANYTHING BY MOUTH.&#x0a;&#x0a;
+DO NOT PLACE ICE OR ICE PACKS ON ANY PATIENT WITH BURNS GREATER THAN 5% TOTAL BODY SURFACE AREA.&#x0a;&#x0a;
+CONSIDER UTILIZING AEROMEDICAL RESOURCE IF PATIENT IS MORE THAN 30 MINUTES FROM A BURN CENTER/HYPERBARIC MEDICINE SPECIALTY CENTER BY GROUND.&#x0a;&#x0a;
+    j) Establish IV access with LR, if appropriate.&#x0a;
+        (1) 10 mL/kg bolus.&#x0a;
+        (2) For shock patients, administer a fluid bolus of 20 mL/kg LR followed by a second 20 mL/kg LR if needed. Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    k) Administer opioid per Pain Management Protocol.&#x0a;
+    l) Consider additional fluid administration. Maximum dose 2,000 mL without medical consultation.&#x0a;
+– – – – – – – – – – – – – – – – – – – &#x0a;
+    m) Establish IV access with LR, if appropriate.&#x0a;
+        (1) 10 mL/kg bolus.&#x0a;
+        (2) If age-related vital signs and patient’s condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO. If patient’s condition does not improve, administer the second bolus of fluid at 20 mL/kg LR IV/IO.&#x0a;
+    n) Third and subsequent fluid boluses at 20 mL/kg LR IV/IO.&#x0a;
+    o) Administer opioid per Pain Management Protocol.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button68"
+                        Text="Rule of Nines" Clicked="Button68"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout68" IsVisible="False">
                 <StackLayout x:Name="popupLayout68" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button69"
+                        Text="Eye Trauma" Clicked="Button69"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout69" IsVisible="False">
                 <StackLayout x:Name="popupLayout69" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+The patient may present with profuse bleeding, avulsions, lacerations, foreign objects, impaled objects, and/or soft tissue damage to the eye(s) and/or surrounding facial areas.&#x0a;
+3. Treatment&#x0a;&#x0a;
+[ALERT] NEVER APPLY PRESSURE TO THE EYEBALL OR GLOBE!&#x0a;&#x0a;
+IF THE PATIENT HAS OTHER ASSOCIATED TRAUMA OR BURNS, TRANSPORT THE PATIENT TO THE APPROPRIATE TRAUMA OR BURN CENTER; OTHERWISE, TRANSPORT THE PATIENT TO THE NEAREST EYE TRAUMA CENTER, IF APPROPRIATE.&#x0a;&#x0a;
+DO NOT USE CHEMICAL COLD PACKS ON THE FACE.&#x0a;&#x0a;
+    a) Foreign objects NOT embedded in the eye(s): Flush with copious amounts of water (preferably sterile), normal saline, or LR from the bridge of the nose outward.&#x0a;
+    b) Injury to orbits (area around the eye): Consider head stabilization and Spinal Protection Protocol.&#x0a;
+    c) Lacerations/injuries to the eyeball or globe: Shield affected eyeball and dress other eye to reduce movement and protect loss of fluids; consider head stabilization and spinal protection and elevate the head to decrease intraocular pressure.&#x0a;
+    d) Impaled objects: Stabilize object, shield affected eyeball, and dress other eye to reduce movement.&#x0a;
+    e) Establish IV access with LR, if appropriate.&#x0a;
+    f) Administer opioid per Pain Management Protocol.&#x0a;
+- – – – – – – – – – – – – – – – – &#x0a;
+    g) Foreign objects NOT embedded in the eye(s): Flush with copious amounts of water (preferably sterile), normal saline, or LR from the bridge of the nose outward.&#x0a;
+    h) Injury to orbits (area around the eye): Consider head stabilization and Spinal Protection Protocol.&#x0a;
+    i) Lacerations/injuries to the eyeball or globe: Shield affected eyeball and dress other eye to reduce movement and protect loss of fluids; consider head stabilization and spinal protection and elevate the head to decrease intraocular pressure.&#x0a;
+    j) Impaled objects: Stabilize object, shield affected eyeball, and dress other eye to reduce movement.&#x0a;
+    k) Establish IV/IO access with LR, if appropriate.&#x0a;
+    l) Administer opioid per Pain Management Protocol.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button70"
+                        Text="Hand/Upper/Lower Extremity Trauma" Clicked="Button70"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout70" IsVisible="False">
                 <StackLayout x:Name="popupLayout70" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) Patient may exhibit injuries to skeletal or soft tissue components of the hand or upper extremity at or below the level of the mid-humerus, including complete or incomplete amputations of the elements of the hand or upper extremity, crush or degloving injuries, and other trauma resulting in loss of perfusion or suspected nerve injury (e.g., compartment syndrome).&#x0a;
+    Upper Extremity
+    b) Indications for:&#x0a;
+    Referral of adult patients to the Curtis National Hand Center at Union Memorial Hospital or&#x0a;
+    Referral of pediatric patients to the nearest Pediatric Trauma Center&#x0a;
+    (children who have not reached their 15th birthday)&#x0a;
+    Stable patients with an isolated upper extremity injury at or below the mid-humerus&#x0a;&#x0a;
+    (Hand Center and/or nearest appropriate trauma center)
+        (1) Complete or incomplete hand or upper extremity amputation&#x0a;
+        (2) Partial or complete finger or thumb amputation&#x0a;
+        (3) Degloving, crushing, or devascularization injuries of hand or upper extremity&#x0a;
+        (4) High-pressure injection injuries to hand or upper extremity
+        (5) Complicated nerve, vessel, or compartment syndrome (excessive swelling and pain of extremity with possible evolving nerve deficit) injury of the forearm and hand&#x0a;&#x0a;
+    Lower Extremity&#x0a;
+    c) Indications for Referral to Pediatric or Adult Trauma Center: Patient may exhibit injuries to skeletal or soft tissue components with complete or incomplete amputation of ankle/foot lower extremity, complicated nerve, vessel, or compartment syndrome (excessive swelling and pain of extremity with possible evolving nerve deficit injury).&#x0a;&#x0a;
+[ALERT] LIFE BEFORE LIMB.&#x0a;
+TOE INJURIES FROM LAWN MOWER ARE NOT CANDIDATES FOR REIMPLANTATION AND PATIENTS SHOULD GO TO THEIR LOCAL MEDICAL FACILITY.&#x0a;
+    d) Contraindications for referral to a Hand Center&#x0a;
+        (1) Patients with unstable or abnormal vital signs&#x0a;
+        (2) Patients with major and/or multiple system trauma&#x0a;
+    e) Contraindication for referral to Pediatric or Adult Trauma Center Patients with toe amputation (partial or complete)&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Package amputated extremity in sealed plastic bag (keep dry) and place on top of ice to keep cool. DO NOT FREEZE.&#x0a;&#x0a;
+[ALERT] DO NOT SUBMERGE IN WATER OR FREEZE AMPUTATED PART. USE TIME, DISTANCE, WEATHER, AND PROXIMITY TO DESIGNATED TRAUMA CENTER TO DETERMINE MODE OF TRANSPORT. IF ESTIMATED TRANSPORT TIME TO DESIGNATED HAND CENTER IS LESS THAN 30 MINUTES, USE GROUND TRANSPORT.&#x0a;&#x0a;
+    b) Establish IV access with LR, if appropriate.&#x0a;
+    c) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    d) Administer analgesia per Pain Management Protocol.&#x0a;
+    e) Consider additional fluid administration. Maximum dose 2,000 mL without medical consultation&#x0a;
+– – – – – – – – – – – – – – – – – – &#x0a;
+    f) Establish IV/IO access with LR, if appropriate.&#x0a;
+    g) If age-related vital signs and patient’s condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO. If patient’s condition does not improve, administer the second bolus of fluid at 20 mL/kg LR IV/IO.&#x0a;
+    h) Third and subsequent fluid boluses at 20 mL/kg LR IV/IO.&#x0a;
+    i) Administer analgesia per Pain Management Protocol.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button71"
+                        Text="Multiple/Severe Trauma" Clicked="Button71"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout71" IsVisible="False">
                 <StackLayout x:Name="popupLayout71" Style="{StaticResource stack}">
@@ -1807,33 +2247,233 @@ USE ANALGESIA WITH CAUTION IN THE MANAGEMENT OF PATIENTS WITH ALTERED MENTAL STA
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button72"
+                        Text="Multiple/Severe Trauma" Clicked="Button72"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout72" IsVisible="False">
                 <StackLayout x:Name="popupLayout72" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+The patient may present with hypovolemic or neurogenic shock, hypotension, hypertension, rapid or slow heart rate, unequal pupils, shallow or absent respirations, decreased distal pulses, decreased motor and sensory function in extremities, internal or external bleeding, fractures, or lacerations.&#x0a;&#x0a;
+[ALERT] WHILE TIME, DISTANCE, AND PROXIMITY ARE ALL FACTORS TO BE CONSIDERED IN THE TRIAGE DECISION, THE TRAUMA DECISION TREE SHOULD BE USED TO DETERMINE WHO SHOULD BE TRANSPORTED TO THE NEAREST APPROPRIATE TRAUMA CENTER AND WHEN THE TRANSPORT SHOULD OCCUR.&#x0a;&#x0a;
+CHILDREN WHO MEET INCLUSION BASED ON THE TRAUMA DECISION TREE AND WHO HAVE NOT REACHED THEIR 15TH BIRTHDAY SHOULD BE TRANSPORTED TO A PEDIATRIC TRAUMA CENTER.&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Apply Spinal Protection Protocol for blunt trauma patients. Patients with isolated penetrating trauma should not have spinal immobilization performed.&#x0a;
+    b) Control bleeding and immobilize patient, if blunt mechanism indicates. Spinal immobilization should not be performed on patients with isolated penetrating mechanism. If mechanism includes both blunt and penetrating trauma, apply Spinal Protection Protocol. Backboard may be used for patient transfer maneuvers.&#x0a;
+    c) Hyperventilate the head-injured patient as follows:&#x0a;
+        Adult/Adolescent (greater than 13 years of age): 20 breaths per minute&#x0a;
+        Child (1-12 years of age): 30 breaths per minute&#x0a;
+        Infant (less than 1 year of age): 35 breaths per minute&#x0a;
+        (1) Who has signs of herniation such as unequal pupils, posturing, or paralysis or&#x0a;
+        (2) Who is manifesting a rapidly decreasing GCS or&#x0a;
+        (3) With on-line medical consultation&#x0a;
+    d) Consider pelvic stabilization technique if indicated.&#x0a;
+    e) Establish IV access with LR; administer 20 mL/kg bolus. Titrate to a systolic pressure of 100 mmHg.&#x0a;
+    f) Consider additional fluid administration. Maximum dose 2,000 mL without medical consultation&#x0a;
+- – – – – – – – – – – – – – – – – &#x0a;
+    g) Apply Spinal Protection Protocol for blunt trauma patients. Patients with isolated penetrating trauma should not have spinal immobilization performed.&#x0a;
+    h) Control bleeding and immobilize patient, if blunt mechanism indicates. Spinal immobilization should not be performed on patients with isolated penetrating mechanism. If mechanism includes both blunt and penetrating trauma, apply Spinal Protection Protocol. Backboard may be used for patient transfer maneuvers.&#x0a;
+    i) Hyperventilate the head-injured patient as follows:&#x0a;
+        Adult/Adolescent (greater than 13 years of age): 20 breaths per minute&#x0a;
+        Child (1-12 years of age): 30 breaths per minute&#x0a;
+        Infant (less than 1 year of age): 35 breaths per minute&#x0a;
+    j) Who has signs of herniation such as unequal pupils, posturing, or paralysis or&#x0a;
+        (1) Who is manifesting a rapidly decreasing GCS or&#x0a;
+        (2) With on-line medical consultation&#x0a;
+    k) Establish IV/IO access with LR.&#x0a;
+    l) If age-related vital signs and patient’s condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO. If patient’s condition does not improve, administer the second bolus of fluid at 20 mL/kg LR.&#x0a;
+    m) Third and subsequent fluid boluses at 20 mL/kg LR IV/IO.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button73"
+                        Text="Glasgow Coma Scale" Clicked="Button73"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout73" IsVisible="False">
                 <StackLayout x:Name="popupLayout73" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
             <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
-                        Text="Overpressurization" Clicked="Button74"
+                        Text="Sexual Assault" Clicked="Button74"
                         Style="{StaticResource dropdown}"></Button>
             <ScrollView x:Name="scrollLayout74" IsVisible="False">
                 <StackLayout x:Name="popupLayout74" Style="{StaticResource stack}">
-                    <Label Text="" Style="{StaticResource info}"></Label>
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Patient may present with no overt evidence of trauma, or may present with the following injuries:&#x0a;
+    a) Abrasions, contusions, and/or bleeding&#x0a;
+    b) Signs of forcible restraint&#x0a;
+    c) Petechiae of the face and conjunctiva, secondary to strangulation&#x0a;
+    d) Facial injuries, including eye injuries, broken teeth, swollen jaw, or cheekbone&#x0a;
+    e) Vaginal or rectal bleeding or pain&#x0a;&#x0a;
+[ALERT] PATIENTS MEETING THE SPECIALTY CENTER CRITERIA OR IN NEED OF TIME-SENSITIVE EMERGENT CARE SHOULD BE PREFERENTIALLY TRANSPORTED TO THE SPECIALTY CENTER OR NEAREST EMERGENCY DEPARTMENT FOR MANAGEMENT, EVEN IF THIS IS NOT A MARYLAND COALITION AGAINST SEXUAL ASSAULT (MCASA) RECOGNIZED FACILITY. MCASA RECOGNITION SHOULD NOT SUPERCEDE SPECIALTY CENTER NEEDS.&#x0a;&#x0a; ALL HEALTH CARE PROVIDERS ARE OBLIGATED BY LAW TO REPORT CASES OF SUSPECTED CHILD OR VULNERABLE ADULT ABUSE AND/OR NEGLECT TO EITHER THE LOCAL POLICE OR ADULT/CHILD PROTECTIVE SERVICE AGENCIES. DO NOT INITIATE REPORT IN FRONT OF THE PATIENT, PARENT, OR CAREGIVER (MD CODE, FAMILY LAW, § 5-704). UNDER MARYLAND LAW, EMS PROVIDERS ARE PROTECTED FROM LIABILITY IF THEY MAKE A REPORT OF CHILD/VULNERABLE ADULT ABUSE AND NEGLECT IN GOOD FAITH (COURTS AND JUDICIAL PROCEEDINGS ARTICLE § 5-620).&#x0a;&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) If practical, allow patient to speak with a provider with whom they are most comfortable.&#x0a;
+    b) Maintain non-judgmental, caring attitude.&#x0a;
+    c) Preserve the crime scene and clothing articles, if practical.&#x0a;
+    d) Do not perform an examination of the genitals or rectum unless necessary to stabilize the patient.&#x0a;
+    e) Dress wounds (do not attempt to clean).&#x0a;
+    f) Discourage any self-treatment (shower, washing, changing clothes, brushing teeth).&#x0a;
+    g) Treat injuries according to presentation.&#x0a;&#x0a;
+[ALERT] IF POSSIBLE, TRANSPORT THE PATIENT TO THE APPROPRIATE MARYLAND COALITION AGAINST SEXUAL ASSAULT (MCASA) RECOGNIZED FACILITY FOR THE SEXUAL ASSAULT FORENSIC EXAM (S.A.F.E.). PROVIDERS SHOULD USE THE TERM “SAFE PATIENT” WHEN NOTIFYING THE RECEIVING FACILITY OF THE TRANSPORT.&#x0a;&#x0a;
+– – – – – – – – – – – – – – – – – – &#x0a;
+h) Patients under 13 years of age should be transported to an MCASA-recognized pediatric facility for the Sexual Assault Forensic Exam.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
                 </StackLayout>
             </ScrollView>
 
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Spinal Protection" Clicked="Button75"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout75" IsVisible="False">
+                <StackLayout x:Name="popupLayout75" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+    a) “Full Spinal protection” refers to the act of protecting the spinal cord from further injury.&#x0a;
+    b) “Spinal immobilization” is the act of placing a patient on a backboard with cervical collar for the purpose of trying to prevent excessive movement of the spinal column.&#x0a;
+    c) Indications for initiating spinal protection:&#x0a;
+        (1) Patients who have a blunt trauma with a high-energy mechanism of injury that has potential to cause spinal cord injury or vertebral instability AND one or more the following should receive spinal protection:&#x0a;
+            (a) Midline cervical, thoracic, or lumbar spinal pain, tenderness, or deformity&#x0a;
+            (b) Signs and symptoms of new paraplegia or quadriplegia&#x0a;
+            (c) Focal neurological deficit (sensory or motor)&#x0a;
+            (d) Altered mental status or disorientation&#x0a;
+            (e) Distracting injury: Any injury (e.g., fracture, chest, or abdominal trauma) associated with significant discomfort that could potentially distract from a patient’s ability to accurately discern or define spinal column pain or tenderness.&#x0a;
+        (2) Indications for referral to an Adult Specialty Spinal Center.&#x0a;
+            (a) 15 years of age or older AND&#x0a;
+            (b) Signs and symptoms of new paraplegia or quadriplegia in the presence of trauma AND&#x0a;
+            (c) Patent airway AND&#x0a;
+            (d) Hemodynamically stable&#x0a;
+            If considering referral to Adult Specialty Spinal Center, consult with both the nearest Trauma Center and the Adult Spinal Specialty Center, when possible.&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Initiate General Patient Care.&#x0a;
+    b) All patients meeting the Spinal Protection Protocol shall have manual in-line cervical spine stabilization and application of a correctly sized cervical collar.&#x0a;
+    c) Minimize flexion, extension, and rotation of the spinal column.&#x0a;
+    d) Patients meeting the Spinal Protection Protocol who are with neurological deficit, or not able to ambulate on their own accord, shall be immobilized with cervical collar and a backboard.&#x0a;
+    e) The following patients only need application of a cervical collar and do not need to be placed in full immobilization with a backboard:&#x0a;
+        (1) Patients who are found by EMS providers to be standing or ambulatory,&#x0a;
+        (2) Patients who have a GCS of 15 and are able to safely extricate themselves from the environment (e.g., vehicle seat) without gross movement (flexion, extension, or rotation) of the spinal column, and&#x0a;
+        (3) Patients who do not have evidence of a neurological deficit.
+    f) Patients who are placed in a cervical collar without a need for immobilization on a backboard should be assisted in minimal movement to the EMS stretcher and allowed to lie down supine on their own accord.&#x0a;
+    g) Patients meeting Spinal Protection Protocol and not requiring immobilization with a backboard should be secured to the EMS stretcher in a supine position with the head elevated at 30 degrees.&#x0a;
+    h) Backboards may be used for patient extrication and patient transfer for patients not meeting Spinal Protection Protocol; however, other devices are preferred (e.g., sheet, Reeves sleeve, or scoop stretcher).&#x0a;
+    i) If the backboard is used for extrication from the scene to an ambulance, the patient should be removed from the backboard as soon as possible. The stretcher mattress will provide support in place of the backboard.&#x0a;
+    j) Interfacility transport patients who have already been removed from a backboard should not be placed back on the backboard prior to transport.&#x0a;
+    k) Helmet Removal&#x0a;
+        (1) If patient is wearing a helmet, the goals are assessment and management of the airway, breathing, and circulation followed by protection of the spinal column by maintaining neutral alignment of the spinal column.&#x0a;
+        (2) If patient is wearing helmet and no shoulder pads, removal of the helmet is indicated.&#x0a;
+        (3) If patient is wearing helmet with shoulder pads, removal of the helmet is acceptable only with concurrent removal of shoulder pads. Under these conditions, removal of the helmet is indicated for management of the airway or other facial trauma.&#x0a;
+    l) Patients found with backboard applied before EMS arrival&#x0a;
+        (1) If EMS providers find patient immobilized on a backboard applied prior to arrival, the principles of the Spinal Protection Protocol still apply.&#x0a;
+    m) Establish IV/IO access with LR, if appropriate.&#x0a;
+    n) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systolic blood pressure of 100 mmHg.&#x0a;
+    o) Consider dopamine. 2–20 mcg/kg/min IV/IO Titrate to a systolic blood pressure of 100 mmHg.&#x0a;
+    p) Consider additional fluid administration. Maximum dose 2,000 mL without medical consultation.&#x0a;
+– – – – – – – – – – – – – – – – &#x0a;
+    In children who have not reached their 15th birthday:&#x0a;
+    Indications for initiating spinal protection:&#x0a;
+    q) Patients who have a blunt trauma with a high-energy mechanism of injury that has potential to cause spinal cord injury or vertebral instability and the presence of or inability to assess one or more of the following should receive spinal protection.&#x0a;
+        (1) Midline spinal pain, tenderness, or deformity&#x0a;
+        (2) Signs and symptoms of new paraplegia or quadriplegia&#x0a;
+        (3) Focal neurological deficit&#x0a;
+        (4) Altered mental status or disorientation&#x0a;
+        (5) Distracting injury&#x0a;
+        (6) Neck pain or torticollis&#x0a;
+        (7) High impact diving incident or high risk motor vehicle crash (i.e., head on collision, rollover, ejected from the vehicle, death in the same crash, or speed greater than 55 mph)&#x0a;
+        (8) Substantial torso injury&#x0a;
+        (9) Conditions predisposing to spine injury&#x0a;
+    Indications for referral to a Pediatric Trauma Center:&#x0a;
+        (10) Patient is less than 15 years of age AND&#x0a;
+        (11) Signs and symptoms of new paraplegia or quadriplegia in the presence of trauma AND&#x0a;
+        (12) Patent airway AND&#x0a;
+        (13) Hemodynamically stable&#x0a;
+Consult with nearest Trauma Center and, when possible, the nearest Pediatric Trauma Center.&#x0a;
+    r) Initiate General Patient Care.&#x0a;
+    s) All patients meeting the Spinal Protection Protocol shall have manual in-line cervical spine stabilization and application of a correctly sized cervical collar.&#x0a;
+    t) Minimize flexion, extension, and rotation of the spinal column.&#x0a;
+    u) Patients meeting the Spinal Protection Protocol who are with neurological deficit, not able to ambulate on their own accord, or who are unable to respond during assessment shall be immobilized with cervical collar and a backboard.&#x0a;
+    v) The following patients only need application of a cervical collar and do not need to be placed in full immobilization with a backboard:&#x0a;
+        (1) Patients who are found by EMS providers to be standing or ambulatory&#x0a;
+        (2) Patients who have a GCS of 15 and are able to safely extricate themselves from the environment (e.g., vehicle seat) without gross movement (flexion, extension, or rotation) of the spinal column, and&#x0a;
+        (3) Patients who do not have evidence of a neurological deficit.&#x0a;
+    w) Patients who are placed in a cervical collar without a need for immobilization on a backboard should be assisted in minimal movement to the EMS stretcher and allowed to lie down supine on their own accord.&#x0a;
+    x) Patients meeting Spinal Protection Protocol and not requiring immobilization with a backboard should be secured to the EMS stretcher in a supine position with the head elevated at 30 degrees.&#x0a;
+    y) Backboards may be used for patient extrication and patient transfer for patients not meeting Spinal Protection Protocol; however, other devices are preferred (e.g., sheet, Reeves sleeve, or scoop stretcher).&#x0a;
+    z) If the backboard is used for extrication from the scene to an ambulance, the patient should be removed from the backboard as soon as possible. The stretcher mattress will provide support in place of the backboard.&#x0a;
+    aa) Interfacility transport patients who have already been removed from a backboard should not be placed back on the backboard prior to transport.&#x0a;
+    bb) Helmet Removal&#x0a;
+        (1) If patient is wearing a helmet, the goals are assessment and management of the airway, breathing, and circulation followed by protection of the spinal column by maintaining neutral alignment of the spinal column.&#x0a;
+        (2) If patient is wearing helmet and no shoulder pads, removal of the helmet is indicated.&#x0a;
+        (3) If patient is wearing helmet with shoulder pads, removal of the helmet is acceptable only with concurrent removal of shoulder pads. Under these conditions, removal of the helmet is indicated for management of the airway or other facial trauma.&#x0a;
+    cc) Patients found with backboard applied before EMS arrival&#x0a;
+        (2) If EMS providers find patient immobilized on a backboard applied prior to arrival, the principles of the Spinal Protection Protocol still apply.&#x0a;
+    dd) Establish IV/IO access with LR, if appropriate.&#x0a;
+    ee) Administer fluid bolus, if appropriate. 20 mL/kg of LR IV Titrate to a systolic blood pressure of 100 mmHg.&#x0a;
+    ff) Consider dopamine. 2–20 mcg/kg/min IV/IO Titrate to a systolic blood pressure of 100 mmHg.&#x0a;
+    gg) Consider additional fluid administration. Maximum dose 2,000 mL without medical consultation&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
 
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Spinal Protection Algorithm" Clicked="Button76"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout76" IsVisible="False">
+                <StackLayout x:Name="popupLayout76" Style="{StaticResource stack}">
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Trauma Arrest" Clicked="Button77"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout77" IsVisible="False">
+                <StackLayout x:Name="popupLayout77" Style="{StaticResource stack}">
+                    <Label Text="1. Initiate General Patient Care.&#x0a;&#x0a;
+2. Presentation&#x0a;&#x0a;
+Early cardiac arrest secondary to trauma is usually due to severe hypoxia, neurologic injury, or massive hemorrhage. The patient is unresponsive, pulseless, and apneic.&#x0a;
+3. Treatment&#x0a;&#x0a;
+    a) Rapid assessment and extrication&#x0a;
+    b) Determine if patient meets the criteria for termination of resuscitation for a patient in traumatic arrest. If patient meets criteria, discontinue resuscitation. If criteria are not met, continue resuscitation.&#x0a;
+    c) Perform spinal immobilization for blunt trauma patients only. Patients with isolated penetrating trauma should not have spinal immobilization performed. If mechanism includes both blunt and penetrating trauma, perform spinal immobilization.&#x0a;
+    d) CPR with high-quality chest compressions and minimal interruptions.&#x0a;
+    e) Consider AED if arrest is believed to be medical in nature and the patient meets the criteria.&#x0a;
+    f) Treat reversible causes of traumatic arrest.&#x0a;
+        (1) Open airway and ensure adequate ventilation, insert necessary adjunct; consider the need for advanced airway earlier in the resuscitation of the trauma arrest patient.&#x0a;
+        (2) Seal open chest wounds with occlusive dressings.&#x0a;
+        (3) Control life-threatening external hemorrhage.&#x0a;&#x0a;
+[ALERT] PENETRATING TRAUMA PATIENTS HAVE AN IMPROVED CHANCE OF SURVIVAL WITH THE IMMEDIATE APPLICATION OF HEMORRHAGE CONTROL AND ALS BILATERAL NEEDLE DECOMPRESSIONS WHILE PREPARING AND LOADING THE PATIENT FOR IMMEDIATE TRANSPORT. IF THE PENETRATING TRAUMA PATIENT IS FOUND IN A RHYTHM OTHER THAN ASYSTOLE, AND THE TRAUMA CENTER IS WITHIN 15 MINUTES, COMPLETE THE TREATMENTS FOR REVERSIBLE CONDITIONS AND TRANSPORT THE PATIENT. IF TRANSPORT TIME EXCEEDS 15 MINUTES, GO TO LOCAL EMERGENCY DEPARTMENT OR FREESTANDING EMERGENCY MEDICAL FACILITY. BLUNT TRAUMA ARREST SHOULD HAVE ALL THE REVERSIBLE CAUSES OF ARREST PERFORMED ON SCENE BEFORE TERMINATION OF RESUSCITATION OR TRANSPORT IF ROSC IS ACHIEVED.&#x0a;&#x0a;
+    g) Establish IV/IO access with LR. Begin rapid administration of 20 mL/kg bolus of LR IV/IO.&#x0a;
+    h) Treat reversible causes of traumatic arrest.&#x0a;
+        (1) Open airway and ensure adequate ventilation, insert necessary adjunct; consider the need for advanced airway earlier in the resuscitation of the trauma arrest patient.&#x0a;
+        (2) Seal open chest wounds with occlusive dressings.&#x0a;
+        (3) Control life-threatening external hemorrhage.&#x0a;
+    (4) Bilateral Needle Decompression Thoracostomy. Catheters should not be removed once placed.&#x0a;
+    (5) Establish IV/IO access with LR. Begin rapid administration of 20 mL/kg bolus of LR IV/IO.&#x0a;
+    (6) Identify rhythm and refer to appropriate algorithm.&#x0a;&#x0a;
+[ALERT] EPINEPHRINE IS CONTRAINDICATED IN THE TREATMENT OF TRAUMATIC CARDIAC ARREST FOR ADULT PATIENTS.&#x0a;&#x0a;
+- – – – – – – – – – – – – – – – – –&#x0a;
+    i) Rapid assessment and extrication&#x0a;
+    j) Perform spinal immobilization for blunt trauma patients only. Patients with isolated penetrating trauma should not have spinal immobilization performed. If mechanism includes both blunt and penetrating trauma, perform spinal immobilization.&#x0a;
+    k) CPR&#x0a;
+    l) Consider AED if arrest is believed to be medical in nature. (See Section IV, AED.)&#x0a;&#x0a;
+[ALERT] A PATIENT IN CARDIOPULMONARY ARREST SECONDARY TO TRAUMA SHOULD BE TAKEN TO THE NEAREST APPROPRIATE PEDIATRIC TRAUMA CENTER. CONSIDERATION SHOULD BE GIVEN TO TRANSPORTING THE PATIENT TO THE NEAREST EMERGENCY DEPARTMENT OR ADULT TRAUMA CENTER IF THE PEDIATRIC TRAUMA CENTER IS MORE THAN 10 MINUTES ADDITIONAL TRANSPORT TIME!&#x0a;&#x0a;
+    m) Establish IV/IO access with LR.&#x0a;
+    n) If age-related vital signs and patient’s condition indicate hypoperfusion, administer initial fluid bolus of 20 mL/kg LR IV/IO. If patient’s condition does not improve, administer the second bolus of fluid at 20 mL/kg LR IV/IO.&#x0a;
+    o) If traumatic arrest is suspected due to multi-system blunt trauma, or due to penetrating neck, chest, or abdominal trauma, bilateral needle decompressions should be performed. Once manufacture assembled pneumothorax kit catheters are placed, do not remove.&#x0a;
+4. Continue General Patient Care.&#x0a;" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
+
+            <Button VerticalOptions="Start" HorizontalOptions="StartAndExpand"
+                        Text="Trauma Decision Tree" Clicked="Button78"
+                        Style="{StaticResource dropdown}"></Button>
+            <ScrollView x:Name="scrollLayout78" IsVisible="False">
+                <StackLayout x:Name="popupLayout78" Style="{StaticResource stack}">
+                    <Label Text="to add pic" Style="{StaticResource info}"></Label>
+                </StackLayout>
+            </ScrollView>
 
         </StackLayout>
         </ScrollView>

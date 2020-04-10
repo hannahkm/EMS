@@ -1027,5 +1027,61 @@ namespace EMS2
             }
         }
 
+        void Button75(object sender, System.EventArgs e)
+        {
+            if (popupLayout75.IsVisible == false)
+            {
+                popupLayout75.IsVisible = true;
+                scrollLayout75.IsVisible = true;
+            }
+            else
+            {
+                popupLayout75.IsVisible = false;
+                scrollLayout75.IsVisible = false;
+            }
+        }
+
+        void Button76(object sender, System.EventArgs e)
+        {
+            if (popupLayout76.IsVisible == false)
+            {
+                popupLayout76.IsVisible = true;
+                scrollLayout76.IsVisible = true;
+            }
+            else
+            {
+                popupLayout76.IsVisible = false;
+                scrollLayout76.IsVisible = false;
+            }
+        }
+
+        void Button77(object sender, System.EventArgs e)
+        {
+            if (popupLayout77.IsVisible == false)
+            {
+                popupLayout77.IsVisible = true;
+                scrollLayout77.IsVisible = true;
+            }
+            else
+            {
+                popupLayout77.IsVisible = false;
+                scrollLayout77.IsVisible = false;
+            }
+        }
+
+        void Button78(object sender, System.EventArgs e)
+        {
+            if (popupLayout78.IsVisible == false)
+            {
+                popupLayout78.IsVisible = true;
+                scrollLayout78.IsVisible = true;
+            }
+            else
+            {
+                popupLayout78.IsVisible = false;
+                scrollLayout78.IsVisible = false;
+            }
+        }
+
     }
 }
